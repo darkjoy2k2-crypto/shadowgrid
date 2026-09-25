@@ -1,2 +1,0 @@
-{"t": 0.001, "event": "SESSION_START", "data": {"session_id": "20260924_160058", "system_time": "2026-09-24T16:00:58.435069"}}
-{"t": 0.008, "event": "TEST_EVENT", "data": {"detail": "Verification test"}}

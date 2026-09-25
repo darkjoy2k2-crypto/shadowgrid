@@ -1,63 +1,55 @@
-# ⚡ SHADOWGRID // TERMINAL OS v4.2
+# SHADOWGRID
 
-> **🎮 LIVE PLAYABLE BROWSER VERSION**:  
-> ### 👉 [**PLAY SHADOWGRID IN YOUR BROWSER HERE**](https://darkjoy2k2-crypto.github.io/shadowgrid/) 👈
-> *(WebAssembly / Pygbag powered - runs directly in Chrome, Firefox & Edge)*
+> ### 🎮 [**PLAY SHADOWGRID IN YOUR BROWSER**](https://darkjoy2k2-crypto.github.io/shadowgrid/)
 
 ---
 
 ## 📸 Screenshots
 
-| Start Screen & Video Intro | In-Game Cyber Deck & CRT Phosphor Glow |
+| Start Screen | In-Game View |
 | :---: | :---: |
-| ![Shadowgrid Start Screen](docs/screenshots/start_screen.png) | ![Shadowgrid Gameplay & CRT Phosphor Glow](docs/screenshots/gameplay.png) |
+| ![Start Screen](docs/screenshots/start_screen.png) | ![Gameplay](docs/screenshots/gameplay.png) |
 
 ---
 
-## ⚙️ Core System Features
+## 🕹️ About the Game
 
-- 🟢 **Vault66-Inspired CRT Post-Processor (`GlitchPostProcessor`)**:
-  - **Additive Phosphor Glow**: Crisp luminous green phosphor aura (`#00E676`) around all UI text, map traces, and nodes with 100% flicker-free background stability.
-  - **Ultra-Slow Scanline Scroll**: Fine interlace rastering (`21/255` opacity) descending smoothly at `3px/s`.
-  - **Vault66 Corner Vignette**: Authentic CRT cathode monitor curvature and corner shading.
-  - **Ambient Micro-Glitches**: RGB chromatic channel shifts and slice tearing triggered dynamically by in-game threat levels.
-  - **Unglitched Death Screen**: Glitches automatically disable on Game Over for 100% crisp readability.
+**Shadowgrid** is a tactical cyberpunk network infiltration game. Operating from a custom cyberdeck interface, the player navigates complex neural grid topologies, hacks IoT devices, bypasses corporate Guardians, and steals valuable data fragments.
 
-- 🖥️ **Cyber Terminal Feed (`CyberTerminalFeed`)**:
-  - Fast-scrolling cryptic Sanskrit / Matrix / C# fantasy script execution stream (`async Task<⟁> ∇_SyncCore`, `[λ] => decrypt(0x8F9A)`).
+### Key Gameplay Mechanics
 
-- 🌌 **Center-Anchored Dual-Layer Parallax Background**:
-  - Deep backdrop layer + coarse pulsating grid layer anchored at screen center `(320, 180)` for realistic zoom scaling.
-
-- 🎵 **Spatial 2D Audio Engine (`SoundManager`)**:
-  - Dynamic panning, distance falloff, and pitch variations.
+- **Grid Infiltration**: Navigate tile-based network nodes, plan pathways, and maneuver around civilian traffic and security scanners.
+- **Cyberdeck & Drivers**: Equip and swap functional software drivers (`disp.drv`, `ucam.drv`, etc.) to expand vision, access node telemetry, and override security gates.
+- **Threat & Alert Dynamics**: Security escalates as infiltration continues. High threat triggers security lockdowns and visual deck destabilization.
+- **Terminal Feed**: Real-time cyberpunk terminal stream monitoring system events, threat metrics, and script execution.
 
 ---
 
-## 🚀 Quickstart & Local Run
+## 🖥️ Visual & Audio Presentation
 
-### Prerequisites
-- Python 3.10+
-- `pygame-ce` & `numpy`
+- **CRT Post-Processing**: CRT scanline rastering, corner vignette, and green phosphor glow (`#00E676`) around network traces and UI elements.
+- **Dual-Layer Parallax**: Deep network backdrop layer and coarse grid layer anchored to the screen center for smooth zoom scaling.
+- **Spatial Audio**: Dynamic 2D spatial sound with distance attenuation and panning.
 
-### Installation
+---
+
+## 🚀 How to Run Locally
+
+### Requirements
+- Python 3.10 or higher
+- `pygame-ce`
+
+### Quickstart
+
 ```bash
-git clone https://github.com/darkjoy2k2-crypto/shadowgrid.git
-cd shadowgrid
-pip install -r requirements.txt # or pip install pygame-ce numpy
-```
+# Install dependencies
+pip install pygame-ce numpy
 
-### Launch Game
-```bash
+# Start the game
 python run.py
 ```
 
----
-
-## 🌐 GitHub Pages Deployment
-
-The repository includes a GitHub Actions workflow (`.github/workflows/deploy-pages.yml`) that automatically compiles and deploys the latest Pygame WebAssembly build to GitHub Pages on every push to `main`.
-
----
-
-*System Kernel // Cyberdeck OS v4.2 — Shadowgrid Project*
+### Controls
+- **Left Mouse Click**: Set target destination / interact with UI buttons
+- **Scroll Wheel**: Zoom grid camera in / out
+- **ESC**: Pause / Exit menu
