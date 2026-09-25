@@ -1,4 +1,5 @@
 import asyncio
+import sys
 import pygame
 from src.main import GameApp
 
@@ -16,5 +17,5 @@ async def main() -> None:
             pygame.display.flip()
         await asyncio.sleep(0)
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# Always trigger async main for both Pygbag WebAssembly and Desktop
+asyncio.run(main())
