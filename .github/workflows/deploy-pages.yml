@@ -33,7 +33,7 @@ jobs:
 
       - name: Build WebAssembly Web Package
         run: |
-          python -m pygbag --build --no_opt --disable-sound-format-error main.py
+          python -m pygbag --app_name _shadowgrid --package _shadowgrid --build --no_opt --disable-sound-format-error main.py
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
