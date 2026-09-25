@@ -1,0 +1,26 @@
+# Python / Pygame
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# Temporary Scratch & Test Files
+scratch*
+game.log
+logs/*.log
+
+# Build & Release Output
+build/
+dist/
+release/
+*.spec
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

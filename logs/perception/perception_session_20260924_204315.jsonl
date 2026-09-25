@@ -1,0 +1,5 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260924_204315", "sys_t": "2026-09-24T20:43:15.636651"}}
+{"t": 0.01, "e": "S", "d": {"sid": "test_session"}}
+{"t": 0.011, "e": "J", "d": {"txt": "Hallo Decker, wir sind bereit.", "sit": "SESSION_START"}}
+{"t": 0.029, "e": "C", "d": {"civ_pos": [10, 10]}}
+{"t": 0.041, "e": "J", "d": {"txt": "CYBERDECK OS v4.2 // SYSTEME BEREIT", "sit": "SESSION_START"}}

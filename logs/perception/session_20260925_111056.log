@@ -1,0 +1,31 @@
+[2026-09-25 11:10:56.716] [S] {"sid": "20260925_111056", "sys_t": "2026-09-25T11:10:56.716207"}
+[2026-09-25 11:10:56.717] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-25 11:11:02.822] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-25 11:11:02.869] [S] {"map": "Shadowgrid"}
+[2026-09-25 11:11:02.889] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-25 11:11:02.985] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 11:11:03.464] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 11:11:03.588] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-25 11:11:03.851] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-25 11:11:04.198] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-25 11:11:04.266] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-25 11:11:04.679] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 11:11:04.814] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 11:11:05.080] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 11:11:05.484] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 11:11:05.892] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-25 11:11:06.705] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-25 11:11:07.107] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 11:11:07.508] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-25 11:11:07.910] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 11:11:08.324] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-25 11:11:08.639] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 11:11:08.739] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-25 11:11:09.153] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-25 11:11:09.556] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-25 11:11:10.374] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-25 11:11:11.005] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 11:11:11.122] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-25 11:11:11.203] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-25 11:11:11.831] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 11:11:12.029] [SFX] {"sound": "civ_move_1", "volume": 0.17}

@@ -1,0 +1,7 @@
+[2026-09-24 21:51:43.313] [S] {"sid": "20260924_215143", "sys_t": "2026-09-24T21:51:43.313202"}
+[2026-09-24 21:51:43.332] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-24 21:51:43.381] [S] {"map": "Shadowgrid"}
+[2026-09-24 21:51:43.400] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-24 21:51:43.404] [C] {"civ_pos": [72, 129]}
+[2026-09-24 21:51:43.431] [SCANNER_INTERCEPT] {"tile": [72, 129]}
+[2026-09-24 21:51:43.448] [JACK] Verdammt! Ein Scanner-Node hat unser Pathfinding abgefangen!

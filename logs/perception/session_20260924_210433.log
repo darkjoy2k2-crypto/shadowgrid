@@ -1,0 +1,593 @@
+[2026-09-24 21:04:33.075] [S] {"sid": "20260924_210433", "sys_t": "2026-09-24T21:04:33.075317"}
+[2026-09-24 21:04:33.090] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-24 21:04:33.890] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-24 21:04:33.953] [JACK] CYBERDECK OS v4.2 // SYSTEME BEREIT
+[2026-09-24 21:04:36.417] [M] {"button": 1, "pos": [351, 232], "ui_clicked": false}
+[2026-09-24 21:04:37.430] [M] {"button": 1, "pos": [322, 217], "ui_clicked": false}
+[2026-09-24 21:04:37.439] [P] {"start": [152, 4], "goal": [152, 8], "length": 1, "is_direction_change": false}
+[2026-09-24 21:04:37.440] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:04:37.457] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:04:38.179] [M] {"button": 1, "pos": [321, 217], "ui_clicked": false}
+[2026-09-24 21:04:38.660] [M] {"button": 1, "pos": [337, 210], "ui_clicked": false}
+[2026-09-24 21:04:38.666] [P] {"start": [152, 8], "goal": [154, 11], "length": 4, "is_direction_change": false}
+[2026-09-24 21:04:38.667] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:04:38.796] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:04:39.797] [M] {"button": 1, "pos": [345, 211], "ui_clicked": false}
+[2026-09-24 21:04:40.318] [M] {"button": 1, "pos": [176, 290], "ui_clicked": true}
+[2026-09-24 21:04:40.349] [JACK] Blick ins Systemfenster... Was führen wir im Schild?
+[2026-09-24 21:04:41.501] [M] {"button": 1, "pos": [180, 286], "ui_clicked": true}
+[2026-09-24 21:04:42.584] [M] {"button": 1, "pos": [243, 318], "ui_clicked": true}
+[2026-09-24 21:04:43.066] [M] {"button": 1, "pos": [250, 327], "ui_clicked": true}
+[2026-09-24 21:04:45.373] [M] {"button": 1, "pos": [255, 297], "ui_clicked": true}
+[2026-09-24 21:04:51.303] [M] {"button": 1, "pos": [238, 323], "ui_clicked": true}
+[2026-09-24 21:04:51.330] [JACK] Inventar durchwühlen. Wo liegt das passende Tool?
+[2026-09-24 21:05:39.797] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:05:40.199] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:05:40.611] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:05:41.027] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:05:41.441] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:05:41.857] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:05:42.272] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:05:43.073] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:05:43.487] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:05:43.888] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:05:44.302] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:05:44.719] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:05:45.120] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:05:45.520] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:05:45.920] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:05:46.733] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:05:47.149] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:05:47.960] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:05:48.789] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:05:49.616] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:05:50.841] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:05:51.670] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:05:52.071] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:05:53.310] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:05:53.715] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:05:54.526] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:05:55.352] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:05:55.768] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-24 21:05:56.181] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:05:56.596] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-24 21:05:57.008] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-24 21:05:57.421] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-24 21:05:57.784] [C] {"civ_pos": [155, 12]}
+[2026-09-24 21:05:57.840] [JACK] Da drüben bewegt sich eine Civ-Subroutine! Was führt die im Schilde?
+[2026-09-24 21:05:57.851] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:05:58.660] [SFX] {"sound": "civ_move_1", "volume": 0.3}
+[2026-09-24 21:05:59.060] [SFX] {"sound": "civ_move_1", "volume": 0.29}
+[2026-09-24 21:06:00.289] [C] {"civ_pos": [154, 11]}
+[2026-09-24 21:06:00.331] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:06:01.131] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-24 21:06:01.544] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-24 21:06:01.960] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-24 21:06:02.373] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:06:02.787] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-24 21:06:03.194] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:06:03.606] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-24 21:06:04.021] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:04.424] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:05.224] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:06:05.626] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:06.861] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:07.261] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:08.075] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:09.322] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:06:10.151] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:10.981] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:11.794] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:06:12.210] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:06:13.011] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:06:13.423] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:06:13.838] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:06:14.250] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:06:14.653] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:06:15.066] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:06:15.481] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:06:16.300] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:06:16.712] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:06:17.027] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:06:17.128] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:06:17.441] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:06:17.541] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:06:17.843] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:06:17.943] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:06:18.259] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:06:18.358] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:06:18.673] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:06:18.773] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:06:19.074] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:06:19.474] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-24 21:06:20.276] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-24 21:06:20.693] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-24 21:06:21.107] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-24 21:06:21.520] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-24 21:06:22.353] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-24 21:06:22.755] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-24 21:06:23.169] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-24 21:06:23.584] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-24 21:06:23.997] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:06:24.413] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:06:24.828] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:06:25.241] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:06:25.654] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:06:26.054] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:06:26.454] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-24 21:06:28.240] [SFX] {"sound": "guardian_move", "volume": 0.0}
+[2026-09-24 21:06:28.847] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-24 21:06:29.449] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:06:30.065] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:06:30.677] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-24 21:06:31.291] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:06:31.905] [SFX] {"sound": "guardian_move", "volume": 0.11}
+[2026-09-24 21:06:31.906] [SFX] {"sound": "civ_move_1", "volume": 0.26}
+[2026-09-24 21:06:32.306] [SFX] {"sound": "civ_move_1", "volume": 0.27}
+[2026-09-24 21:06:32.505] [SFX] {"sound": "guardian_move", "volume": 0.13}
+[2026-09-24 21:06:32.706] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-24 21:06:33.119] [SFX] {"sound": "guardian_move", "volume": 0.15}
+[2026-09-24 21:06:33.120] [SFX] {"sound": "civ_move_1", "volume": 0.29}
+[2026-09-24 21:06:33.121] [C] {"civ_pos": [153, 10]}
+[2026-09-24 21:06:33.168] [JACK] Diese Nodes wandern völlig ahnungslos durch das Grid.
+[2026-09-24 21:06:33.523] [SFX] {"sound": "civ_move_1", "volume": 0.3}
+[2026-09-24 21:06:33.723] [SFX] {"sound": "guardian_move", "volume": 0.17}
+[2026-09-24 21:06:33.937] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:06:34.335] [SFX] {"sound": "guardian_move", "volume": 0.18}
+[2026-09-24 21:06:34.357] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:06:34.763] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-24 21:06:34.947] [SFX] {"sound": "guardian_move", "volume": 0.2}
+[2026-09-24 21:06:35.179] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-24 21:06:35.556] [SFX] {"sound": "guardian_move", "volume": 0.21}
+[2026-09-24 21:06:35.588] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-24 21:06:36.003] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:06:36.169] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:06:36.405] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-24 21:06:36.771] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:06:36.820] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-24 21:06:37.219] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:37.383] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:06:37.630] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:37.996] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:06:38.045] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:38.609] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:06:38.858] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:06:39.208] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:06:39.259] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:39.840] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:06:40.074] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:40.455] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:06:40.489] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:40.903] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:41.069] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:06:41.303] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:41.684] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:06:41.718] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:42.295] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:06:42.542] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:42.906] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:06:42.956] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:06:43.521] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-24 21:06:43.786] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:44.136] [SFX] {"sound": "guardian_move", "volume": 0.21}
+[2026-09-24 21:06:44.186] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:06:44.600] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:44.747] [SFX] {"sound": "guardian_move", "volume": 0.19}
+[2026-09-24 21:06:45.011] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:06:45.359] [SFX] {"sound": "guardian_move", "volume": 0.18}
+[2026-09-24 21:06:45.425] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:06:45.837] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:06:45.966] [SFX] {"sound": "guardian_move", "volume": 0.16}
+[2026-09-24 21:06:46.246] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:06:46.577] [SFX] {"sound": "guardian_move", "volume": 0.14}
+[2026-09-24 21:06:46.661] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:06:47.071] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:06:47.185] [SFX] {"sound": "guardian_move", "volume": 0.12}
+[2026-09-24 21:06:47.484] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:06:47.798] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:06:47.895] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:06:48.309] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:06:48.409] [SFX] {"sound": "guardian_move", "volume": 0.09}
+[2026-09-24 21:06:48.723] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:06:49.023] [SFX] {"sound": "guardian_move", "volume": 0.07}
+[2026-09-24 21:06:49.138] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:06:49.552] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:06:49.634] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-24 21:06:49.964] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:06:50.246] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-24 21:06:50.380] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:06:50.858] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-24 21:06:51.204] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:06:51.619] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:06:52.019] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:06:52.432] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:07:04.304] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-24 21:07:04.705] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:07:05.116] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:07:05.523] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:07:05.936] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:07:06.349] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:07:06.762] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:07:07.174] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:07:07.589] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:07:08.421] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:07:08.824] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:07:09.239] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:07:09.653] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:07:10.063] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:07:10.463] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:07:11.293] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:07:29.056] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:07:30.290] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:07:31.530] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-24 21:07:32.358] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:07:33.599] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:07:33.999] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:07:34.829] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:07:35.244] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:07:35.646] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:07:36.062] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:07:36.476] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:07:36.890] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:07:37.706] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:07:37.728] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:07:38.121] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:07:38.142] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:07:38.535] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:07:38.559] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:07:38.947] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:07:38.969] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:07:39.360] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:07:39.382] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:07:39.762] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:07:39.784] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:07:40.173] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:07:40.195] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:07:40.574] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:07:40.597] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-24 21:07:40.986] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:07:41.007] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-24 21:07:41.387] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-24 21:07:41.409] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-24 21:07:41.817] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-24 21:07:42.099] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:07:42.232] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-24 21:07:42.514] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:07:42.646] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-24 21:07:42.929] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:07:43.046] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-24 21:07:43.344] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:07:43.461] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-24 21:07:43.760] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-24 21:07:43.860] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-24 21:07:44.275] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-24 21:07:44.688] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-24 21:07:45.097] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-24 21:07:45.909] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-24 21:07:47.124] [SFX] {"sound": "civ_move_2", "volume": 0.19}
+[2026-09-24 21:07:47.942] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-24 21:07:48.766] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-24 21:07:51.213] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-24 21:07:51.613] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-24 21:07:53.570] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:07:53.979] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:07:54.393] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:07:54.809] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:07:55.622] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:07:56.034] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:07:56.435] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:07:56.846] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:07:57.261] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:07:57.665] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:07:58.066] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:07:58.478] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:07:58.877] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:07:59.278] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:08:00.093] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:08:00.502] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:08:12.497] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-24 21:08:13.308] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-24 21:08:13.490] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-24 21:08:13.722] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:08:13.905] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:08:14.135] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:08:14.316] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:08:14.547] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:08:14.731] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:08:14.962] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:08:15.142] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:08:15.375] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:08:15.556] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:08:15.791] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:08:15.972] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:08:16.207] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:08:16.372] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:08:16.606] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:08:16.773] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:08:17.006] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:08:17.173] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:08:17.588] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:08:17.836] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:08:18.000] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:08:18.247] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:08:18.413] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:08:18.650] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:08:18.814] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:08:19.064] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:08:19.216] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:08:19.464] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:08:19.629] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:08:19.878] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:08:20.044] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:08:20.290] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:08:20.454] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:08:20.702] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:08:20.870] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:08:21.105] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-24 21:08:21.288] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-24 21:08:22.104] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-24 21:08:22.508] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-24 21:08:22.923] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-24 21:08:23.336] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-24 21:08:24.163] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-24 21:08:24.573] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-24 21:08:24.981] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-24 21:08:25.393] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-24 21:08:25.793] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-24 21:08:26.206] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-24 21:08:26.623] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-24 21:08:27.039] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-24 21:08:27.439] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-24 21:08:27.852] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-24 21:08:28.255] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-24 21:08:28.669] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-24 21:08:39.511] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-24 21:08:40.122] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-24 21:08:40.735] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:08:41.349] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:08:41.964] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-24 21:08:42.572] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:08:43.183] [SFX] {"sound": "guardian_move", "volume": 0.12}
+[2026-09-24 21:08:43.797] [SFX] {"sound": "guardian_move", "volume": 0.14}
+[2026-09-24 21:08:44.405] [SFX] {"sound": "guardian_move", "volume": 0.16}
+[2026-09-24 21:08:45.007] [SFX] {"sound": "guardian_move", "volume": 0.17}
+[2026-09-24 21:08:45.607] [SFX] {"sound": "guardian_move", "volume": 0.19}
+[2026-09-24 21:08:46.207] [SFX] {"sound": "guardian_move", "volume": 0.2}
+[2026-09-24 21:08:47.448] [SFX] {"sound": "guardian_move", "volume": 0.19}
+[2026-09-24 21:08:48.056] [SFX] {"sound": "guardian_move", "volume": 0.17}
+[2026-09-24 21:08:48.658] [SFX] {"sound": "guardian_move", "volume": 0.16}
+[2026-09-24 21:08:49.268] [SFX] {"sound": "guardian_move", "volume": 0.14}
+[2026-09-24 21:08:49.884] [SFX] {"sound": "guardian_move", "volume": 0.12}
+[2026-09-24 21:08:50.493] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:08:51.108] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-24 21:08:51.721] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:08:52.320] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:08:52.934] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-24 21:08:53.549] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-24 21:09:02.799] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:09:03.209] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:09:03.623] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:09:04.034] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:09:04.446] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:09:04.857] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:09:05.289] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:09:05.704] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:09:06.106] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:09:06.518] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:09:06.933] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:09:07.334] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-24 21:09:07.730] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:09:08.132] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:09:08.958] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:09:09.366] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:09:09.781] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:09:10.190] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:09:10.606] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-24 21:09:11.022] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-24 21:09:11.436] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-24 21:09:11.850] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-24 21:09:12.254] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-24 21:09:12.654] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-24 21:09:13.066] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-24 21:09:13.475] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-24 21:09:14.291] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-24 21:09:14.706] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-24 21:09:15.118] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-24 21:09:15.943] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-24 21:09:17.172] [SFX] {"sound": "civ_move_2", "volume": 0.19}
+[2026-09-24 21:09:18.014] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-24 21:09:18.839] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-24 21:09:19.665] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-24 21:09:20.077] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-24 21:09:20.490] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-24 21:09:21.308] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-24 21:09:21.721] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-24 21:09:22.127] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-24 21:09:22.535] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-24 21:09:22.947] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-24 21:09:23.358] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-24 21:09:23.766] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-24 21:09:24.177] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-24 21:09:24.588] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-24 21:09:24.990] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-24 21:09:25.813] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-24 21:09:26.224] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-24 21:09:26.637] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:10:02.479] [SFX] {"sound": "guardian_move", "volume": 0.0}
+[2026-09-24 21:10:03.088] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-24 21:10:03.703] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:10:04.311] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:10:04.923] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-24 21:10:05.538] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:10:06.149] [SFX] {"sound": "guardian_move", "volume": 0.11}
+[2026-09-24 21:10:06.757] [SFX] {"sound": "guardian_move", "volume": 0.13}
+[2026-09-24 21:10:07.372] [SFX] {"sound": "guardian_move", "volume": 0.15}
+[2026-09-24 21:10:07.985] [SFX] {"sound": "guardian_move", "volume": 0.17}
+[2026-09-24 21:10:08.589] [SFX] {"sound": "guardian_move", "volume": 0.19}
+[2026-09-24 21:10:09.200] [SFX] {"sound": "guardian_move", "volume": 0.2}
+[2026-09-24 21:10:09.811] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-24 21:10:10.421] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:10:11.030] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:10:11.640] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:10:12.856] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:10:14.083] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-24 21:10:14.691] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:10:15.912] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-24 21:10:18.355] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:10:20.788] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:10:21.400] [SFX] {"sound": "guardian_move", "volume": 0.25}
+[2026-09-24 21:10:22.623] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-24 21:10:23.237] [SFX] {"sound": "guardian_move", "volume": 0.23}
+[2026-09-24 21:10:23.843] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-24 21:10:23.860] [M] {"button": 1, "pos": [342, 188], "ui_clicked": false}
+[2026-09-24 21:10:24.310] [M] {"button": 1, "pos": [346, 192], "ui_clicked": false}
+[2026-09-24 21:10:24.317] [P] {"start": [154, 11], "goal": [157, 12], "length": 2, "is_direction_change": false}
+[2026-09-24 21:10:24.318] [SFX] {"sound": "click_target", "volume": 0.73}
+[2026-09-24 21:10:24.351] [JACK] Kurzer Blick um die Ecke...
+[2026-09-24 21:10:24.405] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:24.455] [SFX] {"sound": "guardian_move", "volume": 0.2}
+[2026-09-24 21:10:24.981] [M] {"button": 1, "pos": [346, 193], "ui_clicked": false}
+[2026-09-24 21:10:25.064] [SFX] {"sound": "guardian_move", "volume": 0.17}
+[2026-09-24 21:10:25.430] [M] {"button": 1, "pos": [364, 190], "ui_clicked": false}
+[2026-09-24 21:10:25.678] [SFX] {"sound": "guardian_move", "volume": 0.16}
+[2026-09-24 21:10:25.859] [M] {"button": 1, "pos": [368, 183], "ui_clicked": false}
+[2026-09-24 21:10:25.867] [P] {"start": [157, 12], "goal": [162, 12], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:25.867] [SFX] {"sound": "click_target", "volume": 0.68}
+[2026-09-24 21:10:26.066] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:26.279] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-24 21:10:26.461] [M] {"button": 1, "pos": [368, 183], "ui_clicked": false}
+[2026-09-24 21:10:26.888] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-24 21:10:27.494] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:10:27.607] [M] {"button": 1, "pos": [340, 212], "ui_clicked": false}
+[2026-09-24 21:10:28.037] [M] {"button": 1, "pos": [340, 214], "ui_clicked": false}
+[2026-09-24 21:10:28.044] [P] {"start": [162, 12], "goal": [164, 16], "length": 6, "is_direction_change": false}
+[2026-09-24 21:10:28.044] [SFX] {"sound": "click_target", "volume": 0.7}
+[2026-09-24 21:10:28.102] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:10:28.316] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:29.638] [M] {"button": 1, "pos": [325, 217], "ui_clicked": false}
+[2026-09-24 21:10:30.171] [M] {"button": 1, "pos": [307, 211], "ui_clicked": false}
+[2026-09-24 21:10:30.178] [P] {"start": [164, 16], "goal": [162, 19], "length": 3, "is_direction_change": false}
+[2026-09-24 21:10:30.178] [SFX] {"sound": "click_target", "volume": 0.72}
+[2026-09-24 21:10:30.296] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:31.007] [M] {"button": 1, "pos": [283, 188], "ui_clicked": false}
+[2026-09-24 21:10:31.539] [M] {"button": 1, "pos": [291, 190], "ui_clicked": false}
+[2026-09-24 21:10:31.545] [P] {"start": [162, 19], "goal": [158, 20], "length": 2, "is_direction_change": false}
+[2026-09-24 21:10:31.546] [SFX] {"sound": "click_target", "volume": 0.72}
+[2026-09-24 21:10:31.577] [JACK] Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.
+[2026-09-24 21:10:31.698] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:32.377] [M] {"button": 1, "pos": [284, 180], "ui_clicked": false}
+[2026-09-24 21:10:33.166] [M] {"button": 1, "pos": [283, 183], "ui_clicked": false}
+[2026-09-24 21:10:33.175] [P] {"start": [158, 20], "goal": [153, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:33.176] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:10:33.380] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:33.774] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:33.783] [P] {"start": [153, 20], "goal": [148, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:33.784] [SFX] {"sound": "click_target", "volume": 0.7}
+[2026-09-24 21:10:34.218] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:34.225] [P] {"start": [148, 20], "goal": [143, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:34.225] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:10:34.266] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:34.646] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:34.655] [P] {"start": [143, 20], "goal": [138, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:34.656] [SFX] {"sound": "click_target", "volume": 0.72}
+[2026-09-24 21:10:34.760] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:34.809] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-24 21:10:35.090] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:35.097] [P] {"start": [138, 20], "goal": [133, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:35.097] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:10:35.265] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:35.417] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-24 21:10:35.533] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:35.541] [P] {"start": [133, 20], "goal": [128, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:35.542] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:10:35.767] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:35.916] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:35.924] [P] {"start": [128, 20], "goal": [124, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:35.925] [SFX] {"sound": "click_target", "volume": 0.72}
+[2026-09-24 21:10:36.024] [SFX] {"sound": "guardian_move", "volume": 0.11}
+[2026-09-24 21:10:36.300] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:36.308] [P] {"start": [124, 20], "goal": [119, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:36.308] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-24 21:10:36.418] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:36.630] [SFX] {"sound": "guardian_move", "volume": 0.15}
+[2026-09-24 21:10:36.678] [M] {"button": 1, "pos": [277, 183], "ui_clicked": false}
+[2026-09-24 21:10:36.686] [SFX] {"sound": "click_target", "volume": 0.72}
+[2026-09-24 21:10:36.730] [SFX] {"sound": "threat_pulse", "volume": 0.3}
+[2026-09-24 21:10:37.240] [SFX] {"sound": "guardian_move", "volume": 0.14}
+[2026-09-24 21:10:37.637] [SFX] {"sound": "threat_pulse", "volume": 0.31}
+[2026-09-24 21:10:37.851] [SFX] {"sound": "guardian_move", "volume": 0.12}
+[2026-09-24 21:10:38.116] [M] {"button": 1, "pos": [306, 187], "ui_clicked": true}
+[2026-09-24 21:10:38.150] [JACK] Inventar durchwühlen. Wo liegt das passende Tool?
+[2026-09-24 21:10:38.451] [SFX] {"sound": "guardian_move", "volume": 0.09}
+[2026-09-24 21:10:38.550] [SFX] {"sound": "threat_pulse", "volume": 0.32}
+[2026-09-24 21:10:39.062] [SFX] {"sound": "guardian_move", "volume": 0.07}
+[2026-09-24 21:10:39.460] [SFX] {"sound": "threat_pulse", "volume": 0.33}
+[2026-09-24 21:10:39.676] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-24 21:10:40.288] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-24 21:10:40.370] [SFX] {"sound": "threat_pulse", "volume": 0.34}
+[2026-09-24 21:10:41.269] [SFX] {"sound": "threat_pulse", "volume": 0.35}
+[2026-09-24 21:10:41.496] [M] {"button": 1, "pos": [391, 225], "ui_clicked": true}
+[2026-09-24 21:10:41.529] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:42.175] [SFX] {"sound": "threat_pulse", "volume": 0.37}
+[2026-09-24 21:10:42.357] [SFX] {"sound": "infiltrate 2", "volume": 0.5}
+[2026-09-24 21:10:42.771] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:43.088] [SFX] {"sound": "threat_pulse", "volume": 0.44}
+[2026-09-24 21:10:43.186] [SFX] {"sound": "infiltrate 2", "volume": 0.5}
+[2026-09-24 21:10:43.795] [SFX] {"sound": "threat_pulse", "volume": 0.51}
+[2026-09-24 21:10:44.009] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:44.308] [SFX] {"sound": "threat_pulse", "volume": 0.56}
+[2026-09-24 21:10:44.423] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:44.508] [SFX] {"sound": "hack_success", "volume": 1.0}
+[2026-09-24 21:10:44.721] [SFX] {"sound": "threat_pulse", "volume": 0.57}
+[2026-09-24 21:10:45.137] [SFX] {"sound": "threat_pulse", "volume": 0.55}
+[2026-09-24 21:10:45.550] [SFX] {"sound": "threat_pulse", "volume": 0.53}
+[2026-09-24 21:10:46.063] [SFX] {"sound": "threat_pulse", "volume": 0.5}
+[2026-09-24 21:10:46.241] [M] {"button": 1, "pos": [299, 186], "ui_clicked": false}
+[2026-09-24 21:10:46.250] [P] {"start": [117, 20], "goal": [115, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:46.251] [SFX] {"sound": "click_target", "volume": 0.75}
+[2026-09-24 21:10:46.288] [JACK] Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.
+[2026-09-24 21:10:46.360] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:46.573] [SFX] {"sound": "threat_pulse", "volume": 0.47}
+[2026-09-24 21:10:47.186] [SFX] {"sound": "threat_pulse", "volume": 0.44}
+[2026-09-24 21:10:47.629] [M] {"button": 1, "pos": [299, 185], "ui_clicked": false}
+[2026-09-24 21:10:47.637] [P] {"start": [115, 20], "goal": [112, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:47.638] [SFX] {"sound": "click_target", "volume": 0.75}
+[2026-09-24 21:10:47.901] [SFX] {"sound": "threat_pulse", "volume": 0.41}
+[2026-09-24 21:10:48.210] [M] {"button": 1, "pos": [299, 185], "ui_clicked": false}
+[2026-09-24 21:10:48.218] [P] {"start": [112, 20], "goal": [109, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:48.218] [SFX] {"sound": "click_target", "volume": 0.75}
+[2026-09-24 21:10:48.712] [SFX] {"sound": "threat_pulse", "volume": 0.37}
+[2026-09-24 21:10:49.614] [SFX] {"sound": "threat_pulse", "volume": 0.32}
+[2026-09-24 21:10:50.207] [M] {"button": 1, "pos": [422, 186], "ui_clicked": false}
+[2026-09-24 21:10:50.213] [P] {"start": [109, 20], "goal": [121, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:50.214] [SFX] {"sound": "click_target", "volume": 0.54}
+[2026-09-24 21:10:50.258] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:51.485] [M] {"button": 1, "pos": [273, 185], "ui_clicked": false}
+[2026-09-24 21:10:51.493] [P] {"start": [121, 20], "goal": [115, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:51.494] [SFX] {"sound": "click_target", "volume": 0.68}
+[2026-09-24 21:10:51.531] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:52.194] [M] {"button": 1, "pos": [255, 181], "ui_clicked": false}
+[2026-09-24 21:10:52.202] [P] {"start": [115, 20], "goal": [107, 20], "length": 1, "is_direction_change": false}
+[2026-09-24 21:10:52.202] [SFX] {"sound": "click_target", "volume": 0.64}
+[2026-09-24 21:10:52.255] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-24 21:10:54.590] [M] {"button": 1, "pos": [306, 187], "ui_clicked": false}
+[2026-09-24 21:10:54.598] [SFX] {"sound": "click_target", "volume": 0.76}
+[2026-09-24 21:10:55.055] [SFX] {"sound": "threat_pulse", "volume": 0.31}
+[2026-09-24 21:10:55.428] [M] {"button": 1, "pos": [384, 222], "ui_clicked": true}
+[2026-09-24 21:10:55.442] [JACK] Inventar durchwühlen. Wo liegt das passende Tool?
+[2026-09-24 21:10:55.758] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:55.956] [SFX] {"sound": "threat_pulse", "volume": 0.32}
+[2026-09-24 21:10:56.170] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:56.868] [SFX] {"sound": "threat_pulse", "volume": 0.33}
+[2026-09-24 21:10:57.001] [SFX] {"sound": "infiltrate 1", "volume": 0.5}
+[2026-09-24 21:10:57.412] [SFX] {"sound": "infiltrate 2", "volume": 0.5}
+[2026-09-24 21:10:57.772] [SFX] {"sound": "threat_pulse", "volume": 0.34}
+[2026-09-24 21:10:57.823] [SFX] {"sound": "infiltrate 2", "volume": 0.5}
+[2026-09-24 21:10:58.434] [SFX] {"sound": "hack_success", "volume": 1.0}
+[2026-09-24 21:10:58.679] [SFX] {"sound": "threat_pulse", "volume": 0.33}
+[2026-09-24 21:11:02.180] [C] {"civ_pos": [105, 20]}
+[2026-09-24 21:11:02.210] [JACK] Sieht aus wie ein harmloses Datenpaket. Oder verbirgt er was?
+[2026-09-24 21:11:02.700] [SFX] {"sound": "civ_move_2", "volume": 0.28}
+[2026-09-24 21:11:02.813] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-24 21:11:03.106] [SFX] {"sound": "civ_move_2", "volume": 0.27}
+[2026-09-24 21:11:03.222] [SFX] {"sound": "civ_move_2", "volume": 0.02}

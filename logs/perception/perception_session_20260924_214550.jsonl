@@ -1,0 +1,4 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260924_214550", "sys_t": "2026-09-24T21:45:50.887802"}}
+{"t": 0.016, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.089, "e": "J", "d": {"txt": "CYBERDECK OS v4.2 // SYSTEME BEREIT", "sit": "SESSION_START"}}
+{"t": 0.099, "e": "SCANNER_INTERCEPT", "d": {"tile": [94, 65]}}

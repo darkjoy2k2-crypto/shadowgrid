@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "source_log": "perception_session_20260924_161613.jsonl",
+    "session_duration": 234.639,
+    "total_raw_events": 3700,
+    "status": "EVALUATED"
+  },
+  "situations": {
+    "SESSION_START": {
+      "vector_impulse": {
+        "dv": 0.0,
+        "da": -10.0,
+        "dh": 0.0
+      },
+      "portrait_base": 6,
+      "thoughts_de": [
+        "Ah, im Shadowgrid angekommen... endlich.",
+        "Was ist das für ein Ort? Shadowgrid...",
+        "Netzwerkverbindung hergestellt. Angekommen im Shadowgrid, endlich!",
+        "CYBERDECK OS v4.2 // Shadowgrid-Verbindung steht."
+      ]
+    },
+    "SENTINEL_NEAR": {
+      "vector_impulse": {
+        "dv": -30.0,
+        "da": 60.0,
+        "dh": 0.0
+      },
+      "portrait_base": 14,
+      "thoughts_de": [
+        "Hörst du das Wummern? Sentinels in der Nähe... Bloß keinen falschen Schritt machen!",
+        "Überall Wacheinheiten... Ihr bedrohliches Summen brennt sich ins Deck.",
+        "Verdammt, die Sentinels kreisen um uns... Ich habe echte Angst, ertappt zu werden!",
+        "Achtung! Guardians patrouillieren den Sektor. Wir müssen extrem vorsichtig sein!"
+      ]
+    },
+    "IOT_AWARENESS": {
+      "vector_impulse": {
+        "dv": -20.0,
+        "da": 45.0,
+        "dh": 0.0
+      },
+      "portrait_base": 12,
+      "thoughts_de": [
+        "IoT-Überwachung überall... Kameras, Mikrofone und Scanner wollen uns ertappen!",
+        "Überwachungskameras und Audio-Listener an den Wänden... Wir stehen unter Beobachtung.",
+        "Vorsicht vor den IoT-Knoten! Ein falscher Schritt und die Netzwache schlägt Alarm."
+      ]
+    },
+    "SCANNER_INTERCEPT": {
+      "vector_impulse": {
+        "dv": -35.0,
+        "da": 75.0,
+        "dh": 0.0
+      },
+      "portrait_base": 16,
+      "thoughts_de": [
+        "Verdammt! Ein Scanner-Node hat unser Pathfinding abgefangen!",
+        "Scanner-Sperre! Der IoT-Node überprüft unsere Datenpakete...",
+        "Mitten auf dem Pfad abgefangen! Wir müssen einen neuen Weg anweisen."
+      ]
+    },
+    "EXPLORATION_SHORT": {
+      "vector_impulse": {
+        "dv": 2.0,
+        "da": 5.0,
+        "dh": 0.0
+      },
+      "portrait_base": 6,
+      "thoughts_de": [
+        "Kleine Schritte. Immer die Augen nach IoT-Sensoren und Sentinels offen halten.",
+        "Kurzer Blick um die Ecke...",
+        "Vorsichtig vorantasten..."
+      ]
+    },
+    "LONG_WALK": {
+      "vector_impulse": {
+        "dv": -15.0,
+        "da": 15.0,
+        "dh": 0.0
+      },
+      "portrait_base": 9,
+      "thoughts_de": [
+        "Schon wieder kilometerlange Datenstränge laufen...",
+        "Gibt's hier kein Teleport-Protokoll? Das dauert ewig!",
+        "Meine Beine spüren zwar nichts, aber mein Deck wird heiß."
+      ]
+    },
+    "DIRECTION_CHANGE": {
+      "vector_impulse": {
+        "dv": -10.0,
+        "da": 20.0,
+        "dh": 0.0
+      },
+      "portrait_base": 10,
+      "thoughts_de": [
+        "Hey! Erst links, dann rechts... Entscheide dich mal!",
+        "Zickzack-Kurs? Wir verwirren nur uns selbst!",
+        "Suchst du was Bestimmtes oder irren wir nur herum?"
+      ]
+    },
+    "CIVILIAN_ENCOUNTER": {
+      "vector_impulse": {
+        "dv": 10.0,
+        "da": 30.0,
+        "dh": 0.0
+      },
+      "portrait_base": 7,
+      "thoughts_de": [
+        "Da drüben bewegt sich eine Civ-Subroutine! Was führt die im Schilde?",
+        "Interessante Signatur... Ein ziviler Node. Sollen wir näher ran?",
+        "Sieht aus wie ein harmloses Datenpaket. Oder verbirgt er was?"
+      ]
+    },
+    "UI_INTERACTION": {
+      "vector_impulse": {
+        "dv": 5.0,
+        "da": 10.0,
+        "dh": 0.0
+      },
+      "portrait_base": 5,
+      "thoughts_de": [
+        "Blick ins Systemfenster... Was führen wir im Schild?",
+        "Inventar durchwühlen. Wo liegt das passende Tool?",
+        "Deck-Einstellungen werden angepasst..."
+      ]
+    },
+    "EQUIPMENT_MOUNT": {
+      "vector_impulse": {
+        "dv": 15.0,
+        "da": 15.0,
+        "dh": 0.0
+      },
+      "portrait_base": 11,
+      "thoughts_de": [
+        "Neuer Treiber montiert! Das gibt uns ordentlich Auftrieb.",
+        "System-Upgrade aktiv. Jetzt sehen wir deutlich mehr!",
+        "Perfekt eingeklinkt. Besser wird's nicht."
+      ]
+    },
+    "EQUIPMENT_UNMOUNT": {
+      "vector_impulse": {
+        "dv": -15.0,
+        "da": 10.0,
+        "dh": 0.0
+      },
+      "portrait_base": 16,
+      "thoughts_de": [
+        "Treiber wieder ausgeworfen? Hoffentlich vermissen wir den nicht.",
+        "Sichtfeld reduziert... Ich fühle mich wie blind.",
+        "Zurück ins Archiv mit dem Treiber."
+      ]
+    },
+    "ALERT_TRIGGERED": {
+      "vector_impulse": {
+        "dv": -40.0,
+        "da": 70.0,
+        "dh": 0.0
+      },
+      "portrait_base": 15,
+      "thoughts_de": [
+        "ALARM! Die Sentinels haben unsere Frequenz geortet!",
+        "Scheiße! Threat-Level auf Maximum! LAUF!",
+        "Sicherheitssysteme schlagen an! Verschwinde da!"
+      ]
+    },
+    "PLAYER_CAUGHT": {
+      "vector_impulse": {
+        "dv": -60.0,
+        "da": 90.0,
+        "dh": -20.0
+      },
+      "portrait_base": 17,
+      "thoughts_de": [
+        "VERDAMMT! Ein Guardian hat uns gepackt!",
+        "Der IC-Zugriff brennt sich durch unsere Abschirmung!",
+        "System-Overload! Ich verliere die Kontrolle!"
+      ]
+    },
+    "GAME_OVER": {
+      "vector_impulse": {
+        "dv": -100.0,
+        "da": 100.0,
+        "dh": -100.0
+      },
+      "portrait_base": 19,
+      "thoughts_de": [
+        "FLATLINE... DECK-ABSTURZ...",
+        "Verbindung abgebrochen... Jack ist offline.",
+        "Signal verloren. Neustart erforderlich..."
+      ]
+    }
+  }
+}

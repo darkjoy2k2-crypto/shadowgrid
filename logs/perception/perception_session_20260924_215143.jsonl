@@ -1,0 +1,7 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260924_215143", "sys_t": "2026-09-24T21:51:43.313202"}}
+{"t": 0.019, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.068, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.087, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.092, "e": "C", "d": {"civ_pos": [72, 129]}}
+{"t": 0.118, "e": "SCANNER_INTERCEPT", "d": {"tile": [72, 129]}}
+{"t": 0.135, "e": "J", "d": {"txt": "Verdammt! Ein Scanner-Node hat unser Pathfinding abgefangen!", "sit": "SCANNER_INTERCEPT"}}

@@ -1,0 +1,5 @@
+[2026-09-25 10:19:38.631] [S] {"sid": "20260925_101938", "sys_t": "2026-09-25T10:19:38.630837"}
+[2026-09-25 10:19:38.642] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-25 10:19:38.691] [S] {"map": "Shadowgrid"}
+[2026-09-25 10:19:38.705] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-25 10:19:38.718] [SFX] {"sound": "threat_pulse", "volume": 0.6}

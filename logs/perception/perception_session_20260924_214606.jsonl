@@ -1,0 +1,1324 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260924_214606", "sys_t": "2026-09-24T21:46:06.745910"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 0.805, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.871, "e": "J", "d": {"txt": "CYBERDECK OS v4.2 // SYSTEME BEREIT", "sit": "SESSION_START"}}
+{"t": 1.306, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 1.335, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 1.716, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 1.742, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 1.951, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 2.131, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 2.154, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 2.215, "e": "M", "d": {"button": 1, "pos": [301, 220], "ui_clicked": false}}
+{"t": 2.364, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.547, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 2.548, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 2.678, "e": "M", "d": {"button": 1, "pos": [299, 215], "ui_clicked": false}}
+{"t": 2.684, "e": "P", "d": {"start": [146, 2], "goal": [143, 6], "length": 5, "is_direction_change": false}}
+{"t": 2.685, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 2.722, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 2.777, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.959, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.96, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 3.009, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 3.176, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 3.324, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 3.374, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 3.375, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 3.589, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 3.787, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 3.787, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 3.999, "e": "M", "d": {"button": 1, "pos": [318, 228], "ui_clicked": false}}
+{"t": 4.005, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 4.198, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 4.2, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 4.399, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 4.55, "e": "M", "d": {"button": 1, "pos": [314, 213], "ui_clicked": false}}
+{"t": 4.558, "e": "P", "d": {"start": [143, 6], "goal": [142, 10], "length": 5, "is_direction_change": false}}
+{"t": 4.559, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 4.607, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 4.724, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 4.807, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 5.007, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 5.04, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 5.221, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 5.421, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 5.636, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 5.668, "e": "M", "d": {"button": 1, "pos": [251, 199], "ui_clicked": false}}
+{"t": 5.834, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 6.03, "e": "M", "d": {"button": 1, "pos": [277, 190], "ui_clicked": false}}
+{"t": 6.038, "e": "P", "d": {"start": [142, 10], "goal": [136, 11], "length": 6, "is_direction_change": false}}
+{"t": 6.039, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 6.075, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 6.076, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 6.116, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 6.249, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 6.43, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 6.452, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 6.662, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.0}}
+{"t": 6.662, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 6.745, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 6.858, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 7.069, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 7.27, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 7.271, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 7.386, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 7.401, "e": "M", "d": {"button": 1, "pos": [333, 234], "ui_clicked": false}}
+{"t": 7.494, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 7.682, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 7.732, "e": "M", "d": {"button": 1, "pos": [319, 237], "ui_clicked": false}}
+{"t": 7.738, "e": "P", "d": {"start": [136, 11], "goal": [135, 18], "length": 2, "is_direction_change": false}}
+{"t": 7.739, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 7.773, "e": "J", "d": {"txt": "Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.", "sit": "EXPLORATION_SHORT"}}
+{"t": 7.774, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 7.796, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 7.879, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 7.901, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 8.059, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 8.082, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 8.1, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 8.212, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 8.295, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 8.493, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.16}}
+{"t": 8.494, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 8.515, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 8.575, "e": "M", "d": {"button": 1, "pos": [317, 235], "ui_clicked": false}}
+{"t": 8.582, "e": "P", "d": {"start": [135, 18], "goal": [134, 24], "length": 2, "is_direction_change": false}}
+{"t": 8.582, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 8.641, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 8.707, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 8.708, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 8.807, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 8.905, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 8.93, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 9.055, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 9.105, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.22}}
+{"t": 9.126, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 9.127, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 9.27, "e": "M", "d": {"button": 1, "pos": [317, 235], "ui_clicked": false}}
+{"t": 9.32, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 9.342, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 9.465, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 9.531, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 9.532, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 9.714, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.24}}
+{"t": 9.731, "e": "M", "d": {"button": 1, "pos": [323, 236], "ui_clicked": false}}
+{"t": 9.738, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 9.739, "e": "P", "d": {"start": [134, 24], "goal": [134, 30], "length": 1, "is_direction_change": false}}
+{"t": 9.74, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 9.762, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 9.868, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 9.901, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 9.934, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 9.935, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 9.956, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 10.033, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 10.115, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 10.139, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 10.154, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 10.279, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 10.328, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.3}}
+{"t": 10.349, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 10.349, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 10.365, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 10.525, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 10.568, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 10.579, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 10.69, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 10.755, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 10.777, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 10.901, "e": "M", "d": {"button": 1, "pos": [323, 236], "ui_clicked": false}}
+{"t": 10.912, "e": "P", "d": {"start": [134, 30], "goal": [134, 36], "length": 1, "is_direction_change": false}}
+{"t": 10.913, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 10.939, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.4}}
+{"t": 10.94, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 10.941, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.34}}
+{"t": 10.961, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 10.962, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 10.988, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 11.089, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 11.111, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 11.156, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 11.189, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 11.189, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 11.34, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 11.363, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.21}}
+{"t": 11.405, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 11.518, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 11.551, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.37}}
+{"t": 11.574, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 11.601, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 11.602, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 11.701, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 11.708, "e": "P", "d": {"start": [134, 36], "goal": [134, 43], "length": 1, "is_direction_change": false}}
+{"t": 11.709, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 11.739, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 11.762, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 11.763, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 11.778, "e": "C", "d": {"civ_pos": [134, 39]}}
+{"t": 11.808, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 11.84, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.38}}
+{"t": 11.906, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 11.928, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 11.973, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 12.008, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.21}}
+{"t": 12.009, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 12.106, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 12.14, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 12.164, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.32}}
+{"t": 12.165, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 12.165, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.26}}
+{"t": 12.174, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 12.181, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 12.223, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 12.324, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 12.346, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 12.375, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 12.409, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 12.41, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 12.511, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 12.545, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 12.569, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 12.569, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.2}}
+{"t": 12.629, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 12.635, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 12.636, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 12.637, "e": "P", "d": {"start": [134, 48], "goal": [134, 54], "length": 1, "is_direction_change": false}}
+{"t": 12.637, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 12.689, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 12.69, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 12.729, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 12.751, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.35}}
+{"t": 12.779, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.26}}
+{"t": 12.78, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 12.812, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.29}}
+{"t": 12.813, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 12.912, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 12.959, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 12.982, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 12.982, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 13.058, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 13.125, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 13.132, "e": "P", "d": {"start": [134, 54], "goal": [134, 60], "length": 1, "is_direction_change": false}}
+{"t": 13.132, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 13.169, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 13.194, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 13.194, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 13.227, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.27}}
+{"t": 13.228, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 13.248, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 13.327, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 13.361, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 13.384, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 13.384, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 13.399, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 13.46, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 13.544, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 13.578, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 13.585, "e": "P", "d": {"start": [134, 60], "goal": [134, 65], "length": 1, "is_direction_change": false}}
+{"t": 13.586, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 13.61, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 13.631, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.25}}
+{"t": 13.632, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 13.654, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.31}}
+{"t": 13.67, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 13.747, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 13.77, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 13.785, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 13.786, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 13.845, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 13.867, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 13.945, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 13.994, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 14.016, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 14.045, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 14.053, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 14.054, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 14.054, "e": "P", "d": {"start": [134, 65], "goal": [134, 71], "length": 1, "is_direction_change": false}}
+{"t": 14.055, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 14.164, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 14.185, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 14.185, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 14.186, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 14.187, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 14.213, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 14.346, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 14.368, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 14.412, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 14.446, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 14.446, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 14.447, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 14.478, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 14.485, "e": "P", "d": {"start": [134, 71], "goal": [134, 76], "length": 1, "is_direction_change": false}}
+{"t": 14.486, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 14.569, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 14.591, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 14.592, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 14.593, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 14.594, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 14.609, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 14.667, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 14.816, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 14.849, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 14.85, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 14.898, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 14.905, "e": "P", "d": {"start": [134, 76], "goal": [134, 81], "length": 1, "is_direction_change": false}}
+{"t": 14.906, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 14.97, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 14.971, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 14.993, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 14.994, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 14.995, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 15.217, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 15.25, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 15.251, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 15.384, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 15.406, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 15.407, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 15.408, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 15.467, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 15.474, "e": "P", "d": {"start": [134, 81], "goal": [134, 87], "length": 1, "is_direction_change": false}}
+{"t": 15.475, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 15.512, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 15.586, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 15.65, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 15.651, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 15.799, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 15.823, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 15.823, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 15.824, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 15.884, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 15.892, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 15.909, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 16.002, "e": "C", "d": {"civ_pos": [134, 91]}}
+{"t": 16.053, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 16.054, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 16.201, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 16.202, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 16.223, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 16.223, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 16.3, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 16.306, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 16.307, "e": "P", "d": {"start": [134, 91], "goal": [134, 97], "length": 1, "is_direction_change": false}}
+{"t": 16.308, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 16.466, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 16.466, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 16.532, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 16.631, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 16.654, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 16.746, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 16.753, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 16.812, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.23}}
+{"t": 16.88, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 16.881, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 17.044, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 17.045, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 17.067, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.24}}
+{"t": 17.294, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 17.295, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 17.361, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 17.393, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 17.409, "e": "M", "d": {"button": 1, "pos": [324, 238], "ui_clicked": false}}
+{"t": 17.425, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.26}}
+{"t": 17.458, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 17.483, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 17.675, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 17.708, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 17.709, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 17.873, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 17.897, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 17.989, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 18.038, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.27}}
+{"t": 18.089, "e": "M", "d": {"button": 1, "pos": [306, 230], "ui_clicked": false}}
+{"t": 18.121, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 18.122, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.3}}
+{"t": 18.287, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 18.309, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 18.313, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 18.314, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.32}}
+{"t": 18.486, "e": "M", "d": {"button": 1, "pos": [299, 226], "ui_clicked": false}}
+{"t": 18.519, "e": "C", "d": {"civ_pos": [134, 98]}}
+{"t": 18.55, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 18.551, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 18.608, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 18.641, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.27}}
+{"t": 18.69, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 18.713, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 18.756, "e": "M", "d": {"button": 1, "pos": [295, 225], "ui_clicked": false}}
+{"t": 18.762, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 18.763, "e": "P", "d": {"start": [134, 98], "goal": [130, 104], "length": 5, "is_direction_change": false}}
+{"t": 18.764, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 18.873, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 18.923, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 18.946, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 18.947, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 19.105, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 19.128, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.26}}
+{"t": 19.235, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 19.257, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 19.317, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 19.35, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 19.351, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 19.483, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 19.516, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 19.517, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 19.538, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 19.555, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 19.751, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 19.751, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 19.865, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 19.866, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.23}}
+{"t": 19.917, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.0}}
+{"t": 19.918, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 19.94, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.24}}
+{"t": 20.084, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 20.152, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 20.153, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 20.174, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 20.235, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 20.318, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 20.341, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 20.356, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 20.467, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.34}}
+{"t": 20.491, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 20.566, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 20.567, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 20.648, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 20.699, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 20.732, "e": "M", "d": {"button": 1, "pos": [323, 284], "ui_clicked": false}}
+{"t": 20.74, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 20.741, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 20.765, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 20.978, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 20.979, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 21.064, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 21.087, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.32}}
+{"t": 21.147, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 21.148, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 21.164, "e": "M", "d": {"button": 1, "pos": [325, 263], "ui_clicked": false}}
+{"t": 21.171, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 21.312, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 21.379, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 21.38, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 21.48, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 21.548, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 21.549, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 21.581, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 21.628, "e": "M", "d": {"button": 1, "pos": [322, 237], "ui_clicked": false}}
+{"t": 21.694, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.3}}
+{"t": 21.792, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 21.793, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 21.89, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 21.923, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 21.956, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 21.957, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 21.99, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 22.09, "e": "M", "d": {"button": 1, "pos": [321, 233], "ui_clicked": false}}
+{"t": 22.208, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 22.209, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 22.305, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.27}}
+{"t": 22.306, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 22.372, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 22.373, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 22.405, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 22.539, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 22.555, "e": "M", "d": {"button": 1, "pos": [344, 226], "ui_clicked": false}}
+{"t": 22.604, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 22.626, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 22.627, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 22.721, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 22.787, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 22.809, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 22.825, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 22.885, "e": "M", "d": {"button": 1, "pos": [350, 215], "ui_clicked": false}}
+{"t": 22.891, "e": "P", "d": {"start": [130, 104], "goal": [133, 108], "length": 2, "is_direction_change": false}}
+{"t": 22.892, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 22.93, "e": "J", "d": {"txt": "Kurzer Blick um die Ecke...", "sit": "EXPLORATION_SHORT"}}
+{"t": 22.942, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.24}}
+{"t": 23.018, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 23.041, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 23.055, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 23.133, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 23.155, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 23.198, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 23.199, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 23.221, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 23.237, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 23.445, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 23.466, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 23.543, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 23.544, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 23.608, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 23.632, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 23.647, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 23.757, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 23.79, "e": "M", "d": {"button": 1, "pos": [355, 188], "ui_clicked": false}}
+{"t": 23.8, "e": "P", "d": {"start": [133, 108], "goal": [137, 108], "length": 1, "is_direction_change": false}}
+{"t": 23.801, "e": "SFX", "d": {"sound": "click_target", "volume": 0.71}}
+{"t": 23.844, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 23.867, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 23.868, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 24.01, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 24.031, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 24.049, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 24.145, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.17}}
+{"t": 24.258, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 24.28, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 24.281, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 24.291, "e": "M", "d": {"button": 1, "pos": [385, 188], "ui_clicked": false}}
+{"t": 24.298, "e": "P", "d": {"start": [137, 108], "goal": [144, 108], "length": 1, "is_direction_change": false}}
+{"t": 24.299, "e": "SFX", "d": {"sound": "click_target", "volume": 0.65}}
+{"t": 24.348, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 24.37, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 24.371, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.16}}
+{"t": 24.412, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 24.435, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 24.449, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 24.66, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 24.682, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 24.682, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 24.759, "e": "M", "d": {"button": 1, "pos": [385, 188], "ui_clicked": false}}
+{"t": 24.767, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 24.768, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 24.769, "e": "P", "d": {"start": [144, 108], "goal": [150, 108], "length": 1, "is_direction_change": false}}
+{"t": 24.77, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 24.821, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 24.822, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 24.842, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 24.97, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.14}}
+{"t": 25.069, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 25.091, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 25.092, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 25.166, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 25.182, "e": "M", "d": {"button": 1, "pos": [385, 188], "ui_clicked": false}}
+{"t": 25.19, "e": "P", "d": {"start": [150, 108], "goal": [156, 108], "length": 1, "is_direction_change": false}}
+{"t": 25.191, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 25.239, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 25.24, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.27}}
+{"t": 25.263, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 25.372, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 25.423, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 25.472, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.26}}
+{"t": 25.494, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 25.568, "e": "M", "d": {"button": 1, "pos": [385, 188], "ui_clicked": false}}
+{"t": 25.576, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 25.577, "e": "P", "d": {"start": [156, 108], "goal": [162, 108], "length": 1, "is_direction_change": false}}
+{"t": 25.577, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 25.613, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 25.652, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 25.653, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 25.837, "e": "M", "d": {"button": 1, "pos": [385, 188], "ui_clicked": false}}
+{"t": 25.844, "e": "P", "d": {"start": [161, 108], "goal": [166, 108], "length": 1, "is_direction_change": false}}
+{"t": 25.845, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 25.874, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.25}}
+{"t": 25.896, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 25.956, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 25.978, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 26.038, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 26.06, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 26.187, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 26.286, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 26.307, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 26.384, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 26.469, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 26.652, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.24}}
+{"t": 26.686, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.21}}
+{"t": 26.709, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 26.786, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 26.787, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 26.869, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 26.984, "e": "M", "d": {"button": 1, "pos": [360, 151], "ui_clicked": false}}
+{"t": 26.992, "e": "P", "d": {"start": [166, 108], "goal": [170, 104], "length": 3, "is_direction_change": false}}
+{"t": 26.993, "e": "SFX", "d": {"sound": "click_target", "volume": 0.85}}
+{"t": 27.088, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.21}}
+{"t": 27.111, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 27.187, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 27.188, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 27.254, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 27.276, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 27.401, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 27.501, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 27.502, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 27.524, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 27.597, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 27.682, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 27.813, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 27.863, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.26}}
+{"t": 27.912, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 27.934, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 28.011, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 28.012, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 28.095, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 28.126, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 28.148, "e": "C", "d": {"civ_pos": [170, 104]}}
+{"t": 28.326, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 28.348, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 28.426, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 28.494, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.36}}
+{"t": 28.516, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 28.625, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 28.742, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 28.764, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 28.791, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 28.84, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 28.873, "e": "M", "d": {"button": 1, "pos": [368, 168], "ui_clicked": false}}
+{"t": 28.923, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 29.105, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.38}}
+{"t": 29.156, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 29.18, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 29.206, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 29.239, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 29.262, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 29.323, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 29.388, "e": "M", "d": {"button": 1, "pos": [365, 149], "ui_clicked": false}}
+{"t": 29.452, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.34}}
+{"t": 29.569, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 29.592, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 29.618, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 29.668, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 29.734, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.39}}
+{"t": 29.735, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 29.834, "e": "M", "d": {"button": 1, "pos": [357, 152], "ui_clicked": false}}
+{"t": 29.85, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 29.981, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 30.003, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 30.03, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 30.078, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 30.129, "e": "M", "d": {"button": 1, "pos": [380, 176], "ui_clicked": false}}
+{"t": 30.146, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 30.359, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.39}}
+{"t": 30.36, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.41}}
+{"t": 30.393, "e": "M", "d": {"button": 1, "pos": [382, 189], "ui_clicked": false}}
+{"t": 30.4, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 30.415, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 30.442, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 30.463, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 30.49, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 30.554, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 30.787, "e": "M", "d": {"button": 1, "pos": [365, 189], "ui_clicked": false}}
+{"t": 30.803, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 30.826, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 30.854, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 30.903, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 30.969, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 31.003, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.39}}
+{"t": 31.067, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 31.168, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 31.2, "e": "M", "d": {"button": 1, "pos": [362, 183], "ui_clicked": false}}
+{"t": 31.207, "e": "P", "d": {"start": [170, 104], "goal": [175, 104], "length": 1, "is_direction_change": false}}
+{"t": 31.208, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 31.238, "e": "J", "d": {"txt": "Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.", "sit": "EXPLORATION_SHORT"}}
+{"t": 31.238, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 31.251, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 31.265, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 31.31, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 31.427, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 31.628, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.37}}
+{"t": 31.629, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 31.651, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 31.661, "e": "M", "d": {"button": 1, "pos": [362, 183], "ui_clicked": false}}
+{"t": 31.667, "e": "P", "d": {"start": [175, 104], "goal": [179, 104], "length": 1, "is_direction_change": false}}
+{"t": 31.668, "e": "SFX", "d": {"sound": "click_target", "volume": 0.71}}
+{"t": 31.705, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 31.777, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.5}}
+{"t": 32.009, "e": "M", "d": {"button": 1, "pos": [362, 183], "ui_clicked": false}}
+{"t": 32.016, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 32.017, "e": "P", "d": {"start": [179, 104], "goal": [182, 104], "length": 1, "is_direction_change": false}}
+{"t": 32.017, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 32.046, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 32.047, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 32.097, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 32.249, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.3}}
+{"t": 32.264, "e": "M", "d": {"button": 1, "pos": [362, 183], "ui_clicked": false}}
+{"t": 32.27, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 32.285, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 32.286, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 32.413, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 32.446, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 32.447, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 32.447, "e": "C", "d": {"civ_pos": [187, 104]}}
+{"t": 32.525, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 32.526, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 32.542, "e": "M", "d": {"button": 1, "pos": [362, 183], "ui_clicked": true}}
+{"t": 32.596, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 32.829, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 32.83, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 32.862, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 32.862, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 32.894, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 32.927, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 32.959, "e": "M", "d": {"button": 1, "pos": [363, 183], "ui_clicked": true}}
+{"t": 33.009, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 33.144, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 33.244, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 33.277, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 33.344, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 33.42, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 33.453, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 33.476, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.17}}
+{"t": 33.503, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 33.653, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 33.685, "e": "M", "d": {"button": 1, "pos": [359, 226], "ui_clicked": true}}
+{"t": 33.717, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 33.757, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 33.757, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 33.823, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 34.055, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 34.079, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 34.08, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 34.097, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 34.112, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.49}}
+{"t": 34.172, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 34.223, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 34.388, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 34.47, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 34.502, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 34.583, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 34.633, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 34.682, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 34.707, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 34.721, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.5}}
+{"t": 34.882, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 34.915, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 34.949, "e": "C", "d": {"civ_pos": [197, 104]}}
+{"t": 35.002, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 35.002, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 35.034, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 35.283, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 35.283, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 35.316, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 35.317, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 35.317, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.51}}
+{"t": 35.416, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 35.449, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 35.617, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 35.685, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 35.717, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 35.831, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 35.831, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.51}}
+{"t": 35.864, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 35.932, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 36.114, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 36.137, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 36.247, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 36.248, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 36.279, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 36.344, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.52}}
+{"t": 36.46, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 36.477, "e": "M", "d": {"button": 1, "pos": [289, 178], "ui_clicked": false}}
+{"t": 36.528, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 36.551, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 36.566, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 36.661, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 36.686, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 36.845, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.52}}
+{"t": 36.868, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 36.878, "e": "M", "d": {"button": 1, "pos": [294, 180], "ui_clicked": false}}
+{"t": 36.885, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 36.886, "e": "P", "d": {"start": [204, 104], "goal": [200, 104], "length": 1, "is_direction_change": false}}
+{"t": 36.886, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 36.94, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 36.963, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 37.074, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 37.075, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 37.157, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 37.357, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 37.358, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 37.359, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.5}}
+{"t": 37.477, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 37.678, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 37.761, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 37.762, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 37.762, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 37.792, "e": "M", "d": {"button": 1, "pos": [306, 159], "ui_clicked": false}}
+{"t": 37.861, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 37.882, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 38.174, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 38.174, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 38.274, "e": "M", "d": {"button": 1, "pos": [302, 159], "ui_clicked": false}}
+{"t": 38.289, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 38.312, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 38.39, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 38.472, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.44}}
+{"t": 38.574, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 38.575, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 38.64, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 38.706, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 38.722, "e": "M", "d": {"button": 1, "pos": [303, 165], "ui_clicked": false}}
+{"t": 38.731, "e": "P", "d": {"start": [200, 104], "goal": [197, 102], "length": 3, "is_direction_change": false}}
+{"t": 38.731, "e": "SFX", "d": {"sound": "click_target", "volume": 0.93}}
+{"t": 38.752, "e": "J", "d": {"txt": "Kurzer Blick um die Ecke...", "sit": "EXPLORATION_SHORT"}}
+{"t": 38.826, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 38.977, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 38.977, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 38.999, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 39.042, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 39.107, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 39.174, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.41}}
+{"t": 39.387, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 39.388, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 39.455, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 39.522, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 39.605, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 39.789, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 39.79, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 39.856, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 39.922, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 39.987, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.37}}
+{"t": 40.184, "e": "M", "d": {"button": 1, "pos": [377, 196], "ui_clicked": false}}
+{"t": 40.192, "e": "P", "d": {"start": [197, 102], "goal": [204, 104], "length": 3, "is_direction_change": false}}
+{"t": 40.193, "e": "SFX", "d": {"sound": "click_target", "volume": 0.65}}
+{"t": 40.229, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 40.23, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 40.27, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 40.336, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 40.337, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 40.614, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 40.614, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 40.648, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 40.68, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 40.745, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 40.746, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.26}}
+{"t": 40.761, "e": "M", "d": {"button": 1, "pos": [387, 188], "ui_clicked": false}}
+{"t": 40.768, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 40.896, "e": "C", "d": {"civ_pos": [208, 104]}}
+{"t": 40.897, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.33}}
+{"t": 41.028, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 41.03, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 41.077, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 41.099, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 41.159, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.3}}
+{"t": 41.357, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 41.39, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 41.439, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 41.44, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 41.505, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 41.571, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.29}}
+{"t": 41.701, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 41.801, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.34}}
+{"t": 41.851, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 41.852, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 41.901, "e": "M", "d": {"button": 1, "pos": [171, 180], "ui_clicked": false}}
+{"t": 41.918, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 41.966, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 41.99, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.29}}
+{"t": 42.017, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 42.169, "e": "M", "d": {"button": 1, "pos": [169, 184], "ui_clicked": false}}
+{"t": 42.177, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 42.178, "e": "P", "d": {"start": [204, 104], "goal": [186, 104], "length": 1, "is_direction_change": false}}
+{"t": 42.179, "e": "SFX", "d": {"sound": "click_target", "volume": 0.44}}
+{"t": 42.266, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 42.267, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 42.332, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 42.333, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 42.398, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.28}}
+{"t": 42.581, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 42.648, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 42.681, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 42.682, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 42.682, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 42.714, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.31}}
+{"t": 42.748, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 42.815, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 42.836, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 42.895, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 42.96, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 43.094, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 43.16, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.24}}
+{"t": 43.225, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.2}}
+{"t": 43.247, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 43.289, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 43.304, "e": "M", "d": {"button": 1, "pos": [499, 181], "ui_clicked": false}}
+{"t": 43.312, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 43.313, "e": "P", "d": {"start": [186, 104], "goal": [209, 104], "length": 1, "is_direction_change": false}}
+{"t": 43.313, "e": "SFX", "d": {"sound": "click_target", "volume": 0.33}}
+{"t": 43.486, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 43.507, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 43.508, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 43.567, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 43.631, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.26}}
+{"t": 43.652, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 43.716, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 43.781, "e": "C", "d": {"civ_pos": [197, 104]}}
+{"t": 43.826, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 43.826, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 43.916, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 43.917, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 43.981, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 44.047, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.27}}
+{"t": 44.11, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 44.328, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 44.329, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 44.394, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 44.416, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 44.417, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 44.458, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 44.743, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 44.744, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 44.794, "e": "M", "d": {"button": 1, "pos": [502, 182], "ui_clicked": false}}
+{"t": 44.811, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 44.86, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 45.012, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.14}}
+{"t": 45.148, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 45.148, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 45.214, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 45.264, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 45.281, "e": "M", "d": {"button": 1, "pos": [363, 186], "ui_clicked": false}}
+{"t": 45.288, "e": "P", "d": {"start": [209, 104], "goal": [214, 104], "length": 1, "is_direction_change": false}}
+{"t": 45.288, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 45.348, "e": "J", "d": {"txt": "Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.", "sit": "EXPLORATION_SHORT"}}
+{"t": 45.558, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 45.559, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 45.626, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 45.627, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 45.676, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 45.905, "e": "M", "d": {"button": 1, "pos": [384, 187], "ui_clicked": false}}
+{"t": 45.969, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 45.97, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 46.034, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 46.083, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 46.233, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 46.365, "e": "M", "d": {"button": 1, "pos": [351, 218], "ui_clicked": false}}
+{"t": 46.381, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 46.381, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 46.447, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 46.497, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 46.664, "e": "M", "d": {"button": 1, "pos": [329, 229], "ui_clicked": false}}
+{"t": 46.781, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 46.781, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 46.845, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.17}}
+{"t": 46.866, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 46.911, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 47.041, "e": "M", "d": {"button": 1, "pos": [329, 229], "ui_clicked": false}}
+{"t": 47.194, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 47.195, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 47.226, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 47.233, "e": "P", "d": {"start": [214, 104], "goal": [214, 110], "length": 1, "is_direction_change": false}}
+{"t": 47.234, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 47.296, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 47.297, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 47.321, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 47.461, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 47.593, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 47.594, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 47.711, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 47.733, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 47.743, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 47.75, "e": "P", "d": {"start": [214, 110], "goal": [214, 115], "length": 1, "is_direction_change": false}}
+{"t": 47.751, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 47.828, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 48.009, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 48.01, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 48.075, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 48.125, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 48.148, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 48.224, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 48.232, "e": "P", "d": {"start": [214, 115], "goal": [214, 120], "length": 1, "is_direction_change": false}}
+{"t": 48.233, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 48.371, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 48.421, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 48.443, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 48.538, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 48.56, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 48.638, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 48.645, "e": "P", "d": {"start": [214, 120], "goal": [214, 125], "length": 1, "is_direction_change": false}}
+{"t": 48.646, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 48.689, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.23}}
+{"t": 48.824, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 48.845, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 48.846, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 48.939, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 49.039, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 49.046, "e": "P", "d": {"start": [214, 125], "goal": [214, 130], "length": 1, "is_direction_change": false}}
+{"t": 49.047, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 49.225, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 49.294, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.3}}
+{"t": 49.342, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 49.408, "e": "M", "d": {"button": 1, "pos": [326, 232], "ui_clicked": false}}
+{"t": 49.415, "e": "P", "d": {"start": [214, 130], "goal": [214, 134], "length": 13, "is_direction_change": false}}
+{"t": 49.416, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 49.439, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 49.478, "e": "C", "d": {"civ_pos": [215, 132]}}
+{"t": 49.632, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 49.654, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 49.733, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 49.755, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 49.901, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.35}}
+{"t": 50.036, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 50.038, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 50.057, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 50.152, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 50.336, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 50.45, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 50.471, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 50.515, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.3}}
+{"t": 50.563, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 50.648, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 50.864, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 50.888, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 50.962, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 50.985, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 51.096, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 51.13, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.35}}
+{"t": 51.278, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 51.301, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 51.38, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 51.414, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 51.497, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 51.681, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 51.702, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 51.729, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.36}}
+{"t": 51.796, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 51.829, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 51.914, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 52.064, "e": "M", "d": {"button": 1, "pos": [290, 166], "ui_clicked": false}}
+{"t": 52.071, "e": "P", "d": {"start": [214, 134], "goal": [210, 132], "length": 3, "is_direction_change": false}}
+{"t": 52.072, "e": "SFX", "d": {"sound": "click_target", "volume": 0.9}}
+{"t": 52.109, "e": "J", "d": {"txt": "Kurzer Blick um die Ecke...", "sit": "EXPLORATION_SHORT"}}
+{"t": 52.11, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 52.121, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 52.201, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 52.232, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 52.232, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 52.316, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 52.34, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.35}}
+{"t": 52.482, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 52.497, "e": "M", "d": {"button": 1, "pos": [290, 166], "ui_clicked": false}}
+{"t": 52.531, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 52.614, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 52.647, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 52.732, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 52.882, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 52.93, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 52.953, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.33}}
+{"t": 52.997, "e": "M", "d": {"button": 1, "pos": [289, 200], "ui_clicked": false}}
+{"t": 53.003, "e": "P", "d": {"start": [210, 132], "goal": [206, 134], "length": 2, "is_direction_change": false}}
+{"t": 53.004, "e": "SFX", "d": {"sound": "click_target", "volume": 0.71}}
+{"t": 53.033, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 53.057, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 53.133, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 53.156, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 53.296, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 53.345, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 53.443, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 53.466, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 53.544, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 53.565, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.27}}
+{"t": 53.707, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 53.756, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 53.855, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 53.878, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 53.956, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 54.108, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 54.157, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 54.181, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.25}}
+{"t": 54.259, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 54.281, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 54.36, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 54.511, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 54.561, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 54.66, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 54.682, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 54.743, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 54.764, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 54.782, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.23}}
+{"t": 54.892, "e": "M", "d": {"button": 1, "pos": [296, 205], "ui_clicked": false}}
+{"t": 54.927, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 54.976, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 55.059, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 55.083, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 55.159, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 55.181, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 55.327, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 55.377, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 55.378, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 55.411, "e": "M", "d": {"button": 1, "pos": [286, 203], "ui_clicked": false}}
+{"t": 55.419, "e": "P", "d": {"start": [206, 134], "goal": [201, 136], "length": 5, "is_direction_change": false}}
+{"t": 55.419, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 55.463, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 55.485, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 55.561, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 55.581, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 55.582, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 55.727, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 55.777, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 55.875, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 55.899, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 55.9, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 55.975, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 55.997, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.15}}
+{"t": 55.998, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 56.143, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 56.277, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 56.301, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 56.377, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 56.401, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 56.555, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 56.606, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 56.687, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 56.71, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 56.786, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 56.967, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 57.099, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 57.121, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 57.2, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 57.224, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 57.224, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 57.225, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 57.38, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 57.511, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 57.533, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 57.611, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 57.634, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 57.634, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 57.793, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 57.827, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 57.926, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 57.948, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 58.025, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 58.048, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 58.048, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 58.206, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 58.335, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 58.357, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 58.433, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 58.434, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 58.456, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 58.457, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 58.617, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 58.748, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 58.771, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 58.848, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 58.87, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 58.871, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 59.031, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 59.052, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 59.162, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 59.186, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 59.262, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 59.283, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 59.284, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 59.443, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 59.543, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 59.576, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 59.598, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 59.66, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 59.682, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 59.7, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 59.701, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 59.844, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 59.991, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 60.013, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 60.09, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 60.111, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 60.157, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 60.257, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 60.279, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 60.39, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 60.414, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 60.492, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 60.514, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 60.658, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 60.773, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 60.807, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 60.829, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 60.888, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 60.913, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 60.933, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 61.073, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 61.222, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 61.243, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 61.319, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 61.342, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 61.384, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 61.483, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 61.506, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 61.631, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 61.651, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 61.728, "e": "M", "d": {"button": 1, "pos": [307, 219], "ui_clicked": false}}
+{"t": 61.734, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 61.735, "e": "P", "d": {"start": [201, 136], "goal": [199, 140], "length": 3, "is_direction_change": false}}
+{"t": 61.736, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 61.774, "e": "J", "d": {"txt": "Sektor sieht ruhig aus. Erstmal Daten-Traces scannen.", "sit": "EXPLORATION_SHORT"}}
+{"t": 61.775, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 61.883, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 61.915, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 61.997, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 62.046, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 62.047, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 62.11, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 62.144, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 62.165, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 62.294, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 62.46, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 62.461, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 62.544, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 62.566, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 62.612, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 62.695, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 62.718, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 62.861, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 62.862, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 62.945, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 62.969, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 63.11, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 63.227, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 63.276, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 63.277, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 63.326, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 63.36, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 63.384, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 63.51, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 63.675, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 63.676, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 63.759, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 63.792, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 63.857, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 63.925, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 63.946, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 64.086, "e": "M", "d": {"button": 1, "pos": [313, 165], "ui_clicked": false}}
+{"t": 64.093, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 64.094, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 64.095, "e": "SFX", "d": {"sound": "click_target", "volume": 0.95}}
+{"t": 64.17, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 64.17, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 64.203, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 64.334, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 64.468, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.09}}
+{"t": 64.469, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 64.5, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 64.501, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 64.549, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 64.584, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 64.617, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 64.734, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 64.899, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 64.9, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 64.999, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 65.031, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 65.08, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 65.145, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 65.166, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 65.311, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 65.311, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 65.375, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.33}}
+{"t": 65.408, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 65.441, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 65.555, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 65.69, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 65.722, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 65.723, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 65.771, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 65.82, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 65.852, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 65.966, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 66.115, "e": "M", "d": {"button": 1, "pos": [333, 246], "ui_clicked": false}}
+{"t": 66.132, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 66.132, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 66.233, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 66.265, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 66.288, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.35}}
+{"t": 66.304, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 66.38, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 66.38, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 66.547, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 66.548, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 66.549, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 66.649, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 66.681, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 66.912, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 66.962, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 66.963, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 66.995, "e": "M", "d": {"button": 1, "pos": [321, 213], "ui_clicked": false}}
+{"t": 67.002, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 67.003, "e": "SFX", "d": {"sound": "action_cancel", "volume": 1.0}}
+{"t": 67.004, "e": "P", "d": {"start": [198, 136], "goal": [198, 140], "length": 1, "is_direction_change": false}}
+{"t": 67.004, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 67.062, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 67.096, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 67.196, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.36}}
+{"t": 67.362, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 67.363, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 67.471, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 67.504, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 67.767, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 67.768, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 67.88, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 67.915, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 68.099, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.31}}
+{"t": 68.183, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 68.184, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 68.206, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 68.282, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 68.315, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 68.597, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 68.598, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 68.621, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 68.73, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 69.013, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 69.014, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 69.035, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 69.113, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 69.135, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 69.295, "e": "M", "d": {"button": 1, "pos": [347, 148], "ui_clicked": false}}
+{"t": 69.428, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 69.428, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 69.527, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 69.55, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 69.841, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 69.841, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 69.863, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 69.94, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 69.962, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 70.007, "e": "M", "d": {"button": 1, "pos": [347, 149], "ui_clicked": false}}
+{"t": 70.014, "e": "P", "d": {"start": [198, 140], "goal": [201, 136], "length": 2, "is_direction_change": false}}
+{"t": 70.015, "e": "SFX", "d": {"sound": "click_target", "volume": 0.87}}
+{"t": 70.075, "e": "J", "d": {"txt": "Kurzer Blick um die Ecke...", "sit": "EXPLORATION_SHORT"}}
+{"t": 70.076, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 70.248, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 70.248, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 70.27, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 70.328, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 70.35, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 70.365, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 70.651, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 70.674, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 70.675, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 70.752, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 70.772, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 71.065, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 71.086, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 71.087, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 71.162, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 71.185, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 71.478, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 71.499, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 71.5, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 71.575, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 71.592, "e": "M", "d": {"button": 1, "pos": [300, 209], "ui_clicked": false}}
+{"t": 71.599, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 71.6, "e": "SFX", "d": {"sound": "click_target", "volume": 0.71}}
+{"t": 71.889, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 71.912, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 71.913, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 71.99, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 72.013, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 72.305, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 72.328, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 72.328, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 72.329, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 72.403, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 72.425, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 72.518, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 72.717, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 72.738, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 72.738, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 72.739, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 72.814, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 72.836, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 73.126, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 73.128, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 73.148, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 73.149, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 73.15, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 73.224, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}

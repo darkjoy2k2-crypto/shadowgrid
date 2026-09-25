@@ -1,0 +1,10 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_111801", "sys_t": "2026-09-25T11:18:01.401999"}}
+{"t": 0.012, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.062, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.075, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.116, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 0.222, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 0.376, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 0.545, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 0.705, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 0.873, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}

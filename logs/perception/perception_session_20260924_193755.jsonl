@@ -1,0 +1,138 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260924_193755", "sys_t": "2026-09-24T19:37:55.288737"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 0.875, "e": "J", "d": {"txt": "CYBERDECK OS v4.2 // SYSTEME BEREIT", "sit": "SESSION_START"}}
+{"t": 0.968, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 1.25, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 1.367, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 1.389, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 1.433, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 1.583, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 1.635, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 1.635, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 1.672, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 1.796, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 1.846, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 2.042, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 2.064, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 2.192, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.14}}
+{"t": 2.193, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 2.213, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 2.224, "e": "M", "d": {"button": 1, "pos": [277, 267], "ui_clicked": true}}
+{"t": 2.285, "e": "J", "d": {"txt": "Blick ins Systemfenster... Was führen wir im Schild?", "sit": "UI_INTERACTION"}}
+{"t": 2.3, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 2.444, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 2.468, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 2.595, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 2.617, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 2.792, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.15}}
+{"t": 2.844, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 2.867, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 2.995, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 3.012, "e": "M", "d": {"button": 3, "pos": [308, 231], "ui_clicked": true}}
+{"t": 3.043, "e": "J", "d": {"txt": "Blick ins Systemfenster... Was führen wir im Schild?", "sit": "UI_INTERACTION"}}
+{"t": 3.044, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 3.256, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.256, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 3.28, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 3.407, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.17}}
+{"t": 3.408, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 3.429, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.509, "e": "M", "d": {"button": 3, "pos": [237, 261], "ui_clicked": true}}
+{"t": 3.522, "e": "J", "d": {"txt": "Okay, ich merke selbst, dass ich ständig dasselbe denke...", "sit": "UI_INTERACTION"}}
+{"t": 3.535, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 3.666, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.666, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 3.688, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 3.818, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 3.84, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.931, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 3.997, "e": "M", "d": {"button": 1, "pos": [164, 293], "ui_clicked": true}}
+{"t": 4.029, "e": "J", "d": {"txt": "Deck-Einstellungen werden angepasst...", "sit": "UI_INTERACTION"}}
+{"t": 4.043, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 4.071, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 4.071, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 4.093, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 4.219, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 4.243, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 4.334, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 4.428, "e": "M", "d": {"button": 3, "pos": [158, 295], "ui_clicked": true}}
+{"t": 4.44, "e": "J", "d": {"txt": "Inventar durchwühlen. Wo liegt das passende Tool?", "sit": "UI_INTERACTION"}}
+{"t": 4.483, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 4.484, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 4.631, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 4.654, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 4.654, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 4.748, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 4.899, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 4.899, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 5.015, "e": "M", "d": {"button": 1, "pos": [639, 197], "ui_clicked": true}}
+{"t": 5.041, "e": "J", "d": {"txt": "Inventar durchwühlen. Wo liegt das passende Tool?", "sit": "UI_INTERACTION"}}
+{"t": 5.056, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 5.057, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 5.148, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 5.148, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 5.248, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 5.314, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 5.314, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 5.462, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 5.463, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 5.562, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 5.729, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 5.729, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 5.864, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 5.864, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 5.864, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 5.964, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 5.985, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 6.145, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 6.145, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 6.277, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 6.476, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 6.56, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 6.56, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 6.692, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 6.841, "e": "M", "d": {"button": 1, "pos": [111, 36], "ui_clicked": true}}
+{"t": 6.879, "e": "J", "d": {"txt": "Ich wiederhole mich schon wieder. Zeit fürs Klappe halten.", "sit": "UI_INTERACTION"}}
+{"t": 6.969, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 7.085, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.21}}
+{"t": 7.107, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 7.382, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 7.517, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 7.704, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.2}}
+{"t": 7.919, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 8.317, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.19}}
+{"t": 8.339, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 8.749, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 8.932, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 9.014, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 9.132, "e": "M", "d": {"button": 1, "pos": [510, 38], "ui_clicked": true}}
+{"t": 9.159, "e": "J", "d": {"txt": "Inventar durchwühlen. Wo liegt das passende Tool?", "sit": "UI_INTERACTION"}}
+{"t": 9.171, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 9.428, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 9.543, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.18}}
+{"t": 9.575, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 9.592, "e": "M", "d": {"button": 1, "pos": [510, 35], "ui_clicked": true}}
+{"t": 9.624, "e": "J", "d": {"txt": "Deck-Einstellungen werden angepasst...", "sit": "UI_INTERACTION"}}
+{"t": 9.834, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 9.985, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 10.148, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.16}}
+{"t": 10.249, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 10.397, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 10.397, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 10.664, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 10.764, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.14}}
+{"t": 10.813, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 10.813, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 11.078, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 11.226, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 11.227, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 11.378, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 11.494, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 11.897, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 11.98, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 12.03, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 12.308, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 12.442, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 12.594, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.09}}
+{"t": 12.711, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 12.843, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
