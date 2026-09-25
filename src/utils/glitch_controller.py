@@ -6,10 +6,9 @@ from typing import Optional
 class GlitchPostProcessor:
     """
     Vault66-inspiriertes CRT Post-Processing:
-    - Smooth auf- und ableuchtender Phosphor Glow (strikt zwischen 0.1 und 0.5)
-    - Keine harten 0-1-0 Blitze oder Schirmeffekte
-    - Feine Interlace-Scanlines scrollen ultra-langsam (3px/s)
-    - Isolierte subtile Slice-Verschiebungen bei Bedrohung
+    - Phosphor Glow (additive grüne Aura um UI & Schrift)
+    - Effekte flashen/blitzen NICHT mehr abrupt, sondern wabern langsam von 0 auf 0.5 und zurück auf 0
+    - NUR die feinen Interlace-Scanlines scrollen ultra-langsam (3px/s)
     - CRT Corner Vignette (Vault66 Style)
     - Vollständig deaktivierbar im Death-Screen
     """
@@ -22,10 +21,13 @@ class GlitchPostProcessor:
         self.burst_intensity = 0.0
         
         self.time = 0.0
-        self.ambient_glitch_timer = random.uniform(3.0, 6.0)
+        self.ambient_glitch_timer = random.uniform(4.0, 7.0)
         self.active_slices: list[dict] = []
         self.active_rgb_shift: int = 0
-        self.glitch_duration_timer = 0.0
+        
+        # Langsame Waber-Steuerung (0.0 -> 0.5 -> 0.0)
+        self.waber_timer = 0.0
+        self.waber_duration = 1.6 # 1.6 Sekunden langes, langsames Auf- und Ab-Wabern
         
         # Pre-calculated Scanlines mit geviertelter Wirkungsstärke (21/255)
         self.scanline_surf = pygame.Surface((width, height), pygame.SRCALPHA)
@@ -55,28 +57,26 @@ class GlitchPostProcessor:
         self.target_intensity = max(0.05, min(1.0, target))
 
     def add_burst(self, amount: float = 0.5) -> None:
-        """Fügt einen spontanen Glitch-Impuls hinzu."""
-        self.burst_intensity = min(0.5, self.burst_intensity + amount * 0.3)
+        """Startet das langsame Wabern des Effekts von 0 auf 0.5."""
         self._trigger_micro_glitch(force_burst=True)
 
     def _trigger_micro_glitch(self, force_burst: bool = False) -> None:
-        """Erzeugt sporadische Bildversätze ohne harte Licht-Blitze."""
-        current = min(0.5, max(0.1, self.intensity + self.burst_intensity))
-        self.glitch_duration_timer = random.uniform(0.05, 0.12) if not force_burst else 0.20
+        """Startet das langsame Wabern (1.6 Sekunden Gesamtdauer, ohne Blitze)."""
+        self.waber_timer = self.waber_duration
         
-        num_slices = 1 if current < 0.25 else random.randint(1, 2)
         self.active_slices = []
+        num_slices = random.randint(1, 2)
         for _ in range(num_slices):
-            h = random.randint(2, 4) if current < 0.25 else random.randint(3, 8)
+            h = random.randint(3, 6)
             y = random.randint(0, self.height - h)
-            shift_dx = random.choice([-1, 1]) if current < 0.25 else random.randint(-4, 4)
+            shift_dx = random.choice([-2, -1, 1, 2])
             self.active_slices.append({
                 "y": y,
                 "h": h,
                 "dx": shift_dx
             })
             
-        self.active_rgb_shift = 1 if current < 0.3 else random.randint(1, 2)
+        self.active_rgb_shift = random.randint(1, 2)
 
     def update(self, dt: float) -> None:
         self.time += dt
@@ -84,23 +84,18 @@ class GlitchPostProcessor:
         # Smooth Intensität
         self.intensity += (self.target_intensity - self.intensity) * 4.0 * dt
         
-        if self.burst_intensity > 0:
-            self.burst_intensity = max(0.0, self.burst_intensity - 2.5 * dt)
-            
-        current = min(0.5, max(0.1, self.intensity + self.burst_intensity))
-        
-        # Sporadische Glitch-Trigger über Timer
-        self.ambient_glitch_timer -= dt
-        if self.ambient_glitch_timer <= 0:
-            interval = max(0.5, random.uniform(3.0, 6.0) - current * 3.0)
-            self.ambient_glitch_timer = interval
-            self._trigger_micro_glitch()
-
-        if self.glitch_duration_timer > 0:
-            self.glitch_duration_timer -= dt
-            if self.glitch_duration_timer <= 0:
+        # Waber-Timer Fortschritt (1.6s -> 0s)
+        if self.waber_timer > 0:
+            self.waber_timer = max(0.0, self.waber_timer - dt)
+            if self.waber_timer <= 0:
                 self.active_slices = []
                 self.active_rgb_shift = 0
+        
+        # Sporadische Trigger über Timer
+        self.ambient_glitch_timer -= dt
+        if self.ambient_glitch_timer <= 0:
+            self.ambient_glitch_timer = random.uniform(5.0, 9.0)
+            self._trigger_micro_glitch()
 
     def process(self, surface: pygame.Surface, disabled: bool = False) -> None:
         """Appliziert CRT Post-Processing. Wenn disabled=True, bleiben Glitches aus."""
@@ -111,11 +106,15 @@ class GlitchPostProcessor:
             surface.blit(self.vignette_surf, (0, 0))
             return
 
+        # Berechne den langsamen Waber-Wert (0.0 -> 0.5 -> 0.0) während des Effekts
+        waber_val = 0.0
+        if self.waber_timer > 0:
+            progress = (self.waber_duration - self.waber_timer) / self.waber_duration
+            waber_val = math.sin(progress * math.pi) * 0.5 # Woget langsam von 0 auf max 0.5 und zurück auf 0
+
         # -------------------------------------------------------------
-        # 1. Smooth Auf- und Ableuchtender Phosphor Glow (Strikt 0.1 bis 0.5)
+        # 1. Echter Phosphor Glow (Stabile grüne Aura um UI & Schrift)
         # -------------------------------------------------------------
-        smooth_wave = 0.10 + 0.40 * (0.5 + 0.5 * math.sin(self.time * 1.5))
-        
         small_w = max(10, int(self.width * 0.40))
         small_h = max(10, int(self.height * 0.40))
         
@@ -127,32 +126,33 @@ class GlitchPostProcessor:
         bloom_tint.fill((0, 210, 110))
         bloom_surf.blit(bloom_tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
         
-        # Glow Alpha skaliert sanft & fließend mit smooth_wave (strikt 0.1 .. 0.5)
-        glow_alpha = int(8 + smooth_wave * 28)
+        # Glow Alpha mit ruhiger konstanter Grundtönung + weichem Waber-Einfluss
+        glow_alpha = int(14 + waber_val * 20) # Grundwert 14, steigt beim Wabern sanft auf max 24
         bloom_surf.set_alpha(glow_alpha)
         surface.blit(bloom_surf, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
 
         # -------------------------------------------------------------
-        # 2. Dezent gesteuerter RGB Shift
+        # 2. Langsam wabernder RGB Shift (NUR aktiv wenn waber_val > 0)
         # -------------------------------------------------------------
-        if self.active_rgb_shift > 0:
+        if self.active_rgb_shift > 0 and waber_val > 0.01:
             rgb_sub = surface.copy()
-            rgb_sub.set_alpha(int(12 + smooth_wave * 20))
+            rgb_sub.set_alpha(int(waber_val * 40)) # steigt langsam auf max 20 Alpha
             surface.blit(rgb_sub, (self.active_rgb_shift, 0), special_flags=pygame.BLEND_RGBA_ADD)
 
         # -------------------------------------------------------------
-        # 3. Subtile Slice Verschiebung (OHNE helle Licht-Blitze)
+        # 3. Langsam wabernde Subtile Slice Verschiebung (NUR aktiv wenn waber_val > 0)
         # -------------------------------------------------------------
-        if self.active_slices:
+        if self.active_slices and waber_val > 0.01:
             temp_copy = surface.copy()
             for s in self.active_slices:
                 y = s["y"]
                 h = s["h"]
-                dx = s["dx"]
-                
-                slice_rect = pygame.Rect(0, y, self.width, h)
-                sub = temp_copy.subsurface(slice_rect).copy()
-                surface.blit(sub, (dx, y))
+                # Versatz moduliert mit dem Waber-Wert
+                dx = round(s["dx"] * (waber_val * 2.0))
+                if dx != 0:
+                    slice_rect = pygame.Rect(0, y, self.width, h)
+                    sub = temp_copy.subsurface(slice_rect).copy()
+                    surface.blit(sub, (dx, y))
 
         # -------------------------------------------------------------
         # 4. Scanlines (3px/s) & CRT Vignette
