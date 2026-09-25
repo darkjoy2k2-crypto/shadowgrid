@@ -21,19 +21,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Build WebAssembly Web Package with Pygbag
+        uses: pygame-web/action-pygbag@v1
         with:
-          python-version: '3.11'
-
-      - name: Install dependencies & Pygbag
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install pygbag pygame-ce numpy
-
-      - name: Build WebAssembly Web Package
-        run: |
-          python -m pygbag --build main.py
+          args: --build --disable-sound-format-error main.py
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
