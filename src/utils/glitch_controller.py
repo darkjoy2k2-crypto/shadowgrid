@@ -6,10 +6,10 @@ from typing import Optional
 class GlitchPostProcessor:
     """
     Vault66-inspiriertes CRT Post-Processing:
-    - Echter Phosphor Glow (additive grüne Licht-Aura um UI & Schrift) ohne Helligkeits-Flackern
-    - Stabile, knallige Lesbarkeit aller Interface-Elemente
-    - NUR die feinen Interlace-Scanlines scrollen ultra-langsam (3px/s)
-    - Isolierte, nicht-scrollende Glitch-Slices bei Bedrohung
+    - Smooth auf- und ableuchtender Phosphor Glow (strikt zwischen 0.1 und 0.5)
+    - Keine harten 0-1-0 Blitze oder Schirmeffekte
+    - Feine Interlace-Scanlines scrollen ultra-langsam (3px/s)
+    - Isolierte subtile Slice-Verschiebungen bei Bedrohung
     - CRT Corner Vignette (Vault66 Style)
     - Vollständig deaktivierbar im Death-Screen
     """
@@ -56,29 +56,27 @@ class GlitchPostProcessor:
 
     def add_burst(self, amount: float = 0.5) -> None:
         """Fügt einen spontanen Glitch-Impuls hinzu."""
-        self.burst_intensity = min(1.0, self.burst_intensity + amount)
+        self.burst_intensity = min(0.5, self.burst_intensity + amount * 0.3)
         self._trigger_micro_glitch(force_burst=True)
 
     def _trigger_micro_glitch(self, force_burst: bool = False) -> None:
-        """Erzeugt sporadische Glitch-Slices und RGB-Shifts mit kurzer Dauer."""
-        current = min(1.0, self.intensity + self.burst_intensity)
-        self.glitch_duration_timer = random.uniform(0.05, 0.15) if not force_burst else 0.35
+        """Erzeugt sporadische Bildversätze ohne harte Licht-Blitze."""
+        current = min(0.5, max(0.1, self.intensity + self.burst_intensity))
+        self.glitch_duration_timer = random.uniform(0.05, 0.12) if not force_burst else 0.20
         
-        num_slices = 1 if current < 0.25 else random.randint(1, int(1 + current * 4))
+        num_slices = 1 if current < 0.25 else random.randint(1, 2)
         self.active_slices = []
         for _ in range(num_slices):
-            h = random.randint(2, 5) if current < 0.25 else random.randint(3, 18)
+            h = random.randint(2, 4) if current < 0.25 else random.randint(3, 8)
             y = random.randint(0, self.height - h)
-            shift_dx = random.choice([-1, 1]) if current < 0.25 else random.randint(-16, 16)
-            is_flash = (current > 0.4 and random.random() < 0.3)
+            shift_dx = random.choice([-1, 1]) if current < 0.25 else random.randint(-4, 4)
             self.active_slices.append({
                 "y": y,
                 "h": h,
-                "dx": shift_dx,
-                "flash": is_flash
+                "dx": shift_dx
             })
             
-        self.active_rgb_shift = 1 if current < 0.3 else random.randint(1, int(1 + current * 4))
+        self.active_rgb_shift = 1 if current < 0.3 else random.randint(1, 2)
 
     def update(self, dt: float) -> None:
         self.time += dt
@@ -89,12 +87,12 @@ class GlitchPostProcessor:
         if self.burst_intensity > 0:
             self.burst_intensity = max(0.0, self.burst_intensity - 2.5 * dt)
             
-        current = min(1.0, self.intensity + self.burst_intensity)
+        current = min(0.5, max(0.1, self.intensity + self.burst_intensity))
         
         # Sporadische Glitch-Trigger über Timer
         self.ambient_glitch_timer -= dt
         if self.ambient_glitch_timer <= 0:
-            interval = max(0.2, random.uniform(3.0, 6.0) - current * 4.0)
+            interval = max(0.5, random.uniform(3.0, 6.0) - current * 3.0)
             self.ambient_glitch_timer = interval
             self._trigger_micro_glitch()
 
@@ -113,12 +111,11 @@ class GlitchPostProcessor:
             surface.blit(self.vignette_surf, (0, 0))
             return
 
-        current = min(1.0, self.intensity + self.burst_intensity)
-
         # -------------------------------------------------------------
-        # 1. Echter Phosphor Glow (Additive grüne Aura, 100% Flackerfrei!)
+        # 1. Smooth Auf- und Ableuchtender Phosphor Glow (Strikt 0.1 bis 0.5)
         # -------------------------------------------------------------
-        # Bilineares Downsampling für weichen Glow
+        smooth_wave = 0.10 + 0.40 * (0.5 + 0.5 * math.sin(self.time * 1.5))
+        
         small_w = max(10, int(self.width * 0.40))
         small_h = max(10, int(self.height * 0.40))
         
@@ -130,21 +127,21 @@ class GlitchPostProcessor:
         bloom_tint.fill((0, 210, 110))
         bloom_surf.blit(bloom_tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
         
-        # Additiver Phosphor Glow über die Oberfläche (ohne Sinus-Flackern!)
-        glow_alpha = int(16 + current * 24)
+        # Glow Alpha skaliert sanft & fließend mit smooth_wave (strikt 0.1 .. 0.5)
+        glow_alpha = int(8 + smooth_wave * 28)
         bloom_surf.set_alpha(glow_alpha)
         surface.blit(bloom_surf, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
 
         # -------------------------------------------------------------
-        # 2. Sporadischer RGB Chromatic Shift
+        # 2. Dezent gesteuerter RGB Shift
         # -------------------------------------------------------------
         if self.active_rgb_shift > 0:
             rgb_sub = surface.copy()
-            rgb_sub.set_alpha(int(20 + current * 40))
+            rgb_sub.set_alpha(int(12 + smooth_wave * 20))
             surface.blit(rgb_sub, (self.active_rgb_shift, 0), special_flags=pygame.BLEND_RGBA_ADD)
 
         # -------------------------------------------------------------
-        # 3. Sporadische Horizontal Slice Tearing Glitches (NICHT SCROLLEND)
+        # 3. Subtile Slice Verschiebung (OHNE helle Licht-Blitze)
         # -------------------------------------------------------------
         if self.active_slices:
             temp_copy = surface.copy()
@@ -155,12 +152,6 @@ class GlitchPostProcessor:
                 
                 slice_rect = pygame.Rect(0, y, self.width, h)
                 sub = temp_copy.subsurface(slice_rect).copy()
-                
-                if s["flash"]:
-                    flash = pygame.Surface((self.width, h), pygame.SRCALPHA)
-                    flash.fill((120, 255, 180, 50))
-                    sub.blit(flash, (0, 0), special_flags=pygame.BLEND_RGBA_ADD)
-                    
                 surface.blit(sub, (dx, y))
 
         # -------------------------------------------------------------
