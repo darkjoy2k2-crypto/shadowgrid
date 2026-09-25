@@ -3,7 +3,10 @@ import sys
 import tempfile
 import subprocess
 import pygame
-import cv2
+try:
+    import cv2
+except ImportError:
+    cv2 = None
 from typing import Any, Optional
 from src.core.state_machine import State
 from src.utils.fade_controller import FadeController
