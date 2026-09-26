@@ -23,16 +23,35 @@ namespace ShadowgridLauncher
             string width = resParts[0];
             string height = resParts[1];
             
-            string displayIndex = monitor.Contains("2") ? "1" : "0";
+            string displayIndex = (monitor != null && monitor.Contains("2")) ? "1" : "0";
             
             bool isFullscreen = ChkFullscreen.IsChecked ?? false;
             string fsArg = isFullscreen ? " --fullscreen" : "";
 
-            string exePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "game", "Shadowgrid.exe");
-            
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            string exePath = Path.Combine(baseDir, "game", "Shadowgrid.exe");
+            string workDir = Path.Combine(baseDir, "game");
+
             if (!File.Exists(exePath))
             {
-                exePath = "python"; 
+                exePath = Path.Combine(baseDir, "Shadowgrid", "Shadowgrid.exe");
+                workDir = Path.Combine(baseDir, "Shadowgrid");
+            }
+
+            if (!File.Exists(exePath))
+            {
+                exePath = Path.Combine(baseDir, "Shadowgrid.exe");
+                workDir = baseDir;
+            }
+
+            if (!File.Exists(exePath))
+            {
+                exePath = "python";
+                workDir = Path.GetFullPath(Path.Combine(baseDir, "..", "..", "..", ".."));
+                if (!File.Exists(Path.Combine(workDir, "main.py")))
+                {
+                    workDir = Directory.GetCurrentDirectory();
+                }
             }
 
             try
@@ -41,11 +60,11 @@ namespace ShadowgridLauncher
                 if (exePath == "python") {
                     startInfo.FileName = "python";
                     startInfo.Arguments = $"-m src.main --width {width} --height {height} --display {displayIndex}{fsArg}";
-                    startInfo.WorkingDirectory = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", ".."));
+                    startInfo.WorkingDirectory = workDir;
                 } else {
                     startInfo.FileName = exePath;
                     startInfo.Arguments = $"--width {width} --height {height} --display {displayIndex}{fsArg}";
-                    startInfo.WorkingDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "game");
+                    startInfo.WorkingDirectory = workDir;
                 }
                 
                 startInfo.UseShellExecute = false;

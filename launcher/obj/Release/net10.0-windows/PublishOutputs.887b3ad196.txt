@@ -1,0 +1,5 @@
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.exe
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.dll
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.deps.json
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.runtimeconfig.json
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.pdb

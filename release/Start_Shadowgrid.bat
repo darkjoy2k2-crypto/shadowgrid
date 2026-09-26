@@ -1,3 +1,7 @@
 @echo off
 cd /d "%~dp0"
-start "" "Shadowgrid\Shadowgrid.exe"
+if exist "ShadowgridLauncher.exe" (
+    start "" "ShadowgridLauncher.exe"
+) else (
+    start "" "Shadowgrid\Shadowgrid.exe"
+)
