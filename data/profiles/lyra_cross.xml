@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>70</id>
+    <name>Lyra Cross</name>
+    <gender>Female</gender>
+    <age_group>Adult (28-33)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Sub-Net Signal Specialist</job>
+    <image_path>media/images/Faces_edited/lyra_cross.png</image_path>
+    <story>Signal specialist tuning long-range relays for off-grid trading syndicates.</story>
+    <comment_jack>JACK // HIGH-FREQUENCY TRANSMISSIONS. HER CACHE REFILLS QUICKLY.</comment_jack>
+    <personality_traits>Alert, Efficient, Clever</personality_traits>
+</civilian_profile>

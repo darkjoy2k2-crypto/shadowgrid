@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>101</id>
+    <name>Elena Cross</name>
+    <category>EX_WIFE</category>
+    <gender>Female</gender>
+    <age_group>Adult (32-36)</age_group>
+    <origin>High-Rise Corporate Sprawl</origin>
+    <job>Corporate PR Executive</job>
+    <image_path>src/gfx/faces/elena_cross.png</image_path>
+    <story>Jack's former wife who severed all ties immediately after the fabricated corporate assault scandal.</story>
+    <comment_jack>JACK // ELENA... SHE CHOSE THE CONCERN'S LIES OVER MY INNOCENCE.</comment_jack>
+    <personality_traits>Bitter, Distant, Brainwashed</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Jack?! Was suchst du hier im Konzern-Grid? Du hast mein Leben ruiniert! Die Missbrauchsvorwürfe des Chefs... der Skandal! Ich habe dir vertraut!</text>
+            <choices>
+                <choice>
+                    <text>1. Wahrheit erklären: 'Elena, es war eine Intrige! Die Chefgattin hat gelogen!'</text>
+                    <next_node>page2</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>2. Wütend kontern: 'Du hast den Konzernlügen sofort geglaubt!'</text>
+                    <next_node>page_conflict</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>3. Schweigen &amp; Gespräch abbrechen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page2">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Egal was du sagst, Jack. Der Konzern hat deine Akte geschlossen. Ich kann dir nicht mehr helfen... verschwinde, bevor die Wachen kommen.</text>
+            <choices>
+                <choice>
+                    <text>1. Traurig abziehen [Schmerzhafte Erinnerung]</text>
+                    <next_node></next_node>
+                    <action>EX_WIFE_REASON</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page_conflict">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Du bist ein Krimineller geworden, Jack! Sicherheit! ALARM!</text>
+            <choices>
+                <choice>
+                    <text>1. [Fliehen vor dem Konzern-Alarm!]</text>
+                    <next_node></next_node>
+                    <action>TRIGGER_ALARM</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

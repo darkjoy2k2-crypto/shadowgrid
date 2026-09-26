@@ -1,0 +1,6 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_223023", "sys_t": "2026-09-25T22:30:23.969828"}}
+{"t": 0.031, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.059, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.061, "e": "J", "d": {"txt": "JACK // PROXY SAFE - SANCTUARY ACTIVE", "sit": "PROXY_SAFE"}}
+{"t": 0.08, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.081, "e": "J", "d": {"txt": "JACK // CAMERA SIGHTING DELIVERED TO GUARD SPOT, BUT PROXY MASKED JACK'S SIGNATURE. NO ALARM!", "sit": "PROXY_PROTECTED"}}

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>50</id>
+    <name>Sora Vance</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (21-25)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Virtual Reality Streamer</job>
+    <image_path>media/images/Faces_edited/sora_vance.png</image_path>
+    <story>Popular underground VR streamer broadcasting black-market deck runs live.</story>
+    <comment_jack>JACK // HER TRAFFIC IS ENORMOUS. HACKING HER GIVES MASSIVE PASS-BY DATA.</comment_jack>
+    <personality_traits>Famous, Trendy, Careless</personality_traits>
+</civilian_profile>

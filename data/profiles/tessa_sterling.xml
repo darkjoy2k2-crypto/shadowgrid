@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>54</id>
+    <name>Tessa Sterling</name>
+    <gender>Female</gender>
+    <age_group>Adult (32-37)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Industrial Automation Eng</job>
+    <image_path>media/images/Faces_edited/tessa_sterling.png</image_path>
+    <story>Engineer designing self-repairing robotics for toxic manufacturing zones.</story>
+    <comment_jack>JACK // PRACTICAL MIND. HER CODES ARE CLEAN AND HIGHLY EFFICIENT.</comment_jack>
+    <personality_traits>Logical, Direct, Reliable</personality_traits>
+</civilian_profile>

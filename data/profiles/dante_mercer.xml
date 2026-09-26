@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>12</id>
+    <name>Dante Mercer</name>
+    <gender>Male</gender>
+    <age_group>Adult (29-35)</age_group>
+    <origin>Free-Net Sanctuary</origin>
+    <job>Free-Net Journalist</job>
+    <image_path>media/images/Faces_edited/dante_mercer.png</image_path>
+    <story>Free-net journalist archiving suppressed corporate whistleblower logs in distributed caches.</story>
+    <comment_jack>JACK // IDEALIST IN A DEAD WORLD. CARRIES GOLDMINES OF UNRESTRICTED TRADED DATA.</comment_jack>
+    <personality_traits>Idealistic, Determined, Exposed</personality_traits>
+</civilian_profile>

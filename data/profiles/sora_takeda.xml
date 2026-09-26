@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>7</id>
+    <name>Sora Takeda</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (22-26)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Augmentation Engineer</job>
+    <image_path>media/images/Faces_edited/sora_takeda.png</image_path>
+    <story>Cyber-augmentation technician modifying black-market optics for sub-grid hackers.</story>
+    <comment_jack>JACK // RETAINS OLD HARDWARE SCHEMATICS. WEARS HIGH-FREQ JAMMER WEAVE.</comment_jack>
+    <personality_traits>Creative, Rebellious, Technical</personality_traits>
+</civilian_profile>

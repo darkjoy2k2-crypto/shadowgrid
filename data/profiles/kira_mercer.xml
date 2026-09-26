@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>58</id>
+    <name>Kira Mercer</name>
+    <gender>Female</gender>
+    <age_group>Adult (27-33)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Executive Assistant</job>
+    <image_path>media/images/Faces_edited/kira_mercer.png</image_path>
+    <story>Executive assistant managing confidential schedules for corporate board members.</story>
+    <comment_jack>JACK // INSIDER KNOWLEDGE. HER CACHE CONTAINS UNLISTED DOCKING TILES.</comment_jack>
+    <personality_traits>Discrete, Alert, Polished</personality_traits>
+</civilian_profile>

@@ -1,0 +1,7 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_193732", "sys_t": "2026-09-25T19:37:32.996819"}}
+{"t": 0.028, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.076, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.091, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.092, "e": "C", "d": {"civ_pos": [54, 15]}}
+{"t": 0.29, "e": "J", "d": {"txt": "Hörst du das Wummern? Sentinels in der Nähe... Bloß keinen falschen Schritt machen!", "sit": "SENTINEL_NEAR"}}
+{"t": 0.303, "e": "J", "d": {"txt": "JACK // PROXY SAFE - SANCTUARY ACTIVE", "sit": "PROXY_SAFE"}}

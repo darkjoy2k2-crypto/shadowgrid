@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>27</id>
+    <name>Jarek Stryker</name>
+    <gender>Male</gender>
+    <age_group>Adult (38-44)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Heavy Machine Interface Spec</job>
+    <image_path>media/images/Faces_edited/jarek_stryker.png</image_path>
+    <story>Industrial specialist controlling heavy automated mining rigs via sub-dermal links.</story>
+    <comment_jack>JACK // BRUTE FORCE USER. HIS CODES ARE SIMPLE BUT HEAVY ON THREAT ELEVATION.</comment_jack>
+    <personality_traits>Blunt, Tough, Relentless</personality_traits>
+</civilian_profile>

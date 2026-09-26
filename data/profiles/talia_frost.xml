@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>16</id>
+    <name>Talia Frost</name>
+    <gender>Female</gender>
+    <age_group>Adult (27-33)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Crypto-Relay Architect</job>
+    <image_path>media/images/Faces_edited/talia_frost.png</image_path>
+    <story>Cryptographic architect building off-grid mesh networks for insurgent coders.</story>
+    <comment_jack>JACK // EXTREMELY TIGHT ENCRYPTION. INFILTRATING HER NODE TAKES FAST REFLEXES.</comment_jack>
+    <personality_traits>Calm, Intellectual, High-Security</personality_traits>
+</civilian_profile>

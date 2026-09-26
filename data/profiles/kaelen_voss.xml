@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>25</id>
+    <name>Kaelen Voss</name>
+    <gender>Male</gender>
+    <age_group>Veteran (46-52)</age_group>
+    <origin>Orbital Relay Station</origin>
+    <job>Sub-Grid Protocol Engineer</job>
+    <image_path>media/images/Faces_edited/kaelen_voss.png</image_path>
+    <story>Protocol engineer who helped design the original architecture of the shadowgrid.</story>
+    <comment_jack>JACK // KNOWS EVERY BACKDOOR IN THE SYSTEM. HIS DATA IS HISTORICALLY VALUABLE.</comment_jack>
+    <personality_traits>Wise, Tired, Legend</personality_traits>
+</civilian_profile>

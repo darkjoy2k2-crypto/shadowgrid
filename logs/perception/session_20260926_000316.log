@@ -1,0 +1,29 @@
+[2026-09-26 00:03:16.036] [S] {"sid": "20260926_000316", "sys_t": "2026-09-26T00:03:16.035900"}
+[2026-09-26 00:03:16.037] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-26 00:03:18.092] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-26 00:03:18.146] [S] {"map": "Shadowgrid"}
+[2026-09-26 00:03:18.172] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-26 00:03:18.174] [SFX] {"sound": "civ_move_2", "volume": 0.28}
+[2026-09-26 00:03:18.174] [C] {"civ_pos": [124, 32]}
+[2026-09-26 00:03:18.273] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:03:18.406] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:03:18.574] [SFX] {"sound": "civ_move_2", "volume": 0.29}
+[2026-09-26 00:03:18.673] [SFX] {"sound": "civ_move_1", "volume": 0.29}
+[2026-09-26 00:03:18.808] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:03:18.973] [SFX] {"sound": "civ_move_2", "volume": 0.3}
+[2026-09-26 00:03:19.092] [SFX] {"sound": "civ_move_1", "volume": 0.3}
+[2026-09-26 00:03:19.123] [M] {"button": 1, "pos": [333, 275], "ui_clicked": false}
+[2026-09-26 00:03:19.225] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:03:19.226] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:03:19.391] [SFX] {"sound": "civ_move_2", "volume": 0.23}
+[2026-09-26 00:03:19.490] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-26 00:03:19.572] [M] {"button": 1, "pos": [345, 224], "ui_clicked": false}
+[2026-09-26 00:03:19.638] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:03:19.639] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-26 00:03:19.804] [SFX] {"sound": "civ_move_2", "volume": 0.23}
+[2026-09-26 00:03:19.904] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-26 00:03:20.038] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-26 00:03:20.039] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-26 00:03:20.204] [SFX] {"sound": "civ_move_2", "volume": 0.22}
+[2026-09-26 00:03:20.236] [M] {"button": 1, "pos": [339, 198], "ui_clicked": false}
+[2026-09-26 00:04:02.332] [M] {"button": 1, "pos": [323, 224], "ui_clicked": false}

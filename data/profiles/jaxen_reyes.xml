@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>65</id>
+    <name>Jaxen Reyes</name>
+    <gender>Male</gender>
+    <age_group>Adult (31-36)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Deep-Web Encryption Broker</job>
+    <image_path>media/images/Faces_edited/jaxen_reyes.png</image_path>
+    <story>Broker offering anonymous encryption keys for sub-net trading networks.</story>
+    <comment_jack>JACK // RELIABLE CRYPTO SOURCE. HIS CODES ARE STABLE AND WORTH STEALING.</comment_jack>
+    <personality_traits>Dependable, Quiet, Smart</personality_traits>
+</civilian_profile>

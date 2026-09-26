@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>14</id>
+    <name>Maya Sterling</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (21-25)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Sub-Light Sensor Tech</job>
+    <image_path>media/images/Faces_edited/maya_sterling.png</image_path>
+    <story>Junior sensor technician maintaining optical relays across urban traffic junctions.</story>
+    <comment_jack>JACK // EASY TARGET. HER PASS CODES ARE STILL SET TO FACTORY DEFAULT.</comment_jack>
+    <personality_traits>Naïve, Quick, Unprepared</personality_traits>
+</civilian_profile>

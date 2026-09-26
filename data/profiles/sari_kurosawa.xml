@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>36</id>
+    <name>Sari Kurosawa</name>
+    <gender>Female</gender>
+    <age_group>Adult (29-34)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Optic Implant Technician</job>
+    <image_path>media/images/Faces_edited/sari_kurosawa.png</image_path>
+    <story>Technician tuning high-resolution optical cyberware for competitive arena fighters.</story>
+    <comment_jack>JACK // IMPRESSIVE OPTICAL MODS. SHE SEES DATA STREAMS IN FULL COLOUR.</comment_jack>
+    <personality_traits>Detail-Oriented, Passionate, Sharp</personality_traits>
+</civilian_profile>

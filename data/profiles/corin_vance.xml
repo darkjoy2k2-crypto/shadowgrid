@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>19</id>
+    <name>Corin Vance</name>
+    <gender>Male</gender>
+    <age_group>Adult (33-38)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Firewall Specialist</job>
+    <image_path>media/images/Faces_edited/corin_vance.png</image_path>
+    <story>Senior firewall engineer patching zero-day exploits across public server nodes.</story>
+    <comment_jack>JACK // QUICK TO ENGAGE ICE LOCKS. HIS DATA NODES BOUNCE ALARM SIGNALS INSTANTLY.</comment_jack>
+    <personality_traits>Methodical, Rigid, Sharp</personality_traits>
+</civilian_profile>

@@ -1,0 +1,8 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_220213", "sys_t": "2026-09-25T22:02:13.282676"}}
+{"t": 0.027, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.057, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.072, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.087, "e": "JACK_REGISTERED_BY_CAMERA", "d": {"camera": [32, 54]}}
+{"t": 0.095, "e": "J", "d": {"txt": "JACK // EXTRACTED 1 DATA FRAGMENTS FROM WATCHER. REGISTRATION WIPED!", "sit": "HACK_SUCCESS"}}
+{"t": 0.102, "e": "JACK_REGISTERED_BY_CAMERA", "d": {"camera": [32, 54]}}
+{"t": 0.11, "e": "J", "d": {"txt": "JACK // CRITICAL! CAMERA SIGHTING DELIVERED TO GUARD SPOT! ALL GUARDS DISPATCHED!", "sit": "GLOBAL_ALARM"}}

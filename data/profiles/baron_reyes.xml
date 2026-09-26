@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>47</id>
+    <name>Baron Reyes</name>
+    <gender>Male</gender>
+    <age_group>Veteran (47-53)</age_group>
+    <origin>Orbital Relay Station</origin>
+    <job>Relay Station Commander</job>
+    <image_path>media/images/Faces_edited/baron_reyes.png</image_path>
+    <story>Station commander overseeing communications between orbital stations and Earth.</story>
+    <comment_jack>JACK // HIGH-LEVEL SATELLITE ACCESS. EXTRACTING HIS DATA YIELDS MAXIMUM FRAGMENTS.</comment_jack>
+    <personality_traits>Commanding, Rigid, Elite</personality_traits>
+</civilian_profile>

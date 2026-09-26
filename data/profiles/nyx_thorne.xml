@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>60</id>
+    <name>Nyx Thorne</name>
+    <gender>Non-Binary</gender>
+    <age_group>Adult (26-31)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Deep-Web Cryptographer</job>
+    <image_path>media/images/Faces_edited/nyx_thorne.png</image_path>
+    <story>Cryptographer designing unbreakable lattice encryption for sub-net rebels.</story>
+    <comment_jack>JACK // COMPLEX CIPHER ARCHITECTURE. REQUIRES SHARP FOCUS TO BREACH.</comment_jack>
+    <personality_traits>Brilliant, Reserved, Elusive</personality_traits>
+</civilian_profile>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>102</id>
+    <name>Arthur Cross</name>
+    <category>FATHER</category>
+    <gender>Male</gender>
+    <age_group>Senior (60-65)</age_group>
+    <origin>Executive Core District</origin>
+    <job>Senior Konzern Compliance Officer</job>
+    <image_path>src/gfx/faces/arthur_cross.png</image_path>
+    <story>Jack's estranged father who disowned him to protect his corporate standing and social status.</story>
+    <comment_jack>JACK // FATHER... HIS LOYALTY BELONGS TO THE BOARDROOM, NOT TO HIS BLOOD.</comment_jack>
+    <personality_traits>Cold, Strict, Unforgiving</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Jack. Ich dachte, du hättest wenigstens den Anstand, deinen Namen nie wieder mit unserer Familie in Verbindung zu bringen. Du bist eine Schande für das Haus Cross.</text>
+            <choices>
+                <choice>
+                    <text>1. 'Vater... ich wurde reingelegt! Warum hast du mich verstoßen?'</text>
+                    <next_node>page_rejection</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>2. 'Wo ist mein Sohn?! Was habt ihr Konzern-Schergen mit ihm gemacht?!'</text>
+                    <next_node>page_son_hint</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>3. Wortlos abbrechen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page_rejection">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Im Konzern zählt nur Leistung und makellose Ehre. Du hast beides verloren. Du bist nicht mehr mein Sohn.</text>
+            <choices>
+                <choice>
+                    <text>1. Wut heruntergeschluckt abziehen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page_son_hint">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>5</jack_emotion>
+            <text>Dein Sohn? Er dient dem Konzern jetzt als höheres Bewusstsein. Er ist vollständig in den Nährtanks integriert... die ultimative KI von Helix!</text>
+            <choices>
+                <choice>
+                    <text>1. Entsetzt das Gespräch beenden [Entschlüsseltes Lore-Detail]</text>
+                    <next_node></next_node>
+                    <action>FATHER_SON_DISCOVERY</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

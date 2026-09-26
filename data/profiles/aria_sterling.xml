@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>34</id>
+    <name>Aria Sterling</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (22-27)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Holographic Interface Designer</job>
+    <image_path>media/images/Faces_edited/aria_sterling.png</image_path>
+    <story>Designer crafting immersive holographic UI overlays for neural deck operators.</story>
+    <comment_jack>JACK // VISUAL ARTIST WITH A HACKING HABIT. HER NODES GLOW WITH CUSTOM SHADERS.</comment_jack>
+    <personality_traits>Creative, Vibrant, Flamboyant</personality_traits>
+</civilian_profile>

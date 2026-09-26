@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>35</id>
+    <name>Derrick Vance</name>
+    <gender>Male</gender>
+    <age_group>Adult (35-41)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Corporate Security Dispatch</job>
+    <image_path>media/images/Faces_edited/derrick_vance.png</image_path>
+    <story>Security dispatch coordinator routing sentinel patrols to active threat zones.</story>
+    <comment_jack>JACK // DIRECT LINE TO GUARD SPOTS. HACKING HIM REVEALS SENTINEL ROUTING.</comment_jack>
+    <personality_traits>Tactical, Focused, Hazardous</personality_traits>
+</civilian_profile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>26</id>
+    <name>Nomi Sun</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (20-24)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Sub-Net Courier</job>
+    <image_path>media/images/Faces_edited/nomi_sun.png</image_path>
+    <story>Young courier running physical data sticks through dangerous undercity alleys.</story>
+    <comment_jack>JACK // LIGHT ON HER FEET. FLIES THROUGH NODES BEFORE SENTINELS CAN TARGET HER.</comment_jack>
+    <personality_traits>Swift, Energetic, Fierce</personality_traits>
+</civilian_profile>

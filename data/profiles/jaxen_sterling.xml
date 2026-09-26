@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>49</id>
+    <name>Jaxen Sterling</name>
+    <gender>Male</gender>
+    <age_group>Adult (35-41)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Tactical Mesh Operator</job>
+    <image_path>media/images/Faces_edited/jaxen_sterling.png</image_path>
+    <story>Operator maintaining mesh node relays during corporate gang skirmishes.</story>
+    <comment_jack>JACK // STRESS-TESTED NETWORK. HIS ACCESS PASSES ARE TRIPLE-REINFORCED.</comment_jack>
+    <personality_traits>Resilient, Battle-Tested, Steady</personality_traits>
+</civilian_profile>

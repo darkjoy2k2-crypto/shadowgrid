@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>51</id>
+    <name>Silas Cole</name>
+    <gender>Male</gender>
+    <age_group>Adult (34-40)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Memory Wipe Specialist</job>
+    <image_path>media/images/Faces_edited/silas_cole.png</image_path>
+    <story>Specialist who wipes trauma memories for traumatized street mercenaries.</story>
+    <comment_jack>JACK // CARRIES HEAVY MEMORY FRAGMENTS. HIS DATA IS DARK AND COMPLEX.</comment_jack>
+    <personality_traits>Brooding, Quiet, Melancholic</personality_traits>
+</civilian_profile>

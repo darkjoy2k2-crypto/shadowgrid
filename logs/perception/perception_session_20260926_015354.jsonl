@@ -1,0 +1,3 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260926_015354", "sys_t": "2026-09-26T01:53:54.983084"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 0.347, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}

@@ -15,7 +15,7 @@ logs/*.log
 # Build & Release Output
 build/
 dist/
-release/
+build_pyi/
 *.spec
 
 # IDE & OS

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>53</id>
+    <name>Ren Vance</name>
+    <gender>Male</gender>
+    <age_group>Adult (29-35)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Sub-Dermal Modder</job>
+    <image_path>media/images/Faces_edited/ren_vance.png</image_path>
+    <story>Modder installing high-speed optical ports under human skin.</story>
+    <comment_jack>JACK // CHROME SURGEON. HIS CACHES ARE FILLED WITH CUSTOM HARDWARE DRIVERS.</comment_jack>
+    <personality_traits>Artistic, Edgy, Precise</personality_traits>
+</civilian_profile>

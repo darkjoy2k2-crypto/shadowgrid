@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>21</id>
+    <name>Zevon Cross</name>
+    <gender>Male</gender>
+    <age_group>Adult (36-41)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>High-Frequency Signal Trader</job>
+    <image_path>src/gfx/faces/zevon_cross.png</image_path>
+    <story>Wall Street algorithmic trader manipulating sub-millisecond data futures in Sector 1.</story>
+    <comment_jack>JACK // GREEDY DATA SWINE. HIS POCKETS ARE STUFFED WITH HIGH-YIELD CREDENTIALS.</comment_jack>
+    <personality_traits>Cutthroat, Fast, Wealthy</personality_traits>
+    <category>MERCHANT</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>He, Net-Runner! Ich bin Zevon Cross, High-Frequency Signal Trader. Brauchst du Prozessoren, Kühlmittel oder Proxy-Schlüssel?</text>
+            <choices>
+                <choice>
+                    <text>1. Schwarzmarkt-Shop freischalten [Spawnt Händler-Knoten (€)]</text>
+                    <next_node />
+                    <action>MERCHANT_SPAWN_NODE</action>
+                </choice>
+                <choice>
+                    <text>2. Tech-Quiz lösen: Welcher Bus-Takt verdoppelt den Puffer-Durchsatz?</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Abbrechen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welche Overclock-Frequenz beschleunigt den Hacking-Puffer am meisten?</text>
+            <choices>
+                <choice>
+                    <text>1. Dual-Phase Q16.16 Overclock [Richtig! +100 Credits &amp; Spawnt (€)]</text>
+                    <next_node />
+                    <action>MERCHANT_QUIZ_CORRECT</action>
+                </choice>
+                <choice>
+                    <text>2. 50 Hz Wechselstrom [Falsch]</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

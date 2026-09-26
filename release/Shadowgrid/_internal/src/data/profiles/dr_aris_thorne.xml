@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>107</id>
+    <name>Dr. Aris Thorne</name>
+    <category>MEDIC</category>
+    <gender>Male</gender>
+    <age_group>Adult (44-48)</age_group>
+    <origin>Slum Underground Clinic</origin>
+    <job>Underground Street Medic</job>
+    <image_path>src/gfx/faces/dr_aris_thorne.png</image_path>
+    <story>Rebel street doctor operating an illegal cyber-clinic treating victims of the corporate epidemic.</story>
+    <comment_jack>JACK // DR. THORNE. FIGHTING THE PHARMA EPIDEMIC WITH SCRAP MED-TECH.</comment_jack>
+    <personality_traits>Altruistic, Exhausted, Brilliant</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Grüße, Runner. Ich bin Dr. Thorne. Ich betreibe eine illegale Klinik in den Slums gegen die künstliche Konzern-Seuche. Brauchst du Hilfe oder willst du spenden?</text>
+            <choices>
+                <choice>
+                    <text>1. Medizinische Klinik unterstützen [Spawnt Mediziner-Knoten (+)]</text>
+                    <next_node></next_node>
+                    <action>MEDIC_SPAWN_NODE</action>
+                </choice>
+                <choice>
+                    <text>2. Fach-Quiz lösen: 'Welches Gegenmittel blockiert das Seuchen-Toxin?'</text>
+                    <next_node>quiz</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>3. Weitergehen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Testen wir dein medizinisches Wissen, Hacker: Welches Toxin-Antidot hemmt die Synthese der Helix-Seuche?</text>
+            <choices>
+                <choice>
+                    <text>1. Cyto-Blocker Alpha [Richtig! +100 Credits]</text>
+                    <next_node></next_node>
+                    <action>MEDIC_QUIZ_CORRECT</action>
+                </choice>
+                <choice>
+                    <text>2. Einfaches Kochsalz [Falsch]</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

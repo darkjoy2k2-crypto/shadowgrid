@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>26</id>
+    <name>Nomi Sun</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (20-24)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Sub-Net Courier</job>
+    <image_path>src/gfx/faces/nomi_sun.png</image_path>
+    <story>Young courier running physical data sticks through dangerous undercity alleys.</story>
+    <comment_jack>JACK // LIGHT ON HER FEET. FLIES THROUGH NODES BEFORE SENTINELS CAN TARGET HER.</comment_jack>
+    <personality_traits>Swift, Energetic, Fierce</personality_traits>
+    <category>TECHNICIAN</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Ich bin Nomi Sun, Sub-Net Courier. Ich kümmere mich um die Wartung der Datenpakete auf diesem Knoten.</text>
+            <choices>
+                <choice>
+                    <text>1. Daten-Cache fordern [+50 Data-Fragments]</text>
+                    <next_node />
+                    <action>REWARD_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. System-Quiz lösen [Frage-Quiz]</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Ignorieren &amp; Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welches A*-Pfadsuch-System navigiert die Zivilisten-Knoten auf dem Grid?</text>
+            <choices>
+                <choice>
+                    <text>1. Manhattan Subpixel Q16.16 A-Star [Richtig! +100 Credits]</text>
+                    <next_node />
+                    <action>REWARD_LARGE</action>
+                </choice>
+                <choice>
+                    <text>2. Zufallsmuster [Falsch]</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

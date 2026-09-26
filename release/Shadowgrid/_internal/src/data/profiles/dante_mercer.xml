@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>12</id>
+    <name>Dante Mercer</name>
+    <gender>Male</gender>
+    <age_group>Adult (29-35)</age_group>
+    <origin>Free-Net Sanctuary</origin>
+    <job>Free-Net Journalist</job>
+    <image_path>src/gfx/faces/dante_mercer.png</image_path>
+    <story>Free-net journalist archiving suppressed corporate whistleblower logs in distributed caches.</story>
+    <comment_jack>JACK // IDEALIST IN A DEAD WORLD. CARRIES GOLDMINES OF UNRESTRICTED TRADED DATA.</comment_jack>
+    <personality_traits>Idealistic, Determined, Exposed</personality_traits>
+    <category>TECHNICIAN</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Ich bin Dante Mercer, Free-Net Journalist. Ich kümmere mich um die Wartung der Datenpakete auf diesem Knoten.</text>
+            <choices>
+                <choice>
+                    <text>1. Daten-Cache fordern [+50 Data-Fragments]</text>
+                    <next_node />
+                    <action>REWARD_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. System-Quiz lösen [Frage-Quiz]</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Ignorieren &amp; Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welches A*-Pfadsuch-System navigiert die Zivilisten-Knoten auf dem Grid?</text>
+            <choices>
+                <choice>
+                    <text>1. Manhattan Subpixel Q16.16 A-Star [Richtig! +100 Credits]</text>
+                    <next_node />
+                    <action>REWARD_LARGE</action>
+                </choice>
+                <choice>
+                    <text>2. Zufallsmuster [Falsch]</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

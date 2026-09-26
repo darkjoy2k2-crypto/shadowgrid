@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>105</id>
+    <name>Timmy Cole</name>
+    <category>CHILD</category>
+    <gender>Male</gender>
+    <age_group>Child (9-12)</age_group>
+    <origin>Low-Grid Slums</origin>
+    <job>Street Runner Kid</job>
+    <image_path>src/gfx/faces/timmy_cole.png</image_path>
+    <story>A mischievous slum street kid wearing oversized cracked VR goggles and hunting for digital candy.</story>
+    <comment_jack>JACK // CHEEKY STREET KID. LOOKS HARMLESS, BUT HAS FAST FINGERS.</comment_jack>
+    <personality_traits>Playful, Tricky, Fast</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Hallo lustiger Roboter-Onkel! Hast du bunte Daten-Gummibärchen für mich? Mein Papa sagt, im Grid gibt es digitale Süßigkeiten!</text>
+            <choices>
+                <choice>
+                    <text>1. Virtuelles Kaugummi schenken [-10 Data-Fragments]</text>
+                    <next_node></next_node>
+                    <action>CHILD_GIVE_SWEETS</action>
+                </choice>
+                <choice>
+                    <text>2. Kopf tätscheln &amp; Weitergehen [Achtung Taschen!]</text>
+                    <next_node></next_node>
+                    <action>CHILD_PICKPOCKET</action>
+                </choice>
+                <choice>
+                    <text>3. Gruselige Hacker-Frage stellen [Quiz-Check]</text>
+                    <next_node>quiz</next_node>
+                    <action></action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Hihi! Du denkst ich bin dumm? Weißt du überhaupt, was ein Buffer Overflow ist, Onkel?</text>
+            <choices>
+                <choice>
+                    <text>1. Richtig antworten: Speichergrenzen mit Daten überfluten! [+50 Credits]</text>
+                    <next_node></next_node>
+                    <action>REWARD_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. Falsch antworten: Wenn die Brause im Glas überläuft!</text>
+                    <next_node></next_node>
+                    <action>CHILD_PICKPOCKET</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

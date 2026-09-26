@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>31</id>
+    <name>Jaxen Cole</name>
+    <gender>Male</gender>
+    <age_group>Young Adult (25-30)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Tactical Node Runner</job>
+    <image_path>media/images/Faces_edited/jaxen_cole.png</image_path>
+    <story>Fast-paced tactical runner delivering urgent breach kits to frontline hackers.</story>
+    <comment_jack>JACK // RUNS ON ADRENALINE INJECTORS. HIS PATHING IS ERRATIC AND FAST.</comment_jack>
+    <personality_traits>Hyperactive, Bold, Wild</personality_traits>
+</civilian_profile>

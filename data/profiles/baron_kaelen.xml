@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>9</id>
+    <name>Baron Kaelen</name>
+    <gender>Male</gender>
+    <age_group>Veteran (42-48)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Corporate Dispatcher</job>
+    <image_path>media/images/Faces_edited/baron_kaelen.png</image_path>
+    <story>Corporate freight dispatcher managing automated delivery drones across the shadowgrid.</story>
+    <comment_jack>JACK // REGULAR ROUTE SCHEDULES. EASY INTERCEPTION IF HACKED ON TIME.</comment_jack>
+    <personality_traits>Systematic, Punctual, Rigid</personality_traits>
+</civilian_profile>

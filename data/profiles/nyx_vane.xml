@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>8</id>
+    <name>Nyx Vane</name>
+    <gender>Non-Binary</gender>
+    <age_group>Young Adult (24-29)</age_group>
+    <origin>Undercity Docks</origin>
+    <job>Deep-Web Packet Sniffer</job>
+    <image_path>media/images/Faces_edited/nyx_vane.png</image_path>
+    <story>Deep-web packet sniffer rerouting illegal corporate streams to public relay nodes.</story>
+    <comment_jack>JACK // RUNS ANONYMOUS RELAYS. KEEPS HIS TRAFFIC NOISY TO BLUR HIS FOOTSTEPS.</comment_jack>
+    <personality_traits>Secretive, Chaotic, Fast</personality_traits>
+</civilian_profile>

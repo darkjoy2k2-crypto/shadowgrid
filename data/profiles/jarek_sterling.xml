@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>69</id>
+    <name>Jarek Sterling</name>
+    <gender>Male</gender>
+    <age_group>Adult (37-42)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Sub-Level Maintenance Chief</job>
+    <image_path>media/images/Faces_edited/jarek_sterling.png</image_path>
+    <story>Maintenance chief running sub-level coolant loops beneath server farms.</story>
+    <comment_jack>JACK // HEAVY INDUSTRIAL ACCESS. HIS KEYS UNLOCK CORE INFRASTRUCTURE.</comment_jack>
+    <personality_traits>Sturdy, Direct, Reliable</personality_traits>
+</civilian_profile>

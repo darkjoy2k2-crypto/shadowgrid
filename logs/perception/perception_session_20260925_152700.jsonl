@@ -1,0 +1,50 @@
+{"t": 0.001, "e": "S", "d": {"sid": "20260925_152700", "sys_t": "2026-09-25T15:27:00.467233"}}
+{"t": 0.004, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 1.811, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 1.864, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 1.897, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 2.447, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 2.481, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 2.851, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.17}}
+{"t": 2.892, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 3.256, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 3.726, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 4.059, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 4.124, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 4.342, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 4.459, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.19}}
+{"t": 4.534, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.16}}
+{"t": 4.873, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.18}}
+{"t": 4.937, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 4.96, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 5.101, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 5.283, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 5.347, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 5.515, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 5.563, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 5.696, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.24}}
+{"t": 5.761, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 5.929, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 6.112, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.25}}
+{"t": 6.161, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 6.185, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 6.329, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 6.511, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.2}}
+{"t": 6.562, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 6.742, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 6.791, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 6.925, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.2}}
+{"t": 6.976, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.1}}
+{"t": 7.156, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 7.337, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.21}}
+{"t": 7.388, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.09}}
+{"t": 7.41, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 7.57, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 7.752, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 7.799, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.08}}
+{"t": 7.981, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 8.013, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 8.109, "e": "C", "d": {"civ_pos": [140, 10]}}
+{"t": 8.141, "e": "J", "d": {"txt": "Da drüben bewegt sich eine Civ-Subroutine! Was führt die im Schilde?", "sit": "CIVILIAN_ENCOUNTER"}}
+{"t": 8.159, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 8.202, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}

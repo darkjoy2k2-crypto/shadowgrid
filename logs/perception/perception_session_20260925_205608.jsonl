@@ -1,0 +1,8 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_205608", "sys_t": "2026-09-25T20:56:08.273738"}}
+{"t": 0.043, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.065, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.079, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.115, "e": "C", "d": {"civ_pos": [54, 75]}}
+{"t": 0.116, "e": "J", "d": {"txt": "JACK // STOLE 3 DATA FROM DR. KAELEN STERLING (DATA COURIER). TARGET FLEEING TO GUARD SPOT!", "sit": "CIVILIAN_ALERTED"}}
+{"t": 0.116, "e": "J", "d": {"txt": "JACK // OBSESSED WITH QUANTUM KEYS. LEAVES RETINAL SHADOWS IN EVERY NODE HE TOUCHES.", "sit": "CIVILIAN_ATTACKED"}}
+{"t": 0.132, "e": "SENTINEL_ALARM_DISPATCHED", "d": {"guard": [42, 92], "investigate": [54, 91]}}

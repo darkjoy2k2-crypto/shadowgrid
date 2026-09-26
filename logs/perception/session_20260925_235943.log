@@ -1,0 +1,439 @@
+[2026-09-25 23:59:43.662] [S] {"sid": "20260925_235943", "sys_t": "2026-09-25T23:59:43.662071"}
+[2026-09-25 23:59:43.676] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-25 23:59:45.882] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-25 23:59:45.930] [S] {"map": "Shadowgrid"}
+[2026-09-25 23:59:45.953] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-25 23:59:47.408] [M] {"button": 1, "pos": [341, 218], "ui_clicked": false}
+[2026-09-25 23:59:47.416] [P] {"start": [118, 2], "goal": [120, 6], "length": 3, "is_direction_change": false}
+[2026-09-25 23:59:47.417] [SFX] {"sound": "click_target", "volume": 0.69}
+[2026-09-25 23:59:47.442] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:48.284] [M] {"button": 1, "pos": [334, 242], "ui_clicked": false}
+[2026-09-25 23:59:48.736] [M] {"button": 1, "pos": [325, 235], "ui_clicked": false}
+[2026-09-25 23:59:48.743] [P] {"start": [120, 6], "goal": [120, 12], "length": 1, "is_direction_change": false}
+[2026-09-25 23:59:48.744] [SFX] {"sound": "click_target", "volume": 0.66}
+[2026-09-25 23:59:49.275] [M] {"button": 1, "pos": [325, 235], "ui_clicked": false}
+[2026-09-25 23:59:49.653] [M] {"button": 1, "pos": [345, 231], "ui_clicked": false}
+[2026-09-25 23:59:49.659] [P] {"start": [120, 12], "goal": [123, 18], "length": 3, "is_direction_change": false}
+[2026-09-25 23:59:49.660] [SFX] {"sound": "click_target", "volume": 0.66}
+[2026-09-25 23:59:49.702] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:50.026] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:50.158] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:50.182] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-25 23:59:50.197] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-25 23:59:50.257] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:50.591] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-25 23:59:50.592] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-25 23:59:50.658] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:50.773] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-25 23:59:50.839] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:51.006] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-25 23:59:51.007] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-25 23:59:51.071] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:51.320] [M] {"button": 1, "pos": [343, 113], "ui_clicked": false}
+[2026-09-25 23:59:51.385] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-25 23:59:51.418] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-25 23:59:51.419] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:51.483] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:51.764] [M] {"button": 1, "pos": [349, 127], "ui_clicked": false}
+[2026-09-25 23:59:51.831] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-25 23:59:51.832] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:51.897] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:51.991] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-25 23:59:52.058] [M] {"button": 1, "pos": [350, 129], "ui_clicked": false}
+[2026-09-25 23:59:52.076] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:52.240] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:52.272] [M] {"button": 1, "pos": [353, 134], "ui_clicked": false}
+[2026-09-25 23:59:52.281] [P] {"start": [123, 18], "goal": [127, 12], "length": 3, "is_direction_change": false}
+[2026-09-25 23:59:52.281] [SFX] {"sound": "click_target", "volume": 0.82}
+[2026-09-25 23:59:52.320] [JACK] Kurzer Blick um die Ecke...
+[2026-09-25 23:59:52.335] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:52.429] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:52.478] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:52.595] [SFX] {"sound": "guardian_move", "volume": 0.0}
+[2026-09-25 23:59:52.643] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:52.742] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:52.743] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 23:59:52.891] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:53.057] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:53.156] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:53.206] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:53.272] [M] {"button": 1, "pos": [401, 181], "ui_clicked": false}
+[2026-09-25 23:59:53.280] [P] {"start": [127, 12], "goal": [136, 12], "length": 1, "is_direction_change": false}
+[2026-09-25 23:59:53.281] [SFX] {"sound": "click_target", "volume": 0.6}
+[2026-09-25 23:59:53.302] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:53.425] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:53.457] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:53.558] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:53.807] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:53.871] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-25 23:59:53.969] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:54.234] [M] {"button": 1, "pos": [404, 182], "ui_clicked": false}
+[2026-09-25 23:59:54.241] [P] {"start": [136, 12], "goal": [146, 12], "length": 1, "is_direction_change": false}
+[2026-09-25 23:59:54.242] [SFX] {"sound": "click_target", "volume": 0.59}
+[2026-09-25 23:59:54.266] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:54.282] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:54.377] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:54.560] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:54.677] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-25 23:59:54.790] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:54.791] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 23:59:54.807] [M] {"button": 1, "pos": [404, 182], "ui_clicked": false}
+[2026-09-25 23:59:54.941] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:55.087] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:55.205] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:55.354] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 23:59:55.355] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:55.404] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:55.502] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:55.605] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:55.754] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-25 23:59:55.755] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-25 23:59:55.820] [M] {"button": 1, "pos": [342, 234], "ui_clicked": false}
+[2026-09-25 23:59:55.827] [P] {"start": [146, 12], "goal": [148, 18], "length": 2, "is_direction_change": false}
+[2026-09-25 23:59:55.828] [SFX] {"sound": "click_target", "volume": 0.65}
+[2026-09-25 23:59:55.906] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:55.956] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:56.004] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-25 23:59:56.005] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-25 23:59:56.169] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-25 23:59:56.319] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:56.421] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:56.520] [M] {"button": 1, "pos": [328, 261], "ui_clicked": false}
+[2026-09-25 23:59:56.528] [P] {"start": [148, 18], "goal": [148, 27], "length": 1, "is_direction_change": false}
+[2026-09-25 23:59:56.529] [SFX] {"sound": "click_target", "volume": 0.61}
+[2026-09-25 23:59:56.583] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:56.584] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-25 23:59:56.585] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:56.618] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 23:59:56.733] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-25 23:59:56.834] [SENTINEL_EMPTIED_IOT] {"iot": "listener", "stolen_data": 3, "had_jack_sighting": false, "node": [122, 52]}
+[2026-09-25 23:59:56.834] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-25 23:59:56.892] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-25 23:59:56.911] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:56.988] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:56.989] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:57.022] [M] {"button": 1, "pos": [320, 276], "ui_clicked": false}
+[2026-09-25 23:59:57.140] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-25 23:59:57.222] [SFX] {"sound": "guardian_move", "volume": 0.1}
+[2026-09-25 23:59:57.244] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:57.389] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:57.390] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:57.490] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-25 23:59:57.555] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:57.802] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-25 23:59:57.803] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:57.835] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-25 23:59:57.966] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-25 23:59:58.050] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:58.100] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-25 23:59:58.215] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-25 23:59:58.216] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:58.366] [M] {"button": 1, "pos": [364, 214], "ui_clicked": false}
+[2026-09-25 23:59:58.381] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-25 23:59:58.447] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 23:59:58.469] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:58.629] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-25 23:59:58.629] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-25 23:59:58.712] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 23:59:58.794] [M] {"button": 1, "pos": [370, 207], "ui_clicked": false}
+[2026-09-25 23:59:58.804] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:58.805] [P] {"start": [148, 27], "goal": [154, 30], "length": 2, "is_direction_change": false}
+[2026-09-25 23:59:58.805] [SFX] {"sound": "click_target", "volume": 0.66}
+[2026-09-25 23:59:58.867] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-25 23:59:59.034] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 23:59:59.057] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-25 23:59:59.058] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 23:59:59.200] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-25 23:59:59.267] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 23:59:59.316] [SFX] {"sound": "guardian_move", "volume": 0.06}
+[2026-09-25 23:59:59.446] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 23:59:59.619] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-25 23:59:59.666] [SFX] {"sound": "guardian_move", "volume": 0.04}
+[2026-09-25 23:59:59.667] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-25 23:59:59.689] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 23:59:59.749] [M] {"button": 1, "pos": [383, 189], "ui_clicked": false}
+[2026-09-25 23:59:59.848] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-25 23:59:59.931] [SFX] {"sound": "guardian_move", "volume": 0.07}
+[2026-09-26 00:00:00.015] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:00.068] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:00:00.093] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:00.125] [M] {"button": 1, "pos": [395, 182], "ui_clicked": false}
+[2026-09-26 00:00:00.135] [P] {"start": [154, 30], "goal": [163, 30], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:00.136] [SFX] {"sound": "click_target", "volume": 0.61}
+[2026-09-26 00:00:00.224] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:00.257] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:00.280] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-26 00:00:00.296] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:00.426] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:00:00.490] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:00.524] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:00.548] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-26 00:00:00.658] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:00.691] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:00.724] [M] {"button": 1, "pos": [395, 182], "ui_clicked": false}
+[2026-09-26 00:00:00.733] [P] {"start": [163, 30], "goal": [170, 30], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:00.734] [SFX] {"sound": "click_target", "volume": 0.64}
+[2026-09-26 00:00:00.831] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:00.896] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:00.977] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:01.057] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:01.092] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:00:01.307] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:01.324] [M] {"button": 1, "pos": [395, 182], "ui_clicked": false}
+[2026-09-26 00:00:01.331] [P] {"start": [170, 30], "goal": [178, 30], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:01.332] [SFX] {"sound": "click_target", "volume": 0.63}
+[2026-09-26 00:00:01.467] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:01.532] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:01.711] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:01.911] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:01.927] [M] {"button": 1, "pos": [395, 182], "ui_clicked": false}
+[2026-09-26 00:00:02.126] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:02.325] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:02.539] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:02.556] [M] {"button": 1, "pos": [346, 219], "ui_clicked": false}
+[2026-09-26 00:00:02.708] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:02.920] [M] {"button": 1, "pos": [339, 230], "ui_clicked": false}
+[2026-09-26 00:00:02.928] [P] {"start": [178, 30], "goal": [180, 36], "length": 2, "is_direction_change": false}
+[2026-09-26 00:00:02.929] [SFX] {"sound": "click_target", "volume": 0.67}
+[2026-09-26 00:00:02.967] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:03.045] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:03.113] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:03.343] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:03.539] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:03.590] [SFX] {"sound": "guardian_move", "volume": 0.02}
+[2026-09-26 00:00:03.736] [M] {"button": 1, "pos": [323, 252], "ui_clicked": false}
+[2026-09-26 00:00:03.743] [P] {"start": [180, 36], "goal": [180, 44], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:03.744] [SFX] {"sound": "click_target", "volume": 0.63}
+[2026-09-26 00:00:03.768] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:03.769] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:03.924] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:03.947] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:04.056] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:04.156] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:04.204] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-26 00:00:04.304] [M] {"button": 1, "pos": [316, 273], "ui_clicked": false}
+[2026-09-26 00:00:04.337] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:04.361] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:04.485] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:00:04.566] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:04.764] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:04.812] [SFX] {"sound": "guardian_move", "volume": 0.07}
+[2026-09-26 00:00:04.829] [M] {"button": 1, "pos": [323, 253], "ui_clicked": false}
+[2026-09-26 00:00:04.837] [P] {"start": [180, 44], "goal": [180, 53], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:04.838] [SFX] {"sound": "click_target", "volume": 0.62}
+[2026-09-26 00:00:04.878] [JACK] Vorsichtig vorantasten...
+[2026-09-26 00:00:04.895] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:04.896] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-26 00:00:04.921] [SENTINEL_EMPTIED_IOT] {"iot": "listener", "stolen_data": 3, "had_jack_sighting": false, "node": [122, 52]}
+[2026-09-26 00:00:04.922] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:04.972] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:04.973] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:05.070] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:05.154] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:00:05.155] [C] {"civ_pos": [178, 50]}
+[2026-09-26 00:00:05.183] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:05.294] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:05.294] [SFX] {"sound": "civ_move_2", "volume": 0.06}
+[2026-09-26 00:00:05.327] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:05.376] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:00:05.376] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 00:00:05.556] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:00:05.580] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:05.706] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:00:05.707] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-26 00:00:05.740] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:00:05.789] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:00:05.790] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:05.958] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:00:05.982] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:06.111] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:00:06.112] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-26 00:00:06.144] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:00:06.179] [SENTINEL_EMPTIED_IOT] {"iot": "listener", "stolen_data": 1, "had_jack_sighting": false, "node": [122, 52]}
+[2026-09-26 00:00:06.202] [SFX] {"sound": "civ_move_1", "volume": 0.27}
+[2026-09-26 00:00:06.203] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:00:06.279] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:06.362] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:00:06.363] [SFX] {"sound": "civ_move_1", "volume": 0.27}
+[2026-09-26 00:00:06.384] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:06.513] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:06.514] [SFX] {"sound": "civ_move_2", "volume": 0.09}
+[2026-09-26 00:00:06.547] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:06.597] [SFX] {"sound": "civ_move_1", "volume": 0.26}
+[2026-09-26 00:00:06.597] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:00:06.680] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:06.762] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:00:06.762] [SFX] {"sound": "civ_move_1", "volume": 0.26}
+[2026-09-26 00:00:06.785] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:06.928] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:06.929] [SFX] {"sound": "civ_move_2", "volume": 0.1}
+[2026-09-26 00:00:06.962] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:07.009] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:00:07.010] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:07.074] [SENTINEL_EMPTIED_IOT] {"iot": "listener", "stolen_data": 0, "had_jack_sighting": false, "node": [122, 52]}
+[2026-09-26 00:00:07.096] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:00:07.157] [SFX] {"sound": "guardian_move", "volume": 0.01}
+[2026-09-26 00:00:07.182] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:00:07.183] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-26 00:00:07.183] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:00:07.201] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:07.329] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:07.330] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-26 00:00:07.363] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:07.413] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:00:07.414] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:07.494] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:07.578] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:00:07.579] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-26 00:00:07.580] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:00:07.603] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:07.742] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-26 00:00:07.765] [SFX] {"sound": "guardian_move", "volume": 0.03}
+[2026-09-26 00:00:07.781] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:07.823] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-26 00:00:07.824] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:07.904] [M] {"button": 1, "pos": [284, 165], "ui_clicked": false}
+[2026-09-26 00:00:07.911] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 00:00:07.988] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:07.989] [SFX] {"sound": "civ_move_2", "volume": 0.05}
+[2026-09-26 00:00:07.990] [SFX] {"sound": "civ_move_1", "volume": 0.23}
+[2026-09-26 00:00:08.010] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:08.153] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:08.154] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-26 00:00:08.186] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:08.236] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-26 00:00:08.236] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:08.318] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:08.368] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-26 00:00:08.402] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:08.403] [SFX] {"sound": "civ_move_2", "volume": 0.07}
+[2026-09-26 00:00:08.424] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:00:08.484] [M] {"button": 1, "pos": [284, 165], "ui_clicked": false}
+[2026-09-26 00:00:08.569] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:08.569] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 00:00:08.601] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:08.636] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:08.636] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:08.719] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:00:08.818] [M] {"button": 1, "pos": [286, 161], "ui_clicked": false}
+[2026-09-26 00:00:08.825] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:00:08.825] [SFX] {"sound": "civ_move_2", "volume": 0.08}
+[2026-09-26 00:00:08.826] [P] {"start": [180, 53], "goal": [175, 50], "length": 2, "is_direction_change": false}
+[2026-09-26 00:00:08.827] [SFX] {"sound": "click_target", "volume": 0.88}
+[2026-09-26 00:00:08.863] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:00:08.924] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:08.958] [SFX] {"sound": "civ_move_2", "volume": 0.22}
+[2026-09-26 00:00:08.980] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-26 00:00:08.981] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:08.982] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-26 00:00:09.010] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:09.041] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:09.042] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:09.125] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:09.224] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:09.225] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-26 00:00:09.247] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:00:09.325] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:09.358] [SFX] {"sound": "civ_move_2", "volume": 0.19}
+[2026-09-26 00:00:09.390] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:09.391] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 00:00:09.422] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:09.456] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:09.538] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:09.589] [SFX] {"sound": "guardian_move", "volume": 0.05}
+[2026-09-26 00:00:09.638] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:09.638] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 00:00:09.660] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 00:00:09.737] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:09.789] [SFX] {"sound": "civ_move_2", "volume": 0.19}
+[2026-09-26 00:00:09.810] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:09.811] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-26 00:00:09.839] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:09.862] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:09.863] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:09.941] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:10.039] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:10.040] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-26 00:00:10.061] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:10.138] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:10.203] [SFX] {"sound": "guardian_move", "volume": 0.08}
+[2026-09-26 00:00:10.204] [SFX] {"sound": "civ_move_2", "volume": 0.2}
+[2026-09-26 00:00:10.226] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:10.227] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-26 00:00:10.254] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:10.276] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:10.277] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:10.354] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:10.437] [M] {"button": 1, "pos": [398, 185], "ui_clicked": false}
+[2026-09-26 00:00:10.444] [P] {"start": [175, 50], "goal": [184, 50], "length": 1, "is_direction_change": false}
+[2026-09-26 00:00:10.445] [SFX] {"sound": "click_target", "volume": 0.6}
+[2026-09-26 00:00:10.481] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:10.482] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:10.483] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-26 00:00:10.483] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:00:10.545] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:10.611] [SFX] {"sound": "civ_move_2", "volume": 0.24}
+[2026-09-26 00:00:10.633] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:10.634] [SFX] {"sound": "civ_move_2", "volume": 0.17}
+[2026-09-26 00:00:10.660] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:10.683] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:10.684] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:10.759] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:00:10.760] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:10.812] [SFX] {"sound": "guardian_move", "volume": 0.18}
+[2026-09-26 00:00:10.861] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:10.861] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-26 00:00:10.862] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:00:10.863] [C] {"civ_pos": [185, 50]}
+[2026-09-26 00:00:10.901] [JACK] Da drüben bewegt sich eine Civ-Subroutine! Was führt die im Schilde?
+[2026-09-26 00:00:11.013] [SFX] {"sound": "civ_move_2", "volume": 0.3}
+[2026-09-26 00:00:11.036] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:11.037] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-26 00:00:11.063] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:11.086] [SFX] {"sound": "civ_move_1", "volume": 0.17}
+[2026-09-26 00:00:11.087] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:11.164] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:11.261] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:11.262] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-26 00:00:11.263] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:00:11.422] [SFX] {"sound": "guardian_move", "volume": 0.22}
+[2026-09-26 00:00:11.424] [SFX] {"sound": "civ_move_2", "volume": 0.29}
+[2026-09-26 00:00:11.444] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:11.445] [SFX] {"sound": "civ_move_2", "volume": 0.18}
+[2026-09-26 00:00:11.472] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:11.495] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:11.495] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:11.572] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:11.670] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 00:00:11.670] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:00:11.835] [SFX] {"sound": "civ_move_2", "volume": 0.28}
+[2026-09-26 00:00:11.857] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:11.857] [SFX] {"sound": "civ_move_2", "volume": 0.19}
+[2026-09-26 00:00:11.890] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:11.906] [SFX] {"sound": "civ_move_1", "volume": 0.14}
+[2026-09-26 00:00:11.907] [SFX] {"sound": "civ_move_1", "volume": 0.19}
+[2026-09-26 00:00:11.982] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:12.032] [SFX] {"sound": "guardian_move", "volume": 0.24}
+[2026-09-26 00:00:12.083] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:00:12.084] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-26 00:00:12.085] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:12.184] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:00:12.251] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:12.251] [SFX] {"sound": "civ_move_2", "volume": 0.2}
+[2026-09-26 00:00:12.252] [SFX] {"sound": "civ_move_2", "volume": 0.27}
+[2026-09-26 00:00:12.284] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:12.307] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:00:12.307] [SFX] {"sound": "civ_move_1", "volume": 0.2}
+[2026-09-26 00:00:12.387] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:00:12.485] [SFX] {"sound": "civ_move_2", "volume": 0.16}
+[2026-09-26 00:00:12.584] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:00:12.635] [SFX] {"sound": "guardian_move", "volume": 0.27}
+[2026-09-26 00:00:12.669] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:12.670] [SFX] {"sound": "civ_move_2", "volume": 0.21}
+[2026-09-26 00:00:12.672] [SFX] {"sound": "civ_move_2", "volume": 0.26}
+[2026-09-26 00:00:12.700] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-26 00:00:12.722] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:00:12.723] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:00:12.802] [M] {"button": 1, "pos": [275, 178], "ui_clicked": false}
+[2026-09-26 00:00:12.809] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:00:43.214] [M] {"button": 1, "pos": [347, 218], "ui_clicked": false}

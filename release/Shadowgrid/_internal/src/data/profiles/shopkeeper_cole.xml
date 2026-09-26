@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>108</id>
+    <name>Shopkeeper Cole</name>
+    <category>MERCHANT</category>
+    <gender>Male</gender>
+    <age_group>Adult (40-45)</age_group>
+    <origin>Slum Tech Market</origin>
+    <job>Black Market Hardware Vendor</job>
+    <image_path>src/gfx/faces/shopkeeper_cole.png</image_path>
+    <story>Friendly Slum tech vendor providing Jack with cyberdeck spare parts, cooling fluids, and proxy keys.</story>
+    <comment_jack>JACK // COLE. HIS SCRAP TECH SAVED MY CYBERDECK MORE THAN ONCE.</comment_jack>
+    <personality_traits>Resourceful, Friendly, Honest</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>He, Deck-Runner! Brauchst du frische Prozessoren, Kühlmittel oder illegale Proxy-Routen? Wenn du meinen Shop unterstützt, baue ich eine Händler-Station auf!</text>
+            <choices>
+                <choice>
+                    <text>1. Schwarzmarkt-Händler freischalten [Spawnt Händler-Knoten (€)]</text>
+                    <next_node></next_node>
+                    <action>MERCHANT_SPAWN_NODE</action>
+                </choice>
+                <choice>
+                    <text>2. Tech-Quiz lösen: 'Welcher Bus-Takt beschleunigt den Deck-Prozessor?'</text>
+                    <next_node>quiz</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>3. Abbrechen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Mal sehen, ob du dich mit Decks auskennst: Welcher Frequenz-Overclock verdoppelt den Puffer-Durchsatz?</text>
+            <choices>
+                <choice>
+                    <text>1. Dual-Phase Q16.16 Overclock [Richtig! +100 Credits]</text>
+                    <next_node></next_node>
+                    <action>MERCHANT_QUIZ_CORRECT</action>
+                </choice>
+                <choice>
+                    <text>2. 50 Hertz Wechselstrom [Falsch]</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

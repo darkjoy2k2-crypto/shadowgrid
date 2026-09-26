@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>41</id>
+    <name>Dante Sterling</name>
+    <gender>Male</gender>
+    <age_group>Adult (33-39)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Quantum Cipher Specialist</job>
+    <image_path>media/images/Faces_edited/dante_sterling.png</image_path>
+    <story>Cipher specialist breaking legacy RSA keys for high-end digital cartels.</story>
+    <comment_jack>JACK // MATHEMATICAL GENIUS. HIS BRAIN PROCESSES CIPHERS IN REAL-TIME.</comment_jack>
+    <personality_traits>Introverted, Brilliant, Aloof</personality_traits>
+</civilian_profile>

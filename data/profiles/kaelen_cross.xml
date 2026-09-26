@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>39</id>
+    <name>Kaelen Cross</name>
+    <gender>Male</gender>
+    <age_group>Adult (30-36)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Sub-Dermal Fiber Installer</job>
+    <image_path>media/images/Faces_edited/kaelen_cross.png</image_path>
+    <story>Installer laying clandestine fiber optic lines under corporate patrol routes.</story>
+    <comment_jack>JACK // KNOWS THE PHYSICAL PIPES. HIS LOGS MAP OUT SHORTCUTS ACROSS THE GRID.</comment_jack>
+    <personality_traits>Practical, Quiet, Resourceful</personality_traits>
+</civilian_profile>

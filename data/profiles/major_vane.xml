@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>13</id>
+    <name>Major Vane</name>
+    <gender>Male</gender>
+    <age_group>Veteran (50-56)</age_group>
+    <origin>Orbital Relay Station</origin>
+    <job>Security Protocol Strategist</job>
+    <image_path>media/images/Faces_edited/major_vane.png</image_path>
+    <story>Ex-military tactical strategist overseeing sentinel routing algorithms for corporate hubs.</story>
+    <comment_jack>JACK // HEAVY COMBAT PROTOCOLS INGRAINED. HIS DATA PATH IS TRIPLE-GUARDED.</comment_jack>
+    <personality_traits>Authoritative, Strict, Defensive</personality_traits>
+</civilian_profile>

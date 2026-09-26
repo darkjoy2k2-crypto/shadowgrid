@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>20</id>
+    <name>Lexi Vane</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (23-28)</age_group>
+    <origin>Sub-Net Slums</origin>
+    <job>Counter-Intelligence Analyst</job>
+    <image_path>media/images/Faces_edited/lexi_vane.png</image_path>
+    <story>Freelance intelligence analyst tracking sentinel dispatch frequencies for local gangs.</story>
+    <comment_jack>JACK // SHARP EYE FOR PATTERNS. HAS A BACKUP ROUTER EMBEDDED BEHIND HER EAR.</comment_jack>
+    <personality_traits>Agile, Perceptive, Reckless</personality_traits>
+</civilian_profile>

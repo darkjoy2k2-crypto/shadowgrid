@@ -1,0 +1,11 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_231101", "sys_t": "2026-09-25T23:11:01.196859"}}
+{"t": 0.025, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.054, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.069, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.07, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 5, "had_jack_sighting": false, "node": [98, 126]}}
+{"t": 0.083, "e": "JACK_REGISTERED_BY_CAMERA", "d": {"camera": [16, 60]}}
+{"t": 0.09, "e": "J", "d": {"txt": "JACK // EXTRACTED 1 DATA FRAGMENTS FROM WATCHER. REGISTRATION WIPED!", "sit": "HACK_SUCCESS"}}
+{"t": 0.097, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 0, "had_jack_sighting": true, "node": [98, 126]}}
+{"t": 0.098, "e": "J", "d": {"txt": "JACK // WARNING! SENTINEL RETRIEVED CAMERA SIGHTING FROM [98, 126]! HEADING TO GUARD SPOT!", "sit": "SIGHTING_RETRIEVED"}}
+{"t": 0.099, "e": "JACK_REGISTERED_BY_CAMERA", "d": {"camera": [16, 60]}}
+{"t": 0.106, "e": "J", "d": {"txt": "JACK // CRITICAL! CAMERA SIGHTING DELIVERED TO GUARD SPOT! ALL GUARDS DISPATCHED!", "sit": "GLOBAL_ALARM"}}

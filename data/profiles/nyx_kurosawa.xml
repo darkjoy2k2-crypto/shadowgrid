@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>46</id>
+    <name>Nyx Kurosawa</name>
+    <gender>Non-Binary</gender>
+    <age_group>Young Adult (22-26)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Anonymity Protocol Coder</job>
+    <image_path>media/images/Faces_edited/nyx_kurosawa.png</image_path>
+    <story>Coder specializing in zero-knowledge proof protocols for underground networks.</story>
+    <comment_jack>JACK // GHOST IN THE MACHINE. HARD TO TRACK, IMPOSSIBLE TO PIN DOWN.</comment_jack>
+    <personality_traits>Elusive, Brilliant, Enigmatic</personality_traits>
+</civilian_profile>

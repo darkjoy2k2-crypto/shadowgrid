@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>6</id>
+    <name>Viktor Reyes</name>
+    <gender>Male</gender>
+    <age_group>Veteran (45-50)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Grid Maintenance Supervisor</job>
+    <image_path>media/images/Faces_edited/viktor_reyes.png</image_path>
+    <story>Sector 7 Grid Maintenance Supervisor. Famous for leaving default admin credentials in console logs.</story>
+    <comment_jack>JACK // SLOPPY ACCESS CONTROL. HIS LAZINESS IS MY BEST GATEWAY.</comment_jack>
+    <personality_traits>Careless, Exhausted, Reliable-Target</personality_traits>
+</civilian_profile>

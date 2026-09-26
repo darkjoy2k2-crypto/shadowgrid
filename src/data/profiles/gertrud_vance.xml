@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>104</id>
+    <name>Gertrud Vance</name>
+    <category>OLD_LADY</category>
+    <gender>Female</gender>
+    <age_group>Elderly (72-78)</age_group>
+    <origin>Slum Sector 9</origin>
+    <job>Retired Grid Worker</job>
+    <image_path>src/gfx/faces/gertrud_vance.png</image_path>
+    <story>Frail elderly woman searching for ration vouchers and medical supplies in the slum subnet.</story>
+    <comment_jack>JACK // POOR LADY. THE EPIDEMIC HIT HER HARD. I CAN'T STEAL FROM HER.</comment_jack>
+    <personality_traits>Kind, Frail, Forgetful</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Ach herrje... bist du einer von diesen bedrohlichen Net-Runnern? Bitte tu mir nichts, mein Junge... ich suche im Subnet nur nach meiner Medikamenten-Zuteilung.</text>
+            <choices>
+                <choice>
+                    <text>1. Mitleid empfinden: Credits spenden [-30 Data-Fragments]</text>
+                    <next_node></next_node>
+                    <action>OLD_LADY_GIVE_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. Höflich entschuldigen &amp; Weitergehen</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+                <choice>
+                    <text>3. Trotzdem eiskalt ausrauben! [+50 Data-Fragments]</text>
+                    <next_node></next_node>
+                    <action>ROB_OLD_LADY</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

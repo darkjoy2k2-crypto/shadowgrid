@@ -1,0 +1,19 @@
+1. Manisches lachen.
+2. Lachen
+3. Grinsen
+4. Freundlicher Blick
+5. Überlegend, einschätzend
+6. Neutraler Blick
+7. Überrascht
+8. Unschlüssig
+9. Mürrisch
+10. Fragend (neigend)
+11. Cooler Blick
+12. Einschätzend/Bewertend
+13 Schlechte Laune
+14 Zornig
+15 Wütend
+16 Frustriert
+17 Abressiv oder schmerzhaft
+18 Schreiend / extrem schmerzhaft
+19 Tot.

@@ -1,0 +1,29 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260926_000316", "sys_t": "2026-09-26T00:03:16.035900"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 2.057, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 2.11, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 2.137, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 2.138, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.28}}
+{"t": 2.139, "e": "C", "d": {"civ_pos": [124, 32]}}
+{"t": 2.237, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 2.371, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.538, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.29}}
+{"t": 2.637, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 2.773, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.938, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.3}}
+{"t": 3.056, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.3}}
+{"t": 3.087, "e": "M", "d": {"button": 1, "pos": [333, 275], "ui_clicked": false}}
+{"t": 3.189, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 3.19, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 3.355, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 3.455, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 3.536, "e": "M", "d": {"button": 1, "pos": [345, 224], "ui_clicked": false}}
+{"t": 3.602, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 3.603, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 3.768, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.23}}
+{"t": 3.869, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 4.003, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 4.003, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 4.168, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.22}}
+{"t": 4.2, "e": "M", "d": {"button": 1, "pos": [339, 198], "ui_clicked": false}}
+{"t": 46.296, "e": "M", "d": {"button": 1, "pos": [323, 224], "ui_clicked": false}}

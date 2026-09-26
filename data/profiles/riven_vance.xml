@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>22</id>
+    <name>Riven Vance</name>
+    <gender>Female</gender>
+    <age_group>Adult (28-34)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Neural Bridge Operator</job>
+    <image_path>media/images/Faces_edited/riven_vance.png</image_path>
+    <story>Neural bridge operator connecting organic brainwaves to high-speed optical trunk lines.</story>
+    <comment_jack>JACK // EXPERIENCES HIGH SIGNAL NOISE. EASY TO CONFUSE WITH SPURIOUS PACKETS.</comment_jack>
+    <personality_traits>Distracted, Sensitive, Skilled</personality_traits>
+</civilian_profile>

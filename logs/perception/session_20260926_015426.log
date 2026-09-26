@@ -1,0 +1,40 @@
+[2026-09-26 01:54:26.798] [S] {"sid": "20260926_015426", "sys_t": "2026-09-26T01:54:26.798257"}
+[2026-09-26 01:54:26.799] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-26 01:54:28.214] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-26 01:54:28.257] [S] {"map": "Shadowgrid"}
+[2026-09-26 01:54:28.278] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-26 01:54:28.322] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 01:54:28.337] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-26 01:54:28.422] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 01:54:28.436] [SFX] {"sound": "civ_move_2", "volume": 0.15}
+[2026-09-26 01:54:28.510] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 01:54:28.530] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:28.606] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 01:54:28.619] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:28.695] [SFX] {"sound": "civ_move_1", "volume": 0.06}
+[2026-09-26 01:54:28.709] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:28.785] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 01:54:28.799] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:28.877] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 01:54:28.892] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:28.966] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 01:54:28.980] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:29.067] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 01:54:29.082] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:29.151] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-26 01:54:29.169] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 01:54:29.182] [SFX] {"sound": "civ_move_2", "volume": 0.14}
+[2026-09-26 01:54:29.192] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-26 01:54:29.220] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 01:54:29.272] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 01:54:29.284] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-26 01:54:29.296] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 01:54:29.323] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 01:54:29.382] [SFX] {"sound": "civ_move_2", "volume": 0.13}
+[2026-09-26 01:54:29.394] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 01:54:29.424] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-26 01:54:29.483] [SFX] {"sound": "civ_move_2", "volume": 0.12}
+[2026-09-26 01:54:29.495] [SFX] {"sound": "civ_move_2", "volume": 0.03}
+[2026-09-26 01:54:29.525] [SFX] {"sound": "civ_move_2", "volume": 0.04}
+[2026-09-26 01:54:29.588] [SFX] {"sound": "civ_move_2", "volume": 0.11}
+[2026-09-26 01:54:29.598] [SFX] {"sound": "civ_move_2", "volume": 0.04}

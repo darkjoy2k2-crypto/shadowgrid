@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>17</id>
+    <name>Dr. Aris Thorne</name>
+    <gender>Male</gender>
+    <age_group>Elder (58-64)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Bio-Grid Chief Scientist</job>
+    <image_path>media/images/Faces_edited/dr_aris_thorne.png</image_path>
+    <story>Veteran bio-grid scientist monitoring neural feedback loops in synthetic implants.</story>
+    <comment_jack>JACK // WEARS HIGH-GRADE SHIELDING. HIS MEMORY CORE CONTAINS EXPENSIVE SCHEMATICS.</comment_jack>
+    <personality_traits>Distinguished, Secretive, Elite</personality_traits>
+</civilian_profile>

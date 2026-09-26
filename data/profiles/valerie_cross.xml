@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>32</id>
+    <name>Valerie Cross</name>
+    <gender>Female</gender>
+    <age_group>Adult (32-37)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Executive Data Proxy</job>
+    <image_path>media/images/Faces_edited/valerie_cross.png</image_path>
+    <story>Personal data proxy for corporate CEOs, filtering illegal insider trading logs.</story>
+    <comment_jack>JACK // DROWNED IN DISCRETION CLAUSES. HER MEMORY DUMP CONTAINS CORPORATE SECRETS.</comment_jack>
+    <personality_traits>Polished, Deceitful, Elite</personality_traits>
+</civilian_profile>

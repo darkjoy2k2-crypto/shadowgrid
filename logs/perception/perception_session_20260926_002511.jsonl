@@ -1,0 +1,737 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260926_002511", "sys_t": "2026-09-26T00:25:11.976122"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 2.368, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 2.424, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 2.451, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 2.452, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 2.477, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 2.57, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 2.603, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 2.835, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 2.868, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 2.984, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 3.016, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.247, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 3.282, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 3.413, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 3.446, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 3.679, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 3.711, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 3.746, "e": "M", "d": {"button": 1, "pos": [324, 232], "ui_clicked": false}}
+{"t": 3.753, "e": "P", "d": {"start": [78, 24], "goal": [78, 30], "length": 1, "is_direction_change": false}}
+{"t": 3.754, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 3.776, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 3.819, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 3.851, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 3.876, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 4.088, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 4.12, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 4.22, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 4.253, "e": "M", "d": {"button": 1, "pos": [324, 232], "ui_clicked": false}}
+{"t": 4.26, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 58.882, "e": "M", "d": {"button": 1, "pos": [285, 261], "ui_clicked": false}}
+{"t": 84.497, "e": "M", "d": {"button": 1, "pos": [275, 258], "ui_clicked": false}}
+{"t": 84.498, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 84.522, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 84.522, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 84.524, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 84.616, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 84.732, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 84.733, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 84.734, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 84.765, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 84.832, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 84.865, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 84.899, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 84.932, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.132, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 85.155, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.173, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 85.251, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.273, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 85.3, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 85.351, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.534, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 85.535, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 85.57, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 85.571, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.668, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 85.691, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.707, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 85.785, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.9, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 85.901, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 85.95, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 85.951, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 85.985, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 86.007, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.084, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 86.108, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.126, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 86.201, "e": "M", "d": {"button": 1, "pos": [323, 220], "ui_clicked": false}}
+{"t": 86.209, "e": "P", "d": {"start": [78, 30], "goal": [78, 34], "length": 1, "is_direction_change": false}}
+{"t": 86.21, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 86.243, "e": "J", "d": {"txt": "Hörst du das Wummern? Sentinels in der Nähe... Bloß keinen falschen Schritt machen!", "sit": "SENTINEL_NEAR"}}
+{"t": 86.244, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.259, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 86.319, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.351, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 86.352, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 86.384, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 86.419, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.485, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 86.508, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 86.524, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 86.525, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 86.54, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 86.541, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.601, "e": "C", "d": {"civ_pos": [78, 36]}}
+{"t": 86.639, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.756, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 86.757, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 86.788, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 86.841, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 86.89, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 86.924, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 86.946, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.106, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 87.17, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 87.171, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 87.172, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.203, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 87.236, "e": "M", "d": {"button": 1, "pos": [306, 203], "ui_clicked": false}}
+{"t": 87.245, "e": "P", "d": {"start": [78, 34], "goal": [76, 36], "length": 2, "is_direction_change": false}}
+{"t": 87.246, "e": "SFX", "d": {"sound": "click_target", "volume": 0.73}}
+{"t": 87.289, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.311, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 87.329, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 87.345, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 87.388, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.411, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 87.503, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.57, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 87.603, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 87.604, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.72, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 87.721, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 87.742, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 87.803, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 87.985, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 88.017, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 88.018, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.133, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 88.133, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.155, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 88.246, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.314, "e": "M", "d": {"button": 1, "pos": [340, 221], "ui_clicked": false}}
+{"t": 88.321, "e": "P", "d": {"start": [76, 36], "goal": [78, 41], "length": 2, "is_direction_change": false}}
+{"t": 88.322, "e": "SFX", "d": {"sound": "click_target", "volume": 0.69}}
+{"t": 88.368, "e": "J", "d": {"txt": "Achtung! Guardians patrouillieren den Sektor. Wir müssen extrem vorsichtig sein!", "sit": "SENTINEL_NEAR"}}
+{"t": 88.369, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 88.384, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.398, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 88.426, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 88.491, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.525, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 88.547, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 88.548, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 88.564, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 88.58, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 88.596, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 88.597, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 88.613, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.803, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 88.836, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 88.837, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.935, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 88.96, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 88.961, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 88.979, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 89.056, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.157, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 89.158, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.191, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 89.213, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 89.24, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 89.272, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.354, "e": "M", "d": {"button": 1, "pos": [331, 237], "ui_clicked": false}}
+{"t": 89.363, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 89.378, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 89.379, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.405, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 89.488, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.623, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 89.646, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 89.704, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.754, "e": "M", "d": {"button": 1, "pos": [328, 240], "ui_clicked": false}}
+{"t": 89.761, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 89.762, "e": "P", "d": {"start": [78, 41], "goal": [78, 48], "length": 1, "is_direction_change": false}}
+{"t": 89.762, "e": "SFX", "d": {"sound": "click_target", "volume": 0.65}}
+{"t": 89.796, "e": "J", "d": {"txt": "Diese Bedrohung ist greifbar... Die Wachen dürfen unser Signal nicht isolieren.", "sit": "SENTINEL_NEAR"}}
+{"t": 89.796, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 89.811, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 89.812, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 89.812, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 89.973, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 90.006, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.029, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 90.046, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 90.106, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.161, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 90.209, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 90.21, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.374, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 90.408, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 90.43, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 90.431, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.446, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 90.489, "e": "M", "d": {"button": 1, "pos": [322, 238], "ui_clicked": false}}
+{"t": 90.496, "e": "P", "d": {"start": [78, 48], "goal": [78, 54], "length": 1, "is_direction_change": false}}
+{"t": 90.497, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 90.531, "e": "J", "d": {"txt": "Überall Wacheinheiten... Ihr bedrohliches Summen brennt sich ins Deck.", "sit": "SENTINEL_NEAR"}}
+{"t": 90.545, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.546, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 90.572, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 90.625, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 90.647, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.675, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 90.756, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.837, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 90.869, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 90.985, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 90.986, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 91.019, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 91.036, "e": "M", "d": {"button": 1, "pos": [323, 238], "ui_clicked": false}}
+{"t": 91.043, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 91.044, "e": "P", "d": {"start": [78, 54], "goal": [78, 60], "length": 1, "is_direction_change": false}}
+{"t": 91.045, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 91.091, "e": "J", "d": {"txt": "Verdammt, die Sentinels kreisen um uns... Ich habe echte Angst, ertappt zu werden!", "sit": "SENTINEL_NEAR"}}
+{"t": 91.108, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 91.109, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.235, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 91.235, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 91.259, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 91.276, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 91.302, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.386, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 91.408, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.436, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 91.503, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 91.504, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.586, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.16}}
+{"t": 91.609, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.619, "e": "M", "d": {"button": 1, "pos": [323, 238], "ui_clicked": false}}
+{"t": 91.627, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 91.628, "e": "P", "d": {"start": [78, 60], "goal": [78, 66], "length": 1, "is_direction_change": false}}
+{"t": 91.628, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 91.663, "e": "J", "d": {"txt": "Achtung! Guardians patrouillieren den Sektor. Wir müssen extrem vorsichtig sein!", "sit": "SENTINEL_NEAR"}}
+{"t": 91.678, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 91.679, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 91.704, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.788, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 91.811, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 91.829, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 91.845, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 91.846, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 91.905, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 91.906, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.087, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 92.137, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.187, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.13}}
+{"t": 92.209, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 92.226, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 92.244, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.261, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 92.32, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 92.321, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 92.342, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.452, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 92.453, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.502, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 92.552, "e": "SFX", "d": {"sound": "alert_trigger", "volume": 1.0}}
+{"t": 92.574, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.618, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 92.666, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 92.687, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.731, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 92.732, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 92.795, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.11}}
+{"t": 92.796, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.829, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 92.879, "e": "M", "d": {"button": 1, "pos": [326, 247], "ui_clicked": false}}
+{"t": 92.886, "e": "P", "d": {"start": [78, 66], "goal": [78, 74], "length": 1, "is_direction_change": false}}
+{"t": 92.886, "e": "SFX", "d": {"sound": "click_target", "volume": 0.63}}
+{"t": 92.946, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 92.961, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 92.962, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 93.005, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.029, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 93.055, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.1}}
+{"t": 93.103, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 93.128, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.145, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 93.146, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 93.221, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.37, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 93.402, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 93.435, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 93.436, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.551, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 93.552, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 93.553, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.574, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 93.667, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.09}}
+{"t": 93.668, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.783, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 93.784, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 93.799, "e": "M", "d": {"button": 1, "pos": [332, 277], "ui_clicked": false}}
+{"t": 95.996, "e": "M", "d": {"button": 1, "pos": [300, 244], "ui_clicked": false}}
+{"t": 96.576, "e": "M", "d": {"button": 1, "pos": [299, 239], "ui_clicked": false}}
+{"t": 96.577, "e": "SFX", "d": {"sound": "hack_success", "volume": 1.0}}
+{"t": 96.626, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 96.66, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 96.743, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 96.744, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 96.765, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 96.794, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 96.861, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 96.944, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 96.967, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 96.968, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 97.026, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 97.06, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 97.082, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 97.159, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 97.16, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 97.191, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.7}}
+{"t": 97.357, "e": "M", "d": {"button": 1, "pos": [322, 232], "ui_clicked": false}}
+{"t": 98.922, "e": "M", "d": {"button": 1, "pos": [289, 234], "ui_clicked": false}}
+{"t": 98.923, "e": "SFX", "d": {"sound": "hack_success", "volume": 1.0}}
+{"t": 98.945, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 98.963, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.69}}
+{"t": 98.979, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 99.004, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 99.069, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.69}}
+{"t": 99.118, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 99.14, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 99.14, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 99.184, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.68}}
+{"t": 99.233, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 99.284, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.68}}
+{"t": 99.351, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 99.385, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.67}}
+{"t": 99.418, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 99.501, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.67}}
+{"t": 99.535, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 99.536, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 99.616, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.66}}
+{"t": 99.665, "e": "M", "d": {"button": 1, "pos": [326, 218], "ui_clicked": false}}
+{"t": 100.463, "e": "M", "d": {"button": 1, "pos": [324, 226], "ui_clicked": false}}
+{"t": 100.464, "e": "SFX", "d": {"sound": "hack_success", "volume": 1.0}}
+{"t": 100.528, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 100.529, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.66}}
+{"t": 100.561, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 100.627, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 100.649, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 100.729, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.65}}
+{"t": 100.751, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 100.751, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 100.766, "e": "C", "d": {"civ_pos": [78, 76]}}
+{"t": 100.929, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.64}}
+{"t": 100.963, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 101.03, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 101.13, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 101.131, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.63}}
+{"t": 101.154, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 101.155, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 101.246, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 101.331, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.62}}
+{"t": 101.364, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 101.547, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 101.548, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.3}}
+{"t": 101.613, "e": "M", "d": {"button": 1, "pos": [330, 133], "ui_clicked": false}}
+{"t": 101.645, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.6}}
+{"t": 101.744, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 101.779, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 101.846, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 101.96, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 101.961, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 101.962, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.58}}
+{"t": 102.124, "e": "M", "d": {"button": 1, "pos": [328, 132], "ui_clicked": false}}
+{"t": 102.132, "e": "P", "d": {"start": [78, 74], "goal": [78, 67], "length": 1, "is_direction_change": false}}
+{"t": 102.133, "e": "SFX", "d": {"sound": "click_target", "volume": 0.85}}
+{"t": 102.195, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 102.26, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 102.262, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.57}}
+{"t": 102.308, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 102.358, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 102.381, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 102.382, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 102.459, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 102.672, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.55}}
+{"t": 102.722, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 102.787, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 102.788, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 102.921, "e": "M", "d": {"button": 1, "pos": [333, 226], "ui_clicked": false}}
+{"t": 102.97, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 103.069, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 103.092, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.53}}
+{"t": 103.201, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 103.202, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 103.267, "e": "C", "d": {"civ_pos": [78, 66]}}
+{"t": 103.418, "e": "M", "d": {"button": 1, "pos": [323, 245], "ui_clicked": false}}
+{"t": 103.425, "e": "P", "d": {"start": [78, 67], "goal": [78, 75], "length": 1, "is_direction_change": false}}
+{"t": 103.426, "e": "SFX", "d": {"sound": "click_target", "volume": 0.64}}
+{"t": 103.448, "e": "J", "d": {"txt": "Verdammt, die Sentinels kreisen um uns... Ich habe echte Angst, ertappt zu werden!", "sit": "SENTINEL_NEAR"}}
+{"t": 103.526, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 103.578, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 103.601, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.5}}
+{"t": 103.617, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 103.618, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 103.679, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.0}}
+{"t": 103.846, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 103.927, "e": "M", "d": {"button": 1, "pos": [323, 245], "ui_clicked": false}}
+{"t": 103.933, "e": "P", "d": {"start": [78, 75], "goal": [78, 81], "length": 1, "is_direction_change": false}}
+{"t": 103.934, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 103.983, "e": "J", "d": {"txt": "Überall Wacheinheiten... Ihr bedrohliches Summen brennt sich ins Deck.", "sit": "SENTINEL_NEAR"}}
+{"t": 103.983, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 104.026, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 104.027, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 104.11, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.48}}
+{"t": 104.192, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 104.26, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 104.357, "e": "M", "d": {"button": 1, "pos": [323, 245], "ui_clicked": false}}
+{"t": 104.364, "e": "P", "d": {"start": [78, 81], "goal": [78, 87], "length": 1, "is_direction_change": false}}
+{"t": 104.365, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 104.388, "e": "J", "d": {"txt": "Diese Bedrohung ist greifbar... Die Wachen dürfen unser Signal nicht isolieren.", "sit": "SENTINEL_NEAR"}}
+{"t": 104.403, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 104.431, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 104.432, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 104.665, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 104.715, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.45}}
+{"t": 104.798, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.04}}
+{"t": 104.831, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 104.832, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 104.928, "e": "M", "d": {"button": 1, "pos": [323, 245], "ui_clicked": false}}
+{"t": 105.077, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 105.244, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 105.245, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 105.409, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.03}}
+{"t": 105.431, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.41}}
+{"t": 105.493, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 105.557, "e": "M", "d": {"button": 1, "pos": [320, 225], "ui_clicked": false}}
+{"t": 105.656, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 105.657, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 105.904, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 106.02, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 106.07, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 106.071, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 106.237, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.37}}
+{"t": 106.32, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 106.484, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 106.485, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 106.734, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 106.884, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 106.885, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 107.15, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 107.151, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.32}}
+{"t": 107.299, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 107.3, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 107.531, "e": "M", "d": {"button": 1, "pos": [327, 92], "ui_clicked": false}}
+{"t": 107.538, "e": "P", "d": {"start": [78, 87], "goal": [78, 75], "length": 1, "is_direction_change": false}}
+{"t": 107.539, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 107.593, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 107.71, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 107.711, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 107.841, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.01}}
+{"t": 107.907, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 108.074, "e": "M", "d": {"button": 1, "pos": [327, 92], "ui_clicked": false}}
+{"t": 108.082, "e": "P", "d": {"start": [78, 76], "goal": [78, 68], "length": 1, "is_direction_change": false}}
+{"t": 108.082, "e": "SFX", "d": {"sound": "click_target", "volume": 0.81}}
+{"t": 108.112, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 108.213, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 108.395, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 108.446, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.06}}
+{"t": 108.514, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 108.515, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 108.81, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 108.844, "e": "M", "d": {"button": 1, "pos": [327, 92], "ui_clicked": false}}
+{"t": 108.852, "e": "P", "d": {"start": [78, 68], "goal": [78, 57], "length": 1, "is_direction_change": false}}
+{"t": 108.852, "e": "SFX", "d": {"sound": "click_target", "volume": 0.74}}
+{"t": 108.895, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 108.928, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 108.929, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 109.046, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 109.18, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 109.202, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 109.219, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 109.327, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 109.581, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 109.614, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 109.647, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.09}}
+{"t": 109.73, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 109.731, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 109.995, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 110.029, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 110.145, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 110.26, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 110.425, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 110.449, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 110.508, "e": "M", "d": {"button": 1, "pos": [312, 120], "ui_clicked": false}}
+{"t": 110.514, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 3, "had_jack_sighting": false, "node": [203, 58]}}
+{"t": 110.516, "e": "SFX", "d": {"sound": "click_target", "volume": 0.81}}
+{"t": 110.557, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 110.558, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 110.639, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 110.837, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 110.859, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 110.876, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 110.968, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 111.249, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 111.271, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 111.379, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 111.393, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 111.469, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 111.65, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 111.672, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 111.781, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 111.782, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 112.06, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 112.082, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.02}}
+{"t": 112.083, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 112.193, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 112.194, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 112.46, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 112.482, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 112.609, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 112.61, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 112.874, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 112.897, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 113.02, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 113.038, "e": "M", "d": {"button": 1, "pos": [340, 169], "ui_clicked": true}}
+{"t": 113.064, "e": "J", "d": {"txt": "Blick ins Systemfenster... Was führen wir im Schild?", "sit": "UI_INTERACTION"}}
+{"t": 113.08, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 113.288, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 113.311, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 113.436, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 113.436, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 113.483, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 113.533, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.34}}
+{"t": 113.699, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 113.721, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 113.848, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 113.849, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 113.897, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 114.112, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 114.133, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 114.134, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 114.262, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 114.311, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 114.443, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.43}}
+{"t": 114.527, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 114.55, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 114.551, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 114.676, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 114.71, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 114.927, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 114.96, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 114.96, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 115.077, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 115.126, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 115.149, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.5}}
+{"t": 115.328, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 115.362, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 115.362, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 115.478, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 115.528, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 115.645, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.55}}
+{"t": 115.743, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 115.776, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 115.893, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 115.942, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 116.055, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.59}}
+{"t": 116.056, "e": "SFX", "d": {"sound": "hack_success", "volume": 1.0}}
+{"t": 116.057, "e": "J", "d": {"txt": "JACK // EXTRACTED 6 DATA FRAGMENTS FROM PC. REGISTRATION WIPED!", "sit": "HACK_SUCCESS"}}
+{"t": 116.153, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 116.186, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 116.303, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 116.355, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.58}}
+{"t": 116.554, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 116.555, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 116.588, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 116.706, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 116.758, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.56}}
+{"t": 116.955, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 116.956, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 117.004, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 117.121, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 117.169, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.54}}
+{"t": 117.366, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 117.367, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 117.415, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 117.531, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 117.564, "e": "M", "d": {"button": 1, "pos": [330, 83], "ui_clicked": false}}
+{"t": 117.681, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.51}}
+{"t": 117.764, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 117.765, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 117.815, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 117.932, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 118.031, "e": "M", "d": {"button": 1, "pos": [321, 84], "ui_clicked": false}}
+{"t": 118.038, "e": "P", "d": {"start": [78, 50], "goal": [78, 38], "length": 1, "is_direction_change": false}}
+{"t": 118.04, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 118.061, "e": "J", "d": {"txt": "Überall Wacheinheiten... Ihr bedrohliches Summen brennt sich ins Deck.", "sit": "SENTINEL_NEAR"}}
+{"t": 118.156, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 118.179, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 118.18, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 118.196, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.49}}
+{"t": 118.224, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 118.458, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 118.575, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 118.576, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 118.624, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 118.792, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.46}}
+{"t": 118.975, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 118.976, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 119.024, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 119.29, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 1, "had_jack_sighting": false, "node": [203, 58]}}
+{"t": 119.376, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 119.377, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 119.425, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 119.492, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.42}}
+{"t": 119.558, "e": "M", "d": {"button": 1, "pos": [341, 150], "ui_clicked": false}}
+{"t": 119.566, "e": "SFX", "d": {"sound": "click_target", "volume": 0.89}}
+{"t": 119.675, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 119.789, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 119.79, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 119.84, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 119.841, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 120.192, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 120.193, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 120.194, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.39}}
+{"t": 120.242, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 120.243, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 120.593, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 120.594, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 120.644, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 120.994, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 120.995, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 120.995, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.35}}
+{"t": 121.06, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 121.21, "e": "M", "d": {"button": 1, "pos": [370, 185], "ui_clicked": true}}
+{"t": 121.394, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 121.395, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 121.46, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 121.51, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 121.805, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 121.806, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 121.87, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 121.905, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 121.927, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 122.22, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 122.221, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 122.272, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 122.322, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 122.621, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 122.621, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 122.735, "e": "SFX", "d": {"sound": "infiltrate 2", "volume": 0.5}}
+{"t": 123.029, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 123.095, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 123.146, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 123.43, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 123.497, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 123.547, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 123.84, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 123.957, "e": "SFX", "d": {"sound": "infiltrate 1", "volume": 0.5}}
+{"t": 124.221, "e": "SFX", "d": {"sound": "hack_success", "volume": 1.0}}
+{"t": 124.222, "e": "J", "d": {"txt": "JACK // EXTRACTED 10 DATA FRAGMENTS FROM PC. REGISTRATION WIPED!", "sit": "HACK_SUCCESS"}}
+{"t": 124.253, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 124.32, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 124.566, "e": "M", "d": {"button": 1, "pos": [373, 165], "ui_clicked": false}}
+{"t": 124.669, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 124.732, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 124.8, "e": "SFX", "d": {"sound": "threat_pulse", "volume": 0.3}}
+{"t": 125.081, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 125.114, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 0, "had_jack_sighting": false, "node": [203, 58]}}
+{"t": 125.148, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 125.196, "e": "M", "d": {"button": 1, "pos": [371, 188], "ui_clicked": false}}
+{"t": 125.205, "e": "P", "d": {"start": [78, 35], "goal": [84, 36], "length": 2, "is_direction_change": false}}
+{"t": 125.206, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 125.242, "e": "J", "d": {"txt": "Vorsichtig vorantasten...", "sit": "EXPLORATION_SHORT"}}
+{"t": 125.5, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 125.55, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 125.865, "e": "M", "d": {"button": 1, "pos": [387, 181], "ui_clicked": false}}
+{"t": 125.872, "e": "P", "d": {"start": [84, 36], "goal": [91, 36], "length": 1, "is_direction_change": false}}
+{"t": 125.873, "e": "SFX", "d": {"sound": "click_target", "volume": 0.64}}
+{"t": 125.963, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 126.176, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 126.294, "e": "M", "d": {"button": 1, "pos": [387, 181], "ui_clicked": false}}
+{"t": 126.301, "e": "P", "d": {"start": [91, 36], "goal": [97, 36], "length": 1, "is_direction_change": false}}
+{"t": 126.302, "e": "SFX", "d": {"sound": "click_target", "volume": 0.67}}
+{"t": 126.367, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 126.565, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 126.597, "e": "C", "d": {"civ_pos": [99, 36]}}
+{"t": 126.78, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 126.894, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 127.193, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.3}}
+{"t": 127.307, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 127.555, "e": "M", "d": {"button": 1, "pos": [385, 184], "ui_clicked": false}}
+{"t": 127.563, "e": "P", "d": {"start": [97, 36], "goal": [105, 36], "length": 1, "is_direction_change": false}}
+{"t": 127.564, "e": "SFX", "d": {"sound": "click_target", "volume": 0.64}}
+{"t": 127.594, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 127.708, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 127.839, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 127.889, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 127.939, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 0, "had_jack_sighting": false, "node": [203, 58]}}
+{"t": 128.005, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 128.123, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 128.156, "e": "M", "d": {"button": 1, "pos": [385, 184], "ui_clicked": false}}
+{"t": 128.164, "e": "P", "d": {"start": [105, 36], "goal": [111, 36], "length": 1, "is_direction_change": false}}
+{"t": 128.165, "e": "SFX", "d": {"sound": "click_target", "volume": 0.66}}
+{"t": 128.291, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.0}}
+{"t": 128.292, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 128.341, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 128.408, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 128.704, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 128.821, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 128.903, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.05}}
+{"t": 128.936, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 129.085, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 129.12, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 129.234, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.14}}
+{"t": 129.35, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}
+{"t": 129.5, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.07}}
+{"t": 129.522, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.07}}
+{"t": 129.541, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 129.648, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 129.764, "e": "M", "d": {"button": 1, "pos": [325, 183], "ui_clicked": false}}
+{"t": 129.771, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 129.9, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.06}}
+{"t": 129.95, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 130.05, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 130.118, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.08}}
+{"t": 130.167, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 130.317, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.05}}
+{"t": 130.366, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 130.464, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 130.58, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.23}}
+{"t": 130.597, "e": "M", "d": {"button": 1, "pos": [352, 182], "ui_clicked": false}}
+{"t": 130.606, "e": "P", "d": {"start": [111, 36], "goal": [114, 36], "length": 1, "is_direction_change": false}}
+{"t": 130.607, "e": "SFX", "d": {"sound": "click_target", "volume": 0.72}}
+{"t": 130.72, "e": "SFX", "d": {"sound": "guardian_move", "volume": 0.12}}
+{"t": 130.72, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 130.77, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 130.87, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 130.988, "e": "SENTINEL_EMPTIED_IOT", "d": {"iot": "watcher", "stolen_data": 1, "had_jack_sighting": false, "node": [203, 58]}}
+{"t": 130.989, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 131.102, "e": "M", "d": {"button": 1, "pos": [382, 184], "ui_clicked": false}}
+{"t": 131.109, "e": "P", "d": {"start": [114, 36], "goal": [121, 36], "length": 1, "is_direction_change": false}}
+{"t": 131.11, "e": "SFX", "d": {"sound": "click_target", "volume": 0.65}}
+{"t": 131.145, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 131.172, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 131.173, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 131.174, "e": "C", "d": {"civ_pos": [117, 36]}}
+{"t": 131.276, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 131.392, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 131.572, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 131.801, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 131.817, "e": "M", "d": {"button": 1, "pos": [382, 184], "ui_clicked": false}}

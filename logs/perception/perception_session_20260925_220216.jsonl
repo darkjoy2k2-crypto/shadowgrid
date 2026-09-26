@@ -1,0 +1,5 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_220216", "sys_t": "2026-09-25T22:02:16.538599"}}
+{"t": 0.021, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.049, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.064, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.121, "e": "C", "d": {"civ_pos": [65, 18]}}

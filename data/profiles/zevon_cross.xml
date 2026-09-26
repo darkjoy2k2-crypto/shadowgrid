@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>21</id>
+    <name>Zevon Cross</name>
+    <gender>Male</gender>
+    <age_group>Adult (36-41)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>High-Frequency Signal Trader</job>
+    <image_path>media/images/Faces_edited/zevon_cross.png</image_path>
+    <story>Wall Street algorithmic trader manipulating sub-millisecond data futures in Sector 1.</story>
+    <comment_jack>JACK // GREEDY DATA SWINE. HIS POCKETS ARE STUFFED WITH HIGH-YIELD CREDENTIALS.</comment_jack>
+    <personality_traits>Cutthroat, Fast, Wealthy</personality_traits>
+</civilian_profile>

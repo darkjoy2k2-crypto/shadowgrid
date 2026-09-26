@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>66</id>
+    <name>Valerie Sterling</name>
+    <gender>Female</gender>
+    <age_group>Adult (29-35)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Corporate PR Strategist</job>
+    <image_path>media/images/Faces_edited/valerie_sterling.png</image_path>
+    <story>PR strategist spinning corporate data breaches into positive publicity.</story>
+    <comment_jack>JACK // LIES FOR A LIVING. HER CACHE CONTAINS TRUTHFUL LEAKED AUDITS.</comment_jack>
+    <personality_traits>Manipulative, Charming, Sharp</personality_traits>
+</civilian_profile>

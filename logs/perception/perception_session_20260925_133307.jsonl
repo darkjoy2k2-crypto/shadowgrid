@@ -1,0 +1,30 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_133307", "sys_t": "2026-09-25T13:33:07.511112"}}
+{"t": 0.002, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 9.378, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 9.43, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 9.456, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 13.989, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 14.401, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 14.816, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 15.231, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 15.643, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 16.043, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 16.865, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 17.279, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 17.626, "e": "M", "d": {"button": 1, "pos": [334, 204], "ui_clicked": false}}
+{"t": 17.692, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 18.103, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 18.303, "e": "M", "d": {"button": 1, "pos": [345, 216], "ui_clicked": false}}
+{"t": 18.506, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 18.896, "e": "M", "d": {"button": 1, "pos": [342, 215], "ui_clicked": false}}
+{"t": 18.904, "e": "P", "d": {"start": [128, 10], "goal": [130, 14], "length": 3, "is_direction_change": false}}
+{"t": 18.905, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 18.929, "e": "J", "d": {"txt": "Kleine Schritte. Immer die Augen nach IoT-Sensoren und Sentinels offen halten.", "sit": "EXPLORATION_SHORT"}}
+{"t": 18.93, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 18.931, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 19.319, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 19.722, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 20.138, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.17}}
+{"t": 20.963, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 21.378, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.19}}
+{"t": 21.788, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.2}}

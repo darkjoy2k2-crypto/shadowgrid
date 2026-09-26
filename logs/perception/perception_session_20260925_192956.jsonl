@@ -1,0 +1,7 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_192956", "sys_t": "2026-09-25T19:29:56.714438"}}
+{"t": 0.025, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.072, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.085, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.283, "e": "J", "d": {"txt": "Hörst du das Wummern? Sentinels in der Nähe... Bloß keinen falschen Schritt machen!", "sit": "SENTINEL_NEAR"}}
+{"t": 0.297, "e": "C", "d": {"civ_pos": [210, 87]}}
+{"t": 0.318, "e": "C", "d": {"civ_pos": [165, 106]}}

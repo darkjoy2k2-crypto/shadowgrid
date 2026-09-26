@@ -1,0 +1,9 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_223104", "sys_t": "2026-09-25T22:31:04.017461"}}
+{"t": 0.027, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.055, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.071, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.072, "e": "C", "d": {"civ_pos": [190, 2]}}
+{"t": 0.126, "e": "C", "d": {"civ_pos": [133, 128]}}
+{"t": 0.127, "e": "J", "d": {"txt": "JACK // STOLE 3 DATA FROM EVELYN 'ZERO' CROSS (DATA COURIER). TARGET FLEEING TO GUARD SPOT!", "sit": "CIVILIAN_ALERTED"}}
+{"t": 0.129, "e": "J", "d": {"txt": "JACK // COLD DATA BROKER. WOULD TRADE HER OWN MOTHER FOR A LEVEL 3 ENCRYPTION PASS.", "sit": "CIVILIAN_ATTACKED"}}
+{"t": 0.147, "e": "SENTINEL_ALARM_DISPATCHED", "d": {"guard": [150, 120], "investigate": [149, 128]}}

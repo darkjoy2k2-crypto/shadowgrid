@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>63</id>
+    <name>Orin Sterling</name>
+    <gender>Male</gender>
+    <age_group>Veteran (52-58)</age_group>
+    <origin>Orbital Relay Station</origin>
+    <job>Orbital Logistics Director</job>
+    <image_path>media/images/Faces_edited/orin_sterling.png</image_path>
+    <story>Director coordinating automated freight shuttles between orbit and metropolis.</story>
+    <comment_jack>JACK // HIGH STRATOSPHERE CREDENTIALS. RICH DATA DEPOSITS.</comment_jack>
+    <personality_traits>Commanding, Stern, Elite</personality_traits>
+</civilian_profile>

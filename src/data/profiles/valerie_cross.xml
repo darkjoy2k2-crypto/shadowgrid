@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>32</id>
+    <name>Valerie Cross</name>
+    <gender>Female</gender>
+    <age_group>Adult (32-37)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Executive Data Proxy</job>
+    <image_path>src/gfx/faces/valerie_cross.png</image_path>
+    <story>Personal data proxy for corporate CEOs, filtering illegal insider trading logs.</story>
+    <comment_jack>JACK // DROWNED IN DISCRETION CLAUSES. HER MEMORY DUMP CONTAINS CORPORATE SECRETS.</comment_jack>
+    <personality_traits>Polished, Deceitful, Elite</personality_traits>
+    <category>EXECUTIVE</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Verschwinde aus meiner Frequenz, Slum-Hacker! Ich bin Valerie Cross, Executive Data Proxy. Meine Datenpakete sind konzernversiegelt!</text>
+            <choices>
+                <choice>
+                    <text>1. Mit Daten-Erpressung drohen [+100 Credits]</text>
+                    <next_node />
+                    <action>REWARD_LARGE</action>
+                </choice>
+                <choice>
+                    <text>2. Konzern-Quiz lösen: Welcher Megakonzern steuert die Subnet-Finanzen?</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Abbrechen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welche Instanz kontrolliert die unzensierten Finanzströme im Shadow-Grid?</text>
+            <choices>
+                <choice>
+                    <text>1. Helix-Dominion Rüstungs-Konsortium [Richtig! +150 Credits]</text>
+                    <next_node />
+                    <action>MARK_REWARD</action>
+                </choice>
+                <choice>
+                    <text>2. Die Wohlfahrt [Falsch - Alarm!]</text>
+                    <next_node />
+                    <action>TRIGGER_ALARM</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

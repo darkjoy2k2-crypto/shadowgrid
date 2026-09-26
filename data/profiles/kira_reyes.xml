@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>42</id>
+    <name>Kira Reyes</name>
+    <gender>Female</gender>
+    <age_group>Adult (27-32)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Cyber-Clinic Operator</job>
+    <image_path>media/images/Faces_edited/kira_reyes.png</image_path>
+    <story>Street medic operating a rogue cyber-clinic in Sector 5.</story>
+    <comment_jack>JACK // CARES FOR OUTCASTS. CARRIES MEDICAL DATA AND ILLEGAL BIOMETRIC IDS.</comment_jack>
+    <personality_traits>Empathetic, Tough, Tired</personality_traits>
+</civilian_profile>

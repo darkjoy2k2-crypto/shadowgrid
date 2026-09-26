@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>40</id>
+    <name>Elena Vance</name>
+    <gender>Female</gender>
+    <age_group>Veteran (43-48)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Risk Assessment Analyst</job>
+    <image_path>media/images/Faces_edited/elena_vance.png</image_path>
+    <story>Risk analyst evaluating threat probabilities for corporate data center breaches.</story>
+    <comment_jack>JACK // SHE PREDICTED MY INFILTRATION ROUTE. HER SHIELDS REQUIRE CAREFUL HACKING.</comment_jack>
+    <personality_traits>Calculating, Cold, Strategic</personality_traits>
+</civilian_profile>

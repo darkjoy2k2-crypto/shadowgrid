@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>57</id>
+    <name>Dante Cross</name>
+    <gender>Male</gender>
+    <age_group>Adult (30-36)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Combat Cyberdeck Tech</job>
+    <image_path>media/images/Faces_edited/dante_cross.png</image_path>
+    <story>Technician upgrading combat cyberdecks for urban mercenary squads.</story>
+    <comment_jack>JACK // HEAVY DUTY DECK. INFILTRATING HIS NODE REQUISITIONS HEAVY DATA.</comment_jack>
+    <personality_traits>Tough, Experienced, Practical</personality_traits>
+</civilian_profile>

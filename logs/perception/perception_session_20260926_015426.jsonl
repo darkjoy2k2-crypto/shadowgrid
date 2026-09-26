@@ -1,0 +1,40 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260926_015426", "sys_t": "2026-09-26T01:54:26.798257"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 1.416, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 1.459, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 1.48, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 1.525, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 1.538, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 1.625, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 1.638, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.15}}
+{"t": 1.712, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 1.733, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 1.808, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 1.822, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 1.897, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.06}}
+{"t": 1.911, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 1.987, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 2.001, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.08, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 2.094, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.169, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 2.182, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.269, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 2.284, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.353, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 2.371, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 2.384, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.14}}
+{"t": 2.394, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 2.422, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.474, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 2.486, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 2.498, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 2.525, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 2.584, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.13}}
+{"t": 2.596, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 2.626, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 2.685, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.12}}
+{"t": 2.697, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.03}}
+{"t": 2.727, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}
+{"t": 2.79, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.11}}
+{"t": 2.8, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.04}}

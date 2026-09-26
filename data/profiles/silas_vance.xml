@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>10</id>
+    <name>Silas Vance</name>
+    <gender>Male</gender>
+    <age_group>Adult (32-38)</age_group>
+    <origin>Sub-Net Slums</origin>
+    <job>Terminal Operator</job>
+    <image_path>media/images/Faces_edited/silas_vance.png</image_path>
+    <story>Sub-grid terminal operator dealing with memory leak diagnostics for low-tier nodes.</story>
+    <comment_jack>JACK // UNSTABLE EMOTION METRICS. SNAPS WHEN PRESSED UNDER INFILTRATION LOCK.</comment_jack>
+    <personality_traits>Volatile, Overworked, Nervous</personality_traits>
+</civilian_profile>

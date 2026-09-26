@@ -1,0 +1,135 @@
+[2026-09-26 00:23:10.369] [S] {"sid": "20260926_002310", "sys_t": "2026-09-26T00:23:10.369183"}
+[2026-09-26 00:23:10.370] [SFX] {"sound": "hack_success", "volume": 0.8}
+[2026-09-26 00:23:12.556] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-26 00:23:12.611] [S] {"map": "Shadowgrid"}
+[2026-09-26 00:23:12.635] [JACK] Ah, im Shadowgrid angekommen... endlich.
+[2026-09-26 00:23:12.636] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:23:12.730] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:12.848] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:13.030] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:23:13.131] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:13.262] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:13.442] [SFX] {"sound": "civ_move_2", "volume": 0.02}
+[2026-09-26 00:23:13.558] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:23:13.559] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:13.609] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:13.870] [SFX] {"sound": "civ_move_2", "volume": 0.01}
+[2026-09-26 00:23:13.969] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-26 00:23:13.970] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:23:14.014] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:23:14.425] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:23:14.476] [M] {"button": 1, "pos": [350, 206], "ui_clicked": false}
+[2026-09-26 00:23:14.840] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:23:15.169] [M] {"button": 1, "pos": [358, 211], "ui_clicked": false}
+[2026-09-26 00:23:15.176] [P] {"start": [188, 2], "goal": [192, 5], "length": 8, "is_direction_change": false}
+[2026-09-26 00:23:15.177] [SFX] {"sound": "click_target", "volume": 0.68}
+[2026-09-26 00:23:15.202] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:15.244] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:23:15.493] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:15.658] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:15.808] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:15.809] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:16.058] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:23:16.092] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:16.114] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:16.468] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:23:16.512] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:16.878] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:23:16.929] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:23:16.980] [M] {"button": 1, "pos": [344, 227], "ui_clicked": false}
+[2026-09-26 00:23:17.046] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:23:17.278] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:23:17.459] [M] {"button": 1, "pos": [356, 230], "ui_clicked": false}
+[2026-09-26 00:23:17.467] [P] {"start": [192, 5], "goal": [196, 11], "length": 3, "is_direction_change": false}
+[2026-09-26 00:23:17.468] [SFX] {"sound": "click_target", "volume": 0.65}
+[2026-09-26 00:23:17.684] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:23:17.764] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:17.765] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:18.095] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:23:18.176] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:23:18.276] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:18.505] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:23:18.590] [SFX] {"sound": "civ_move_1", "volume": 0.05}
+[2026-09-26 00:23:18.691] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:18.907] [SFX] {"sound": "civ_move_1", "volume": 0.1}
+[2026-09-26 00:23:18.990] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:23:19.107] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:19.324] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:23:19.405] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:23:19.522] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:19.539] [M] {"button": 1, "pos": [289, 214], "ui_clicked": false}
+[2026-09-26 00:23:19.724] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:23:19.807] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:19.856] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:19.936] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:20.003] [M] {"button": 1, "pos": [294, 212], "ui_clicked": false}
+[2026-09-26 00:23:20.011] [P] {"start": [196, 11], "goal": [192, 14], "length": 3, "is_direction_change": false}
+[2026-09-26 00:23:20.012] [SFX] {"sound": "click_target", "volume": 0.7}
+[2026-09-26 00:23:20.052] [JACK] Vorsichtig vorantasten...
+[2026-09-26 00:23:20.094] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:20.128] [SFX] {"sound": "civ_move_1", "volume": 0.18}
+[2026-09-26 00:23:20.212] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:20.345] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:23:20.543] [SFX] {"sound": "civ_move_1", "volume": 0.21}
+[2026-09-26 00:23:20.626] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:20.675] [SFX] {"sound": "civ_move_1", "volume": 0.03}
+[2026-09-26 00:23:20.691] [M] {"button": 1, "pos": [294, 212], "ui_clicked": false}
+[2026-09-26 00:23:20.956] [SFX] {"sound": "civ_move_1", "volume": 0.22}
+[2026-09-26 00:23:21.038] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:21.089] [M] {"button": 1, "pos": [311, 214], "ui_clicked": false}
+[2026-09-26 00:23:21.095] [SFX] {"sound": "civ_move_1", "volume": 0.04}
+[2026-09-26 00:23:21.096] [P] {"start": [192, 14], "goal": [190, 18], "length": 2, "is_direction_change": false}
+[2026-09-26 00:23:21.097] [SFX] {"sound": "click_target", "volume": 0.71}
+[2026-09-26 00:23:21.134] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:21.368] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:23:21.452] [SFX] {"sound": "civ_move_1", "volume": 0.02}
+[2026-09-26 00:23:21.500] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:23:21.781] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:23:21.866] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:21.915] [SFX] {"sound": "civ_move_1", "volume": 0.07}
+[2026-09-26 00:23:22.082] [M] {"button": 1, "pos": [348, 188], "ui_clicked": false}
+[2026-09-26 00:23:22.183] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:22.281] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:22.330] [SFX] {"sound": "civ_move_1", "volume": 0.08}
+[2026-09-26 00:23:22.445] [M] {"button": 1, "pos": [342, 180], "ui_clicked": false}
+[2026-09-26 00:23:22.594] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:22.744] [SFX] {"sound": "civ_move_1", "volume": 0.09}
+[2026-09-26 00:23:22.961] [M] {"button": 1, "pos": [338, 186], "ui_clicked": false}
+[2026-09-26 00:23:22.968] [P] {"start": [190, 18], "goal": [192, 18], "length": 1, "is_direction_change": false}
+[2026-09-26 00:23:22.969] [SFX] {"sound": "click_target", "volume": 0.75}
+[2026-09-26 00:23:23.011] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:23.012] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:23.111] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 00:23:23.159] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:23:23.424] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:23.574] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:23:23.840] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:23.989] [SFX] {"sound": "civ_move_1", "volume": 0.12}
+[2026-09-26 00:23:24.254] [SFX] {"sound": "civ_move_1", "volume": 0.25}
+[2026-09-26 00:23:24.403] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:23:24.452] [M] {"button": 1, "pos": [382, 134], "ui_clicked": false}
+[2026-09-26 00:23:24.460] [P] {"start": [192, 18], "goal": [199, 12], "length": 5, "is_direction_change": false}
+[2026-09-26 00:23:24.460] [SFX] {"sound": "click_target", "volume": 0.76}
+[2026-09-26 00:23:24.667] [SFX] {"sound": "civ_move_1", "volume": 0.24}
+[2026-09-26 00:23:24.718] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:24.817] [SFX] {"sound": "civ_move_1", "volume": 0.11}
+[2026-09-26 00:23:25.033] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:25.081] [SFX] {"sound": "civ_move_1", "volume": 0.26}
+[2026-09-26 00:23:25.229] [SFX] {"sound": "civ_move_1", "volume": 0.13}
+[2026-09-26 00:23:25.253] [C] {"civ_pos": [198, 12]}
+[2026-09-26 00:23:25.334] [SFX] {"sound": "player_move", "volume": 0.4}
+[2026-09-26 00:23:25.485] [SFX] {"sound": "civ_move_1", "volume": 0.29}
+[2026-09-26 00:23:25.637] [SFX] {"sound": "civ_move_1", "volume": 0.15}
+[2026-09-26 00:23:25.688] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:25.887] [SFX] {"sound": "civ_move_1", "volume": 0.28}
+[2026-09-26 00:23:25.954] [M] {"button": 1, "pos": [368, 179], "ui_clicked": false}
+[2026-09-26 00:23:26.039] [SFX] {"sound": "civ_move_1", "volume": 0.16}
+[2026-09-26 00:23:26.103] [SFX] {"sound": "civ_move_1", "volume": 0.01}
+[2026-09-26 00:23:26.301] [SFX] {"sound": "civ_move_1", "volume": 0.27}
+[2026-09-26 00:23:26.335] [M] {"button": 1, "pos": [366, 178], "ui_clicked": false}
+[2026-09-26 00:23:46.064] [M] {"button": 1, "pos": [430, 44], "ui_clicked": false}
+[2026-09-26 00:23:48.125] [M] {"button": 1, "pos": [530, 47], "ui_clicked": false}
+[2026-09-26 00:24:01.519] [M] {"button": 1, "pos": [441, 39], "ui_clicked": false}
+[2026-09-26 00:24:19.421] [M] {"button": 1, "pos": [312, 235], "ui_clicked": false}
+[2026-09-26 00:24:49.470] [M] {"button": 1, "pos": [259, 235], "ui_clicked": false}
+[2026-09-26 00:25:04.091] [M] {"button": 1, "pos": [292, 229], "ui_clicked": false}

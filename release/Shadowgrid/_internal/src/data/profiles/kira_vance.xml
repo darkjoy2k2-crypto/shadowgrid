@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>1</id>
+    <name>Kira Vance</name>
+    <category>STANDARD</category>
+    <gender>Female</gender>
+    <age_group>Adult (28-34)</age_group>
+    <origin>Sector 4 Logistics Hub</origin>
+    <job>Data Courier</job>
+    <image_path>src/gfx/faces/kira_vance.png</image_path>
+    <story>Routine data courier transporting encrypted corporate manifests across sector nodes.</story>
+    <comment_jack>JACK // REGULAR DATA COURIER. WEARS STANDARD CONCERN ENCRYPTION.</comment_jack>
+    <personality_traits>Nervous, Methodical</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Hey! Was starrst du mich so an? Ich transportiere hier nur Standard-Datenpakete für die Grid-Administration.</text>
+            <choices>
+                <choice>
+                    <text>1. Geld erpressen [+50 Credits]</text>
+                    <next_node></next_node>
+                    <action>REWARD_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. Verschlüsselungs-Quiz lösen [Frage-Quiz / Seite 2]</text>
+                    <next_node>quiz</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>3. Ignorieren &amp; Weitergehen [Nichts]</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Warte! Nicht den Logik-Schild angreifen! Weißt du überhaupt, welches Verschlüsselungs-Protokoll das Sector 4 Hub schützt?</text>
+            <choices>
+                <choice>
+                    <text>1. Quantum-Grid-512 [Richtig! +100 Credits]</text>
+                    <next_node></next_node>
+                    <action>REWARD_LARGE</action>
+                </choice>
+                <choice>
+                    <text>2. Trotzdem Alarm auslösen! [ALARM]</text>
+                    <next_node></next_node>
+                    <action>TRIGGER_ALARM</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

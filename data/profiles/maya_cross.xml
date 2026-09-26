@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>48</id>
+    <name>Maya Cross</name>
+    <gender>Female</gender>
+    <age_group>Adult (31-36)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Corporate Intelligence Agent</job>
+    <image_path>media/images/Faces_edited/maya_cross.png</image_path>
+    <story>Undercover operative monitoring competitor activity in Sector 1.</story>
+    <comment_jack>JACK // DANGEROUS GAME. SHE WEARS HIGH-GRADE COUNTER-MEASURES.</comment_jack>
+    <personality_traits>Stealthy, Lethal, Sharp</personality_traits>
+</civilian_profile>

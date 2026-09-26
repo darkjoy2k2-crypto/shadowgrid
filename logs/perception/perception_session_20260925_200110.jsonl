@@ -1,0 +1,6 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_200110", "sys_t": "2026-09-25T20:01:10.021887"}}
+{"t": 0.025, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.049, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.07, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.094, "e": "C", "d": {"civ_pos": [130, 32]}}
+{"t": 0.151, "e": "J", "d": {"txt": "JACK // EXTRACTED 2 DATA FRAGMENTS FROM WATCHER", "sit": "HACK_SUCCESS"}}

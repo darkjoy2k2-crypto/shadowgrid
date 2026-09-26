@@ -1,0 +1,8 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_231108", "sys_t": "2026-09-25T23:11:08.181841"}}
+{"t": 0.022, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.048, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.062, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.099, "e": "C", "d": {"civ_pos": [196, 128]}}
+{"t": 0.101, "e": "J", "d": {"txt": "JACK // STOLE 3 DATA FROM SILAS VANCE (DATA COURIER). TARGET FLEEING TO GUARD SPOT!", "sit": "CIVILIAN_ALERTED"}}
+{"t": 0.101, "e": "J", "d": {"txt": "JACK // UNSTABLE EMOTION METRICS. SNAPS WHEN PRESSED UNDER INFILTRATION LOCK.", "sit": "CIVILIAN_ATTACKED"}}
+{"t": 0.113, "e": "SENTINEL_ALARM_DISPATCHED", "d": {"guard": [201, 102], "investigate": [196, 113]}}

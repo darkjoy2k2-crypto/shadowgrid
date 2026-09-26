@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>30</id>
+    <name>Mara Stryker</name>
+    <gender>Female</gender>
+    <age_group>Adult (31-37)</age_group>
+    <origin>Undercity Docks</origin>
+    <job>Sub-Dermal Tech</job>
+    <image_path>media/images/Faces_edited/mara_stryker.png</image_path>
+    <story>Underground surgeon implanting illegal memory chips and sub-dermal Wi-Fi transceivers.</story>
+    <comment_jack>JACK // STEEPED IN CHROME CULTURE. HER PERSONAL LOGS ARE FULL OF BLACK-MARKET CONTACTS.</comment_jack>
+    <personality_traits>Sarcastic, Skilled, Fearless</personality_traits>
+</civilian_profile>

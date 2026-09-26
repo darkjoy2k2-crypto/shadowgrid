@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>18</id>
+    <name>Vesper Kane</name>
+    <gender>Non-Binary</gender>
+    <age_group>Adult (26-31)</age_group>
+    <origin>Undercity Docks</origin>
+    <job>Autonomous Drone Supervisor</job>
+    <image_path>media/images/Faces_edited/vesper_kane.png</image_path>
+    <story>Drone supervisor managing automated surveillance swarms across industrial canals.</story>
+    <comment_jack>JACK // ALWAYS MONITORS AIRBORNE TRACE LOGS. DO NOT STAY IN LINE OF SIGHT.</comment_jack>
+    <personality_traits>Alert, Calculating, Isolated</personality_traits>
+</civilian_profile>

@@ -1,0 +1,8 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260925_205550", "sys_t": "2026-09-25T20:55:50.789078"}}
+{"t": 0.019, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 0.047, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 0.061, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 0.1, "e": "C", "d": {"civ_pos": [74, 50]}}
+{"t": 0.101, "e": "J", "d": {"txt": "JACK // STOLE 3 DATA FROM ELENA ROSTOVA (DATA COURIER). TARGET FLEEING TO GUARD SPOT!", "sit": "CIVILIAN_ALERTED"}}
+{"t": 0.101, "e": "J", "d": {"txt": "JACK // ETHICS WAIVED LONG AGO. HER CACHES ARE RICH WITH RAW SENSORY DATA.", "sit": "CIVILIAN_ATTACKED"}}
+{"t": 0.126, "e": "C", "d": {"civ_pos": [74, 50]}}

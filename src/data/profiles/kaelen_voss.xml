@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>25</id>
+    <name>Kaelen Voss</name>
+    <gender>Male</gender>
+    <age_group>Veteran (46-52)</age_group>
+    <origin>Orbital Relay Station</origin>
+    <job>Sub-Grid Protocol Engineer</job>
+    <image_path>src/gfx/faces/kaelen_voss.png</image_path>
+    <story>Protocol engineer who helped design the original architecture of the shadowgrid.</story>
+    <comment_jack>JACK // KNOWS EVERY BACKDOOR IN THE SYSTEM. HIS DATA IS HISTORICALLY VALUABLE.</comment_jack>
+    <personality_traits>Wise, Tired, Legend</personality_traits>
+    <category>EXECUTIVE</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Verschwinde aus meiner Frequenz, Slum-Hacker! Ich bin Kaelen Voss, Sub-Grid Protocol Engineer. Meine Datenpakete sind konzernversiegelt!</text>
+            <choices>
+                <choice>
+                    <text>1. Mit Daten-Erpressung drohen [+100 Credits]</text>
+                    <next_node />
+                    <action>REWARD_LARGE</action>
+                </choice>
+                <choice>
+                    <text>2. Konzern-Quiz lösen: Welcher Megakonzern steuert die Subnet-Finanzen?</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Abbrechen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welche Instanz kontrolliert die unzensierten Finanzströme im Shadow-Grid?</text>
+            <choices>
+                <choice>
+                    <text>1. Helix-Dominion Rüstungs-Konsortium [Richtig! +150 Credits]</text>
+                    <next_node />
+                    <action>MARK_REWARD</action>
+                </choice>
+                <choice>
+                    <text>2. Die Wohlfahrt [Falsch - Alarm!]</text>
+                    <next_node />
+                    <action>TRIGGER_ALARM</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

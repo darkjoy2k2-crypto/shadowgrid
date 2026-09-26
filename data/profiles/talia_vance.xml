@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>44</id>
+    <name>Talia Vance</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (23-28)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Automated Drone Technician</job>
+    <image_path>media/images/Faces_edited/talia_vance.png</image_path>
+    <story>Technician maintaining industrial courier drones in sub-zero storage bays.</story>
+    <comment_jack>JACK // ALWAYS COVERED IN SYNTHETIC OIL. HER COMM LOGS CONTAIN DRONE ROUTES.</comment_jack>
+    <personality_traits>Hardworking, Pragmatic, Grounded</personality_traits>
+</civilian_profile>

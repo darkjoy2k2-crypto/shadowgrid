@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>33</id>
+    <name>Gideon Vane</name>
+    <gender>Male</gender>
+    <age_group>Veteran (48-54)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Sub-Level Grid Operator</job>
+    <image_path>media/images/Faces_edited/gideon_vane.png</image_path>
+    <story>Sub-level grid operator keeping emergency generator nodes online during power surges.</story>
+    <comment_jack>JACK // GRIM AND GRIMY. HIS ACCESS PASSES SURVIVED THREE GRID COLLAPSES.</comment_jack>
+    <personality_traits>Gritty, Resilient, Stoic</personality_traits>
+</civilian_profile>

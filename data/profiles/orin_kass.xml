@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>29</id>
+    <name>Orin Kass</name>
+    <gender>Male</gender>
+    <age_group>Adult (34-40)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Darknet Vault Keeper</job>
+    <image_path>media/images/Faces_edited/orin_kass.png</image_path>
+    <story>Custodian of encrypted darknet vaults containing confiscated military schematics.</story>
+    <comment_jack>JACK // HEAVY VAULT LOCKS. EXTRACTION YIELDS HUGE DATA FRAGMENT REWARDS.</comment_jack>
+    <personality_traits>Cautious, Guarded, Wealthy</personality_traits>
+</civilian_profile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>5</id>
+    <name>Kira Vance</name>
+    <gender>Female</gender>
+    <age_group>Adult (26-32)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Rogue ICE Analyst</job>
+    <image_path>media/images/Faces_edited/kira_vance.png</image_path>
+    <story>Rogue ICE analyst monitoring security sentinels for unauthorized firmware patches.</story>
+    <comment_jack>JACK // HIGH THREAT POTENTIAL. SWITCHES FREQUENCIES FREQUENTLY. KEEP DISTANCE.</comment_jack>
+    <personality_traits>Analytical, Vigilant, Tactical</personality_traits>
+</civilian_profile>

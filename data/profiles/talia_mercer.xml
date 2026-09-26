@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>62</id>
+    <name>Talia Mercer</name>
+    <gender>Female</gender>
+    <age_group>Adult (33-38)</age_group>
+    <origin>Sector 7 Industrial</origin>
+    <job>Environmental Grid Tech</job>
+    <image_path>media/images/Faces_edited/talia_mercer.png</image_path>
+    <story>Technician monitoring air purification filters in heavy industrial sectors.</story>
+    <comment_jack>JACK // GRITTY WORKER. HER DECK CONTAINS UTILITY OVERRIDE PASSES.</comment_jack>
+    <personality_traits>Hardy, Honest, Steadfast</personality_traits>
+</civilian_profile>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>11</id>
+    <name>Elena Rostova</name>
+    <gender>Female</gender>
+    <age_group>Adult (34-39)</age_group>
+    <origin>High-Rise Executive Sprawl</origin>
+    <job>Neural Mesh Researcher</job>
+    <image_path>src/gfx/faces/elena_rostova.png</image_path>
+    <story>Neural mesh researcher testing prototype brain-computer interfaces on off-grid subjects.</story>
+    <comment_jack>JACK // ETHICS WAIVED LONG AGO. HER CACHES ARE RICH WITH RAW SENSORY DATA.</comment_jack>
+    <personality_traits>Ambitious, Cold, Dangerous</personality_traits>
+    <category>OLD_LADY</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Ach herrje... ich bin Elena Rostova. Bitte tu mir nichts, Net-Runner... ich suche im Subnet nur nach meinen Medikamenten.</text>
+            <choices>
+                <choice>
+                    <text>1. Mitleid empfinden: Credits spenden [-30 Data-Fragments]</text>
+                    <next_node />
+                    <action>OLD_LADY_GIVE_CREDITS</action>
+                </choice>
+                <choice>
+                    <text>2. Höflich entschuldigen &amp; Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+                <choice>
+                    <text>3. Trotzdem ausrauben! [+50 Data-Fragments]</text>
+                    <next_node />
+                    <action>ROB_OLD_LADY</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

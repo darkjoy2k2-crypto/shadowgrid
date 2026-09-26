@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>37</id>
+    <name>Marek Voss</name>
+    <gender>Male</gender>
+    <age_group>Adult (37-43)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Deep-Memory Recovery Spec</job>
+    <image_path>media/images/Faces_edited/marek_voss.png</image_path>
+    <story>Specialist recovering corrupted memories from damaged bio-chips and fried decks.</story>
+    <comment_jack>JACK // RECONSTRUCTS DEAD DATA. HIS DRIVE IS A GRAVEYARD OF FORGOTTEN LIVES.</comment_jack>
+    <personality_traits>Somber, Patient, Analytical</personality_traits>
+</civilian_profile>

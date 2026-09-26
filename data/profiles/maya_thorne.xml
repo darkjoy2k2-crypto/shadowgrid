@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>64</id>
+    <name>Maya Thorne</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (20-25)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Sub-Net Hacktivist</job>
+    <image_path>media/images/Faces_edited/maya_thorne.png</image_path>
+    <story>Young hacktivist leaking corrupt politician memory logs to public street displays.</story>
+    <comment_jack>JACK // PASSIONATE CODER. HER TRAFFIC IS HEAVY AND FULL OF WHISTLEBLOWER DATA.</comment_jack>
+    <personality_traits>Bold, Fiery, Idealistic</personality_traits>
+</civilian_profile>

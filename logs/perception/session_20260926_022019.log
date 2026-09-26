@@ -1,0 +1,16 @@
+[2026-09-26 02:20:19.557] [S] {"sid": "20260926_022019", "sys_t": "2026-09-26T02:20:19.556874"}
+[2026-09-26 02:20:19.582] [SESSION_RESET] {"msg": "--- NEW LIFE STARTED ---"}
+[2026-09-26 02:20:19.627] [S] {"map": "Shadowgrid"}
+[2026-09-26 02:20:19.642] [JACK] Ich hab mich wieder im Shadowgrid eingeklinkt... Mein Deck läuft, aber der Grid ist gefährlich. Tipp: Mit 'disp.drv' sehe ich das Nebel-Raster!
+[2026-09-26 02:20:19.643] [SFX] {"sound": "threat_pulse", "volume": 0.66}
+[2026-09-26 02:20:19.680] [SFX] {"sound": "threat_pulse", "volume": 0.67}
+[2026-09-26 02:20:19.709] [SFX] {"sound": "civ_move_2", "volume": 0.0}
+[2026-09-26 02:20:19.710] [SFX] {"sound": "threat_pulse", "volume": 0.68}
+[2026-09-26 02:20:19.737] [SFX] {"sound": "threat_pulse", "volume": 0.69}
+[2026-09-26 02:20:19.748] [SFX] {"sound": "civ_move_2", "volume": 0.21}
+[2026-09-26 02:20:19.766] [SFX] {"sound": "civ_move_1", "volume": 0.0}
+[2026-09-26 02:20:19.780] [SFX] {"sound": "threat_pulse", "volume": 0.69}
+[2026-09-26 02:20:19.803] [SFX] {"sound": "guardian_move", "volume": 0.32}
+[2026-09-26 02:20:19.816] [SFX] {"sound": "threat_pulse", "volume": 0.7}
+[2026-09-26 02:20:19.817] [SFX] {"sound": "alert_trigger", "volume": 1.0}
+[2026-09-26 02:20:19.827] [SFX] {"sound": "game_over", "volume": 1.0}

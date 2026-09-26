@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>38</id>
+    <name>Lyra Mercer</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (24-29)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Sub-Net Signal Pirate</job>
+    <image_path>media/images/Faces_edited/lyra_mercer.png</image_path>
+    <story>Signal pirate broadcasting free radio and illegal encrypted video streams.</story>
+    <comment_jack>JACK // POPULAR ON THE UNDERGROUND FREQUENCIES. CARRIES HIGH-TRAFFIC RELAYS.</comment_jack>
+    <personality_traits>Charismatic, Loud, Unruly</personality_traits>
+</civilian_profile>

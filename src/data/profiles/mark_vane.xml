@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>103</id>
+    <name>Mark Vane</name>
+    <category>MARK</category>
+    <gender>Male</gender>
+    <age_group>Adult (35-40)</age_group>
+    <origin>Sector 3 Subnet</origin>
+    <job>Senior Systems Analyst</job>
+    <image_path>src/gfx/faces/mark_vane.png</image_path>
+    <story>Jack's loyal former coworker who secretly leaked the Shadow-Grid routing keys to save Jack.</story>
+    <comment_jack>JACK // MARK. THE ONLY ONE IN THE CONCERN WHO STOOD BY ME IN SECRET.</comment_jack>
+    <personality_traits>Loyal, Cautious, Sharp</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Jack! Pssst... halt den Kopf unten. Die Konzern-Scanner filtern diesen Subnet-Sektor. Ich kann nicht lange sprechen, sonst finden sie meine Familie.</text>
+            <choices>
+                <choice>
+                    <text>1. 'Mark! Danke für den Shadow-Grid Schlüssel! Hast du neue Daten?'</text>
+                    <next_node>page_data</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>2. 'Geh kein Risiko ein, alter Freund. Verschwinde!'</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page_data">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Ich habe einen vertraulichen Daten-Cache aus der Konzern-Zentrale abgefangen. Nimm ihn, aber verrat mich nicht! (+150 Data-Fragments)</text>
+            <choices>
+                <choice>
+                    <text>1. Daten-Cache annehmen [+150 Credits]</text>
+                    <next_node></next_node>
+                    <action>MARK_REWARD</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

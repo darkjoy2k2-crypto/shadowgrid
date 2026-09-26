@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>59</id>
+    <name>Viktor Sterling</name>
+    <gender>Male</gender>
+    <age_group>Veteran (44-50)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Senior Network Architect</job>
+    <image_path>media/images/Faces_edited/viktor_sterling.png</image_path>
+    <story>Architect responsible for upgrading central firewall nodes across Sector 2.</story>
+    <comment_jack>JACK // DEEP SYSTEM ACCESS. HIS KEYS GRANT EXTENSIVE REWARD FRAGMENTS.</comment_jack>
+    <personality_traits>Authoritative, Experienced, Calm</personality_traits>
+</civilian_profile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>15</id>
+    <name>Ren Kurosawa</name>
+    <gender>Male</gender>
+    <age_group>Adult (31-37)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Black-Market Firmware Dealer</job>
+    <image_path>media/images/Faces_edited/ren_kurosawa.png</image_path>
+    <story>Black-market firmware dealer smuggling altered kernel patches to rogue androids.</story>
+    <comment_jack>JACK // HARDWARE HOARDER. HE CARRIES REWORKED CHIPS IN HIS ARM PROSTHETIC.</comment_jack>
+    <personality_traits>Shrewd, Resourceful, Shifty</personality_traits>
+</civilian_profile>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>24</id>
+    <name>Tessa Drake</name>
+    <gender>Female</gender>
+    <age_group>Adult (30-36)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Quantum Encryption Dev</job>
+    <image_path>src/gfx/faces/tessa_drake.png</image_path>
+    <story>Developer creating quantum-resistant ciphers for corporate banking syndicates.</story>
+    <comment_jack>JACK // SOLID ENCRYPTION WALLS. REQUIRES PERFECT MINIGAME TIMING.</comment_jack>
+    <personality_traits>Precise, Aloof, High-Tech</personality_traits>
+    <category>BUM</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>He, Runner... Ich bin Tessa Drake. Hast du ein paar spare Bytes für 'nen alten Net-Droger? Das Black ICE hat meine Synapsen beschädigt...</text>
+            <choices>
+                <choice>
+                    <text>1. 30 Credits spenden &amp; nach Slum-Gerüchten fragen [-30 Credits]</text>
+                    <next_node />
+                    <action>BUM_DONATE</action>
+                </choice>
+                <choice>
+                    <text>2. Abwimmeln &amp; Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+                <choice>
+                    <text>3. Versuchen den Alten abzuziehen! [Gefährlich]</text>
+                    <next_node>bum_retaliate</next_node>
+                    <action />
+                </choice>
+            </choices>
+        </node>
+        <node id="bum_retaliate">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Denkst du, du kannst 'nen alten Sektor-Veteran abziehen, Grünschnabel?! Spieß umgedreht!</text>
+            <choices>
+                <choice>
+                    <text>1. [Verdammt! Er stiehlt Jack's Credits &amp; löst Alarm aus!]</text>
+                    <next_node />
+                    <action>BUM_ROB_JACK</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

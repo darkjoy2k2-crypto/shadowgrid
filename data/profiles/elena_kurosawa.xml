@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>52</id>
+    <name>Elena Kurosawa</name>
+    <gender>Female</gender>
+    <age_group>Veteran (45-51)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Corporate Compliance Officer</job>
+    <image_path>media/images/Faces_edited/elena_kurosawa.png</image_path>
+    <story>Officer enforcing data security protocols across regional banking hubs.</story>
+    <comment_jack>JACK // NO-TOLERANCE POLICY. HER DECK IS EQUIPPED WITH RETALIATORY ICE.</comment_jack>
+    <personality_traits>Strict, Formal, Aggressive</personality_traits>
+</civilian_profile>

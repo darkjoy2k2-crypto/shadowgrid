@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>28</id>
+    <name>Iris Thorne</name>
+    <gender>Female</gender>
+    <age_group>Veteran (44-49)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Chief Security Auditor</job>
+    <image_path>media/images/Faces_edited/iris_thorne.png</image_path>
+    <story>Corporate auditor auditing employee data leak logs across Sector 3.</story>
+    <comment_jack>JACK // NO MERCY FOR SLOPPY CODERS. LEAVES HIGH-LEVEL ICE TRAPS BEHIND HER.</comment_jack>
+    <personality_traits>Strict, Uncompromising, Sharp</personality_traits>
+</civilian_profile>

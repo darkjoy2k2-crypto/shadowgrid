@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>55</id>
+    <name>Kaelen Drake</name>
+    <gender>Male</gender>
+    <age_group>Veteran (49-55)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Darknet Information Broker</job>
+    <image_path>src/gfx/faces/kaelen_drake.png</image_path>
+    <story>Broker dealing in leaked corporate blueprints and classified biometric databases.</story>
+    <comment_jack>JACK // HE KNOWS WHERE EVERY BODY IS BURIED IN THIS CITY. HIGH VALUE DATA.</comment_jack>
+    <personality_traits>Mysterious, Powerful, Cautious</personality_traits>
+    <category>BUM</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>He, Runner... Ich bin Kaelen Drake. Hast du ein paar spare Bytes für 'nen alten Net-Droger? Das Black ICE hat meine Synapsen beschädigt...</text>
+            <choices>
+                <choice>
+                    <text>1. 30 Credits spenden &amp; nach Slum-Gerüchten fragen [-30 Credits]</text>
+                    <next_node />
+                    <action>BUM_DONATE</action>
+                </choice>
+                <choice>
+                    <text>2. Abwimmeln &amp; Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+                <choice>
+                    <text>3. Versuchen den Alten abzuziehen! [Gefährlich]</text>
+                    <next_node>bum_retaliate</next_node>
+                    <action />
+                </choice>
+            </choices>
+        </node>
+        <node id="bum_retaliate">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Denkst du, du kannst 'nen alten Sektor-Veteran abziehen, Grünschnabel?! Spieß umgedreht!</text>
+            <choices>
+                <choice>
+                    <text>1. [Verdammt! Er stiehlt Jack's Credits &amp; löst Alarm aus!]</text>
+                    <next_node />
+                    <action>BUM_ROB_JACK</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

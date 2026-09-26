@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>1</id>
+    <name>Baron Kaelen Sterling</name>
+    <gender>Male</gender>
+    <age_group>Adult (35-40)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Quantum Data Courier</job>
+    <image_path>media/images/Faces_edited/baron_kaelen_sterling.png</image_path>
+    <story>Lead Data Architect at NeuraGrid Corp. Smuggles illegal quantum keys in secondary optical caches.</story>
+    <comment_jack>JACK // OBSESSED WITH QUANTUM KEYS. LEAVES RETINAL SHADOWS IN EVERY NODE HE TOUCHES.</comment_jack>
+    <personality_traits>Paranoid, Methodical, High-Value</personality_traits>
+</civilian_profile>

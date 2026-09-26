@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>2</id>
+    <name>Evelyn 'Zero' Cross</name>
+    <gender>Female</gender>
+    <age_group>Adult (28-34)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Sub-Net Packet Transference Spec</job>
+    <image_path>media/images/Faces_edited/evelyn_zero_cross.png</image_path>
+    <story>Sub-net packet smuggler operating out of Sector 4. Specializes in encrypted neural trace logs.</story>
+    <comment_jack>JACK // COLD DATA BROKER. WOULD TRADE HER OWN MOTHER FOR A LEVEL 3 ENCRYPTION PASS.</comment_jack>
+    <personality_traits>Cynical, Fast-Paced, Elusive</personality_traits>
+</civilian_profile>

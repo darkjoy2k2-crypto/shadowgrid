@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>68</id>
+    <name>Sora Mercer</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (22-27)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Augmented Reality Artist</job>
+    <image_path>media/images/Faces_edited/sora_mercer.png</image_path>
+    <story>Artist painting reactive neon graffiti over corporate surveillance cameras.</story>
+    <comment_jack>JACK // HER GRAFFITI CONTAINS ENCRYPTED DATA MAPS OF THE CITY.</comment_jack>
+    <personality_traits>Creative, Wild, Expressive</personality_traits>
+</civilian_profile>

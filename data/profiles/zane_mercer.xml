@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>45</id>
+    <name>Zane Mercer</name>
+    <gender>Male</gender>
+    <age_group>Adult (28-33)</age_group>
+    <origin>Undercity Docks</origin>
+    <job>Sub-Net Smuggler</job>
+    <image_path>media/images/Faces_edited/zane_mercer.png</image_path>
+    <story>Smuggler transporting physical data drives across flooded undercity tunnels.</story>
+    <comment_jack>JACK // DANGEROUS CONNECTIONS. HE HOLDS KEYS TO OFF-GRID SANCTUARIES.</comment_jack>
+    <personality_traits>Risk-Taker, Cunning, Street-Smart</personality_traits>
+</civilian_profile>

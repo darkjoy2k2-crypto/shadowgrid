@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>56</id>
+    <name>Aria Vance</name>
+    <gender>Female</gender>
+    <age_group>Young Adult (24-29)</age_group>
+    <origin>Undercity Docks</origin>
+    <job>Sub-Net Signal Interceptor</job>
+    <image_path>media/images/Faces_edited/aria_vance.png</image_path>
+    <story>Interceptor eavesdropping on corporate security drone chatter.</story>
+    <comment_jack>JACK // SHE HEARS SENTINEL DISPATCHES EARLY. HER NODES HAVE GREAT VALUE.</comment_jack>
+    <personality_traits>Vigilant, Sharp, Quick</personality_traits>
+</civilian_profile>

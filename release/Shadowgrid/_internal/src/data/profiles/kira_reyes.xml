@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>42</id>
+    <name>Kira Reyes</name>
+    <gender>Female</gender>
+    <age_group>Adult (27-32)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Cyber-Clinic Operator</job>
+    <image_path>src/gfx/faces/kira_reyes.png</image_path>
+    <story>Street medic operating a rogue cyber-clinic in Sector 5.</story>
+    <comment_jack>JACK // CARES FOR OUTCASTS. CARRIES MEDICAL DATA AND ILLEGAL BIOMETRIC IDS.</comment_jack>
+    <personality_traits>Empathetic, Tough, Tired</personality_traits>
+    <category>MEDIC</category>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>6</jack_emotion>
+            <text>Grüße. Ich bin Kira Reyes, Cyber-Clinic Operator. Ich helfe den Opfern der künstlichen Konzern-Seuche in den Slums.</text>
+            <choices>
+                <choice>
+                    <text>1. Medizinische Klinik unterstützen [Spawnt Mediziner-Knoten (+)]</text>
+                    <next_node />
+                    <action>MEDIC_SPAWN_NODE</action>
+                </choice>
+                <choice>
+                    <text>2. Medizin-Quiz lösen: Welches Gegenmittel hemmt das Seuchen-Toxin?</text>
+                    <next_node>quiz</next_node>
+                    <action />
+                </choice>
+                <choice>
+                    <text>3. Weitergehen</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="quiz">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>4</jack_emotion>
+            <text>Welches Antidot schützt die neuronalen Synapsen vor der Helix-Seuche?</text>
+            <choices>
+                <choice>
+                    <text>1. Cyto-Blocker Alpha [Richtig! +100 Credits &amp; Spawnt (+)]</text>
+                    <next_node />
+                    <action>MEDIC_QUIZ_CORRECT</action>
+                </choice>
+                <choice>
+                    <text>2. Kochsalzlösung [Falsch]</text>
+                    <next_node />
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

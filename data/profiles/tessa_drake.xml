@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>24</id>
+    <name>Tessa Drake</name>
+    <gender>Female</gender>
+    <age_group>Adult (30-36)</age_group>
+    <origin>Neo-Tokyo Sub-Net</origin>
+    <job>Quantum Encryption Dev</job>
+    <image_path>media/images/Faces_edited/tessa_drake.png</image_path>
+    <story>Developer creating quantum-resistant ciphers for corporate banking syndicates.</story>
+    <comment_jack>JACK // SOLID ENCRYPTION WALLS. REQUIRES PERFECT MINIGAME TIMING.</comment_jack>
+    <personality_traits>Precise, Aloof, High-Tech</personality_traits>
+</civilian_profile>

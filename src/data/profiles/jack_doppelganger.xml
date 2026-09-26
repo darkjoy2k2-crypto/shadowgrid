@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<civilian_profile>
+    <id>999</id>
+    <name>Jack Doppelgänger</name>
+    <category>DOPPELGANGER</category>
+    <gender>Male</gender>
+    <age_group>Adult (35-40)</age_group>
+    <origin>Memory Leak Cluster</origin>
+    <job>Corrupted Echo Thread</job>
+    <image_path>src/gfx/faces/jack_doppelganger.png</image_path>
+    <story>A residual corrupted memory thread of Jack himself left over from yesterday's emergency disconnect.</story>
+    <comment_jack>JACK // THIS IS ME... A RESIDUAL MEMORY THREAD FROM THE LAST CRASH.</comment_jack>
+    <personality_traits>Unstable, Fragmented, Cynical</personality_traits>
+    <dialogue>
+        <node id="start">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>5</jack_emotion>
+            <text>Warte... Bist du ICH?! Ich dachte, ich wäre der einzige aktive Decker-Thread in diesem verseuchten Sektor!</text>
+            <choices>
+                <choice>
+                    <text>1. Wer bist du?! [Hintergrund fragen / Seite 2]</text>
+                    <next_node>page2</next_node>
+                    <action></action>
+                </choice>
+                <choice>
+                    <text>2. Ich teile mir das Netz mit niemandem! [RAGEQUIT!]</text>
+                    <next_node></next_node>
+                    <action>RAGEQUIT</action>
+                </choice>
+                <choice>
+                    <text>3. Abbrechen &amp; Ignorieren [Nichts]</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+        <node id="page2">
+            <speaker>CIVILIAN</speaker>
+            <jack_emotion>14</jack_emotion>
+            <text>Ich bin deine verbliebene Kopie aus dem gestrigen Speicher-Leak. Das Grid ist völlig korrumpiert und unrettbar kaputt!</text>
+            <choices>
+                <choice>
+                    <text>1. Mir reicht es! Ich bin raus! [RAGEQUIT!]</text>
+                    <next_node></next_node>
+                    <action>RAGEQUIT</action>
+                </choice>
+                <choice>
+                    <text>2. Weiterleben &amp; Akzeptieren [Nichts]</text>
+                    <next_node></next_node>
+                    <action>CLOSE</action>
+                </choice>
+            </choices>
+        </node>
+    </dialogue>
+</civilian_profile>

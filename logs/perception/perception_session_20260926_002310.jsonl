@@ -1,0 +1,135 @@
+{"t": 0.0, "e": "S", "d": {"sid": "20260926_002310", "sys_t": "2026-09-26T00:23:10.369183"}}
+{"t": 0.001, "e": "SFX", "d": {"sound": "hack_success", "volume": 0.8}}
+{"t": 2.187, "e": "SESSION_RESET", "d": {"msg": "--- NEW LIFE STARTED ---"}}
+{"t": 2.243, "e": "S", "d": {"map": "Shadowgrid"}}
+{"t": 2.267, "e": "J", "d": {"txt": "Ah, im Shadowgrid angekommen... endlich.", "sit": "SESSION_START"}}
+{"t": 2.268, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 2.361, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 2.479, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 2.662, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 2.762, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 2.893, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 3.073, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.02}}
+{"t": 3.189, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 3.19, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 3.24, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 3.501, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.01}}
+{"t": 3.6, "e": "SFX", "d": {"sound": "civ_move_2", "volume": 0.0}}
+{"t": 3.602, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 3.645, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 4.057, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 4.106, "e": "M", "d": {"button": 1, "pos": [350, 206], "ui_clicked": false}}
+{"t": 4.471, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 4.8, "e": "M", "d": {"button": 1, "pos": [358, 211], "ui_clicked": false}}
+{"t": 4.807, "e": "P", "d": {"start": [188, 2], "goal": [192, 5], "length": 8, "is_direction_change": false}}
+{"t": 4.808, "e": "SFX", "d": {"sound": "click_target", "volume": 0.68}}
+{"t": 4.833, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 4.875, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 5.124, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 5.289, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 5.439, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 5.44, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 5.689, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 5.723, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 5.745, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 6.099, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 6.143, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 6.509, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 6.56, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 6.611, "e": "M", "d": {"button": 1, "pos": [344, 227], "ui_clicked": false}}
+{"t": 6.677, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 6.909, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 7.09, "e": "M", "d": {"button": 1, "pos": [356, 230], "ui_clicked": false}}
+{"t": 7.098, "e": "P", "d": {"start": [192, 5], "goal": [196, 11], "length": 3, "is_direction_change": false}}
+{"t": 7.099, "e": "SFX", "d": {"sound": "click_target", "volume": 0.65}}
+{"t": 7.316, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 7.395, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 7.396, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 7.726, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 7.808, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 7.907, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 8.137, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 8.222, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.05}}
+{"t": 8.322, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 8.538, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.1}}
+{"t": 8.621, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 8.738, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 8.955, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 9.037, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 9.153, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 9.17, "e": "M", "d": {"button": 1, "pos": [289, 214], "ui_clicked": false}}
+{"t": 9.355, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 9.438, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 9.487, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 9.567, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 9.634, "e": "M", "d": {"button": 1, "pos": [294, 212], "ui_clicked": false}}
+{"t": 9.643, "e": "P", "d": {"start": [196, 11], "goal": [192, 14], "length": 3, "is_direction_change": false}}
+{"t": 9.644, "e": "SFX", "d": {"sound": "click_target", "volume": 0.7}}
+{"t": 9.683, "e": "J", "d": {"txt": "Vorsichtig vorantasten...", "sit": "EXPLORATION_SHORT"}}
+{"t": 9.726, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 9.76, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.18}}
+{"t": 9.843, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 9.976, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 10.175, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.21}}
+{"t": 10.257, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 10.306, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.03}}
+{"t": 10.323, "e": "M", "d": {"button": 1, "pos": [294, 212], "ui_clicked": false}}
+{"t": 10.587, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.22}}
+{"t": 10.669, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 10.72, "e": "M", "d": {"button": 1, "pos": [311, 214], "ui_clicked": false}}
+{"t": 10.727, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.04}}
+{"t": 10.727, "e": "P", "d": {"start": [192, 14], "goal": [190, 18], "length": 2, "is_direction_change": false}}
+{"t": 10.728, "e": "SFX", "d": {"sound": "click_target", "volume": 0.71}}
+{"t": 10.765, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 10.999, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 11.083, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.02}}
+{"t": 11.131, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 11.412, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 11.497, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 11.546, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.07}}
+{"t": 11.713, "e": "M", "d": {"button": 1, "pos": [348, 188], "ui_clicked": false}}
+{"t": 11.815, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 11.912, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 11.961, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.08}}
+{"t": 12.076, "e": "M", "d": {"button": 1, "pos": [342, 180], "ui_clicked": false}}
+{"t": 12.226, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 12.376, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.09}}
+{"t": 12.592, "e": "M", "d": {"button": 1, "pos": [338, 186], "ui_clicked": false}}
+{"t": 12.599, "e": "P", "d": {"start": [190, 18], "goal": [192, 18], "length": 1, "is_direction_change": false}}
+{"t": 12.6, "e": "SFX", "d": {"sound": "click_target", "volume": 0.75}}
+{"t": 12.642, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 12.643, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 12.742, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.0}}
+{"t": 12.791, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 13.055, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 13.205, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 13.472, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 13.621, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.12}}
+{"t": 13.885, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.25}}
+{"t": 14.034, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 14.083, "e": "M", "d": {"button": 1, "pos": [382, 134], "ui_clicked": false}}
+{"t": 14.091, "e": "P", "d": {"start": [192, 18], "goal": [199, 12], "length": 5, "is_direction_change": false}}
+{"t": 14.092, "e": "SFX", "d": {"sound": "click_target", "volume": 0.76}}
+{"t": 14.298, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.24}}
+{"t": 14.349, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 14.448, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.11}}
+{"t": 14.664, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 14.712, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.26}}
+{"t": 14.861, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.13}}
+{"t": 14.884, "e": "C", "d": {"civ_pos": [198, 12]}}
+{"t": 14.965, "e": "SFX", "d": {"sound": "player_move", "volume": 0.4}}
+{"t": 15.116, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.29}}
+{"t": 15.268, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.15}}
+{"t": 15.319, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 15.518, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.28}}
+{"t": 15.585, "e": "M", "d": {"button": 1, "pos": [368, 179], "ui_clicked": false}}
+{"t": 15.67, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.16}}
+{"t": 15.734, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.01}}
+{"t": 15.932, "e": "SFX", "d": {"sound": "civ_move_1", "volume": 0.27}}
+{"t": 15.966, "e": "M", "d": {"button": 1, "pos": [366, 178], "ui_clicked": false}}
+{"t": 35.695, "e": "M", "d": {"button": 1, "pos": [430, 44], "ui_clicked": false}}
+{"t": 37.756, "e": "M", "d": {"button": 1, "pos": [530, 47], "ui_clicked": false}}
+{"t": 51.15, "e": "M", "d": {"button": 1, "pos": [441, 39], "ui_clicked": false}}
+{"t": 69.052, "e": "M", "d": {"button": 1, "pos": [312, 235], "ui_clicked": false}}
+{"t": 99.101, "e": "M", "d": {"button": 1, "pos": [259, 235], "ui_clicked": false}}
+{"t": 113.722, "e": "M", "d": {"button": 1, "pos": [292, 229], "ui_clicked": false}}

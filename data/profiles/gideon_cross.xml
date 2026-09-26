@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>67</id>
+    <name>Gideon Cross</name>
+    <gender>Male</gender>
+    <age_group>Veteran (46-52)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Sub-Grid Armorer</job>
+    <image_path>media/images/Faces_edited/gideon_cross.png</image_path>
+    <story>Armorer modifying tactical cyberware for frontline corporate security forces.</story>
+    <comment_jack>JACK // HARDENED TARGET. HE CARRIES MILITARY-GRADE DATA CACHES.</comment_jack>
+    <personality_traits>Grim, Disciplined, Dangerous</personality_traits>
+</civilian_profile>

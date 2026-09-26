@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>61</id>
+    <name>Daxen Reyes</name>
+    <gender>Male</gender>
+    <age_group>Young Adult (23-28)</age_group>
+    <origin>Chrome Bay District</origin>
+    <job>Sub-Grid Drone Racer</job>
+    <image_path>media/images/Faces_edited/daxen_reyes.png</image_path>
+    <story>Underground drone racer using modified optical decks to control racing units.</story>
+    <comment_jack>JACK // ULTRA-FAST REFLEXES. HIS DATA NODES MOVE AT BREAKNECK SPEEDS.</comment_jack>
+    <personality_traits>Fast, Reckless, Competitive</personality_traits>
+</civilian_profile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>23</id>
+    <name>Daxen Cole</name>
+    <gender>Male</gender>
+    <age_group>Young Adult (24-29)</age_group>
+    <origin>Sector 4 Tactical Sprawl</origin>
+    <job>Void-Net Router</job>
+    <image_path>media/images/Faces_edited/daxen_cole.png</image_path>
+    <story>Void-net hacker tunneling illegal traffic through decommissioned satellite arrays.</story>
+    <comment_jack>JACK // RISKY ROUTING HABITS. HE OPERATES ON OVERCLOCKED HARDWARE.</comment_jack>
+    <personality_traits>Daring, Impulsive, Tech-Savvy</personality_traits>
+</civilian_profile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>55</id>
+    <name>Kaelen Drake</name>
+    <gender>Male</gender>
+    <age_group>Veteran (49-55)</age_group>
+    <origin>Deep-Web Sanctuary</origin>
+    <job>Darknet Information Broker</job>
+    <image_path>media/images/Faces_edited/kaelen_drake.png</image_path>
+    <story>Broker dealing in leaked corporate blueprints and classified biometric databases.</story>
+    <comment_jack>JACK // HE KNOWS WHERE EVERY BODY IS BURIED IN THIS CITY. HIGH VALUE DATA.</comment_jack>
+    <personality_traits>Mysterious, Powerful, Cautious</personality_traits>
+</civilian_profile>

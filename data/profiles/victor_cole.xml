@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>43</id>
+    <name>Victor Cole</name>
+    <gender>Male</gender>
+    <age_group>Veteran (51-57)</age_group>
+    <origin>EuroCorp Metro</origin>
+    <job>Grid Infrastructure Architect</job>
+    <image_path>media/images/Faces_edited/victor_cole.png</image_path>
+    <story>Architect responsible for building the central transit nodes of the metropolis.</story>
+    <comment_jack>JACK // WEARS A VINTAGE DECK. HIS BLUEPRINTS ARE WORTH FORTUNES ON THE BLACK MARKET.</comment_jack>
+    <personality_traits>Nostalgic, Wise, High-Value</personality_traits>
+</civilian_profile>

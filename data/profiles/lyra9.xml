@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>4</id>
+    <name>LyRA-9</name>
+    <gender>Synthetic</gender>
+    <age_group>Young Adult (Artificial)</age_group>
+    <origin>Synthetic Hive 9</origin>
+    <job>Synthetic Relay Operator</job>
+    <image_path>media/images/Faces_edited/lyra9.png</image_path>
+    <story>Synthetic Node Operator maintaining ICE firewall relays in Sector 2. Highly efficient sub-routines.</story>
+    <comment_jack>JACK // SYNTHETIC CORE. PREDICTABLE ROUTING, NO EMOTIONAL SPIKES TO EXPLOIT.</comment_jack>
+    <personality_traits>Synthetic, Precise, Cold</personality_traits>
+</civilian_profile>

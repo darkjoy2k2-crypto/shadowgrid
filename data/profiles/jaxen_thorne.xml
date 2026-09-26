@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<civilian_profile>
+    <id>3</id>
+    <name>Jaxen Thorne</name>
+    <gender>Male</gender>
+    <age_group>Adult (30-36)</age_group>
+    <origin>Low-Life Slums</origin>
+    <job>Memory Relay Broker</job>
+    <image_path>media/images/Faces_edited/jaxen_thorne.png</image_path>
+    <story>Black-market memory broker. Sells wiped optical drives at triple market value in the undercity.</story>
+    <comment_jack>JACK // ANXIETY LEVELS OFF THE CHARTS. KEEPS DISCARDED BACKUPS IN EMBEDDED RETINAL CHIPS.</comment_jack>
+    <personality_traits>Anxious, Greedy, Vulnerable</personality_traits>
+</civilian_profile>
