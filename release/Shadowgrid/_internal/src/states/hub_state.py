@@ -509,7 +509,133 @@ class HubState(State):
         except Exception as e:
             print(f"[HubState] Video audio extraction failed: {e}")
 
+    def _start_camera_cutscene(self) -> None:
+        if not cv2: return
+        video_path = r"C:\Users\peter\Documents\_shadowgrid\media\video\camera.mp4"
+        if not os.path.exists(video_path):
+            video_path = os.path.abspath(os.path.join("media", "video", "camera.mp4"))
+        if not os.path.exists(video_path): return
+
+        try:
+            self.camera_video_cap = cv2.VideoCapture(video_path)
+            if not self.camera_video_cap.isOpened(): return
+            fps = self.camera_video_cap.get(cv2.CAP_PROP_FPS)
+            total_frames = self.camera_video_cap.get(cv2.CAP_PROP_FRAME_COUNT)
+            self.camera_video_fps = fps if fps > 0 else 24.0
+            self.camera_video_duration = (total_frames / self.camera_video_fps) if total_frames > 0 else 5.0
+            self._prepare_camera_video_audio(video_path)
+        except Exception as e:
+            print(f"[CameraCutscene] Error: {e}")
+            return
+
+        self.camera_video_active = True
+        self.camera_video_fading_in = True
+        self.camera_video_fading_out = False
+        self.camera_video_fade_timer = 0.0
+        self.camera_video_timer = 0.0
+        self.camera_video_frame_surf = None
+
+        if getattr(self, "camera_video_sound", None):
+            try:
+                self.camera_video_sound_channel = pygame.mixer.find_channel()
+                if self.camera_video_sound_channel:
+                    self.camera_video_sound_channel.play(self.camera_video_sound)
+            except Exception: pass
+
+    def _prepare_camera_video_audio(self, video_path: str) -> None:
+        try:
+            import imageio_ffmpeg, tempfile, subprocess
+            exe = imageio_ffmpeg.get_ffmpeg_exe()
+            self.camera_temp_wav = os.path.join(tempfile.gettempdir(), 'shadowgrid_camera_audio.wav')
+            subprocess.run([exe, '-y', '-i', video_path, '-vn', '-acodec', 'pcm_s16le', self.camera_temp_wav], capture_output=True)
+            if os.path.exists(self.camera_temp_wav) and os.path.getsize(self.camera_temp_wav) > 0:
+                self.camera_video_sound = pygame.mixer.Sound(self.camera_temp_wav)
+        except Exception:
+            self.camera_video_sound = None
+
+    def _update_camera_cutscene(self, dt: float) -> None:
+        if not getattr(self, "camera_video_active", False): return
+
+        if self.camera_video_fading_in:
+            self.camera_video_fade_timer += dt
+            if self.camera_video_fade_timer >= 0.5:
+                self.camera_video_fading_in = False
+        elif self.camera_video_fading_out:
+            self.camera_video_fade_timer += dt
+            if self.camera_video_fade_timer >= 0.5:
+                self._cleanup_camera_cutscene()
+                return
+
+        if self.camera_video_cap and self.camera_video_cap.isOpened():
+            self.camera_video_timer += dt
+            target_frame = int(self.camera_video_timer * self.camera_video_fps)
+            curr_frame_idx = int(self.camera_video_cap.get(cv2.CAP_PROP_POS_FRAMES))
+            ret = True
+            while curr_frame_idx <= target_frame and ret:
+                ret, frame = self.camera_video_cap.read()
+                curr_frame_idx += 1
+                if ret:
+                    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                    h, w, _ = frame_rgb.shape
+                    raw_surf = pygame.image.frombuffer(frame_rgb.tobytes(), (w, h), 'RGB')
+                    self.camera_video_frame_surf = pygame.transform.scale(raw_surf, (640, 360))
+
+            if not ret or self.camera_video_timer >= max(0.0, self.camera_video_duration - 0.5):
+                if not self.camera_video_fading_out:
+                    self.camera_video_fading_out = True
+                    self.camera_video_fade_timer = 0.0
+                    if getattr(self, "camera_video_sound_channel", None):
+                        try: self.camera_video_sound_channel.fadeout(500)
+                        except Exception: pass
+
+    def _draw_camera_cutscene(self, surface: pygame.Surface) -> None:
+        if not getattr(self, "camera_video_active", False) or not self.camera_video_frame_surf:
+            return
+
+        alpha = 255
+        if self.camera_video_fading_in:
+            alpha = int(255 * min(1.0, self.camera_video_fade_timer / 0.5))
+        elif self.camera_video_fading_out:
+            alpha = int(255 * max(0.0, 1.0 - (self.camera_video_fade_timer / 0.5)))
+
+        frame_copy = self.camera_video_frame_surf.copy()
+        if alpha < 255:
+            frame_copy.set_alpha(alpha)
+
+        surface.blit(frame_copy, (0, 0))
+
+    def _cleanup_camera_cutscene(self) -> None:
+        self.camera_video_active = False
+        self.camera_video_fading_in = False
+        self.camera_video_fading_out = False
+        if getattr(self, "camera_video_cap", None):
+            try: self.camera_video_cap.release()
+            except Exception: pass
+            self.camera_video_cap = None
+        if getattr(self, "camera_video_sound_channel", None):
+            try: self.camera_video_sound_channel.stop()
+            except Exception: pass
+            self.camera_video_sound_channel = None
+        self.camera_video_sound = None
+        if hasattr(self, "camera_temp_wav") and self.camera_temp_wav and os.path.exists(self.camera_temp_wav):
+            try: os.remove(self.camera_temp_wav)
+            except Exception: pass
+            self.camera_temp_wav = None
+
     def update(self, dt: float) -> None:
+        if getattr(self, "camera_video_active", False):
+            self._update_camera_cutscene(dt)
+            buttons = pygame.mouse.get_pressed()
+            if buttons[0] and not getattr(self, 'mouse_down_last_frame', False):
+                if not self.camera_video_fading_out:
+                    self.camera_video_fading_out = True
+                    self.camera_video_fade_timer = 0.0
+                    if getattr(self, "camera_video_sound_channel", None):
+                        try: self.camera_video_sound_channel.fadeout(500)
+                        except Exception: pass
+            self.mouse_down_last_frame = buttons[0]
+            return
+
         self.parallax_time = getattr(self, 'parallax_time', 0.0) + dt
         if hasattr(self, 'intro_fade') and self.intro_fade.is_fading:
             self.intro_fade.update(dt)
@@ -1030,6 +1156,9 @@ class HubState(State):
                                 iot.jack_detected = True
                                 from src.utils.perception_logger import perception_logger
                                 perception_logger.log_event("JACK_REGISTERED_BY_CAMERA", {"camera": (iot.grid_x, iot.grid_y)})
+                                if not getattr(self.sm, "camera_cutscene_played", False):
+                                    self.sm.camera_cutscene_played = True
+                                    self._start_camera_cutscene()
 
             if sound_manager and getattr(civ, 'target_path', False) and civ.state != CivilState.DEAD:
                 if not hasattr(civ, 'footstep_timer'):
@@ -1773,6 +1902,9 @@ class HubState(State):
         # 8. Intro Fade-In Overlay beim Start von HUBGAME
         if hasattr(self, 'intro_fade') and self.intro_fade.is_fading:
             self.intro_fade.draw_overlay(surface)
+
+        # 9. Camera Cutscene Video Overlay (over UI)
+        self._draw_camera_cutscene(surface)
         
     def _draw_hud_scaled(self, surface: pygame.Surface) -> None:
         values = {
