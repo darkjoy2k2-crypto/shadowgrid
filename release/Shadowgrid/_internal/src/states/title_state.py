@@ -299,17 +299,17 @@ class TitleState(State):
 
             surface.blit(btn0_txt, (btn0_rect.x + (btn0_rect.width - btn0_txt.get_width()) // 2, btn0_rect.y + (btn0_rect.height - btn0_txt.get_height()) // 2))
 
-            # Button 1: Oblivion Persuasion Minigame
+            # Button 1: Deck-Battle Minigame
             btn1_rect = self.get_button_rect(1)
             btn1_panel = self.nineslice.render(32, 4)
             surface.blit(btn1_panel, (btn1_rect.x, btn1_rect.y))
 
             if self.hovered_btn_idx == 1:
                 pygame.draw.rect(surface, GREEN_BRIGHT, btn1_rect, 1)
-                btn1_txt = font_mgr.render("[ 2. OBLIVION PERSUASION ]", color=GREEN_BRIGHT, size="small")
+                btn1_txt = font_mgr.render("[ 2. DECK-BATTLE ]", color=GREEN_BRIGHT, size="small")
             else:
                 pygame.draw.rect(surface, (0, 150, 100), btn1_rect, 1)
-                btn1_txt = font_mgr.render("2. OBLIVION PERSUASION", color=GREEN_TERMINAL, size="small")
+                btn1_txt = font_mgr.render("2. DECK-BATTLE", color=GREEN_TERMINAL, size="small")
 
             surface.blit(btn1_txt, (btn1_rect.x + (btn1_rect.width - btn1_txt.get_width()) // 2, btn1_rect.y + (btn1_rect.height - btn1_txt.get_height()) // 2))
 
