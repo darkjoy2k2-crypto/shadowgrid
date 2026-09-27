@@ -29,7 +29,7 @@ namespace ShadowgridLauncher
             bool isFullscreen = ChkFullscreen.IsChecked ?? false;
             string fsArg = isFullscreen ? " --fullscreen" : "";
 
-            string gameArg = (gameModule != null && gameModule.Contains("Persuasion")) ? " --game persuasion" : " --game shadowgrid";
+            string gameArg = (gameModule != null && (gameModule.Contains("Deck-Battle") || gameModule.Contains("Persuasion"))) ? " --game persuasion" : " --game shadowgrid";
 
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
             string exePath = Path.Combine(baseDir, "game", "Shadowgrid.exe");

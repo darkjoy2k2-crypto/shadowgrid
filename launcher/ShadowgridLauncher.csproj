@@ -9,4 +9,9 @@
     <ApplicationIcon>app_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Resource Include="dead.png" />
+    <Resource Include="app_icon.ico" />
+  </ItemGroup>
+
 </Project>

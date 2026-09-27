@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShadowgridLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dddb4717e006e1711b16c04269e8e213db80fd0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84601d184ede13801f7bdefd1b5337f91bdf3995")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShadowgridLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShadowgridLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
