@@ -15,6 +15,7 @@ namespace ShadowgridLauncher
 
         private void BtnStart_Click(object sender, RoutedEventArgs e)
         {
+            string gameModule = ((ComboBoxItem)ComboGame.SelectedItem).Content.ToString();
             string resolution = ((ComboBoxItem)ComboResolution.SelectedItem).Content.ToString();
             string monitor = ((ComboBoxItem)ComboMonitor.SelectedItem).Content.ToString();
             
@@ -27,6 +28,8 @@ namespace ShadowgridLauncher
             
             bool isFullscreen = ChkFullscreen.IsChecked ?? false;
             string fsArg = isFullscreen ? " --fullscreen" : "";
+
+            string gameArg = (gameModule != null && gameModule.Contains("Persuasion")) ? " --game persuasion" : " --game shadowgrid";
 
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
             string exePath = Path.Combine(baseDir, "game", "Shadowgrid.exe");
@@ -59,11 +62,11 @@ namespace ShadowgridLauncher
                 ProcessStartInfo startInfo = new ProcessStartInfo();
                 if (exePath == "python") {
                     startInfo.FileName = "python";
-                    startInfo.Arguments = $"-m src.main --width {width} --height {height} --display {displayIndex}{fsArg}";
+                    startInfo.Arguments = $"-m src.main --width {width} --height {height} --display {displayIndex}{fsArg}{gameArg}";
                     startInfo.WorkingDirectory = workDir;
                 } else {
                     startInfo.FileName = exePath;
-                    startInfo.Arguments = $"--width {width} --height {height} --display {displayIndex}{fsArg}";
+                    startInfo.Arguments = $"--width {width} --height {height} --display {displayIndex}{fsArg}{gameArg}";
                     startInfo.WorkingDirectory = workDir;
                 }
                 

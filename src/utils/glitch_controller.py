@@ -27,6 +27,12 @@ class GlitchPostProcessor:
         self.active_slices: list[dict] = []
         self.active_rgb_shift: int = 1
         
+        # Negative Impact Glitch & Screenshake State
+        self.glitch_frames: int = 0
+        self.shake_offset: tuple[int, int] = (0, 0)
+        self.interference_lines: list[int] = []
+        self.glitch_severity: int = 0
+
         # Schnellerer Wechsel (0.9 Sekunden Gesamtdauer)
         self.waber_timer = 0.0
         self.waber_duration = 0.9 # 0.9s für zügigeren, geschmeidigen Wechsel
@@ -39,6 +45,58 @@ class GlitchPostProcessor:
         # Pre-calculated CRT Corner Vignette (Vault66 Style)
         self.vignette_surf = pygame.Surface((width, height), pygame.SRCALPHA)
         self._build_crt_vignette()
+
+    def trigger_negative_impact(self, severity: int, wedge_val: int = 1) -> None:
+        """
+        Triggert Screenshake, Versatz Glitch und Störlinien bei negativem Spell-Ausgang für Jack.
+        - severity == -1: ein bisschen, 1 Frame lang (1f)
+        - severity == -2: heftig (stark), 2 Frames lang (2f)
+        Skaliert dynamisch mit Jack's Wurf-Stärke (wedge_val 1..4).
+        """
+        scale = 2.0 if self.width >= 1280 else 1.0
+        self.glitch_severity = severity
+        throw_factor = 1.0 + (wedge_val - 1) * 0.2
+
+        if severity == -1:
+            self.glitch_frames = 1
+            # Screenshake (ein bisschen): ~5px (nativ) / ~10px (HD)
+            sx = int(random.choice([-5, -4, 4, 5]) * scale * throw_factor)
+            sy = int(random.choice([-4, -3, 3, 4]) * scale * throw_factor)
+            self.shake_offset = (sx, sy)
+
+            # Versatz Glitch (ein bisschen): 1-2 Slices
+            self.active_slices = []
+            for _ in range(random.randint(1, 2)):
+                h = int(random.randint(6, 14) * scale)
+                y = random.randint(0, max(1, self.height - h))
+                dx = int(random.choice([-10, -6, 6, 10]) * scale * throw_factor)
+                self.active_slices.append({"y": y, "h": h, "dx": dx})
+
+            # Störlinien & RGB Shift
+            self.active_rgb_shift = int(4 * scale * throw_factor)
+            self.interference_lines = [random.randint(0, self.height - 1) for _ in range(4)]
+            self.waber_timer = 0.15
+
+        elif severity <= -2:
+            self.glitch_frames = 2
+            # Screenshake (heftig / stark): ~16px (nativ) / ~32px (HD)
+            sx = int(random.choice([-16, -12, 12, 16]) * scale * throw_factor)
+            sy = int(random.choice([-12, -10, 10, 12]) * scale * throw_factor)
+            self.shake_offset = (sx, sy)
+
+            # Versatz Glitch (heftig): 4-6 Slices
+            self.active_slices = []
+            num_slices = min(8, int(random.randint(4, 6) * (1.0 + (wedge_val - 1) * 0.15)))
+            for _ in range(num_slices):
+                h = int(random.randint(10, 24) * scale)
+                y = random.randint(0, max(1, self.height - h))
+                dx = int(random.choice([-32, -20, 20, 32]) * scale * throw_factor)
+                self.active_slices.append({"y": y, "h": h, "dx": dx})
+
+            # Störlinien & RGB Shift (heftig)
+            self.active_rgb_shift = int(14 * scale * throw_factor)
+            self.interference_lines = [random.randint(0, self.height - 1) for _ in range(12)]
+            self.waber_timer = 0.35
 
     def _build_crt_vignette(self) -> None:
         """Erzeugt eine abgerundete CRT-Monitor-Vignette für die Bildschirmecken."""
@@ -98,12 +156,31 @@ class GlitchPostProcessor:
 
     def process(self, surface: pygame.Surface, disabled: bool = False) -> None:
         """Appliziert CRT Post-Processing. Wenn disabled=True, bleiben Glitches aus."""
+        sw, sh = surface.get_width(), surface.get_height()
+        if sw != self.width or sh != self.height:
+            self.width = sw
+            self.height = sh
+            self.scanline_surf = pygame.Surface((self.width, self.height), pygame.SRCALPHA)
+            for y in range(0, self.height, 2):
+                pygame.draw.line(self.scanline_surf, (0, 0, 0, 21), (0, y), (self.width, y))
+            self.vignette_surf = pygame.Surface((self.width, self.height), pygame.SRCALPHA)
+            self._build_crt_vignette()
+
         if disabled:
             scroll_y = int((self.time * 3.0) % self.height)
             surface.blit(self.scanline_surf, (0, scroll_y - self.height))
             surface.blit(self.scanline_surf, (0, scroll_y))
             surface.blit(self.vignette_surf, (0, 0))
             return
+
+        # -------------------------------------------------------------
+        # 0. Screenshake Versatz (falls aktiver Negative-Impact Shake)
+        # -------------------------------------------------------------
+        if self.shake_offset != (0, 0):
+            sx, sy = self.shake_offset
+            temp_screen = surface.copy()
+            surface.fill((8, 14, 12))
+            surface.blit(temp_screen, (sx, sy))
 
         # Continuous Sinus-Waber-Wert exakt zwischen 20% (0.20) und 60% (0.60)
         if self.waber_timer > 0:
@@ -167,9 +244,37 @@ class GlitchPostProcessor:
                     surface.blit(slice_surf, (dx, y))
 
         # -------------------------------------------------------------
+        # 3.5. Intensiver Störlinien Render
+        # -------------------------------------------------------------
+        if self.interference_lines:
+            scale = 2.0 if self.width >= 1280 else 1.0
+            for ly in self.interference_lines:
+                color = random.choice([(255, 50, 50), (50, 255, 150), (255, 220, 50)])
+                line_surf = pygame.Surface((self.width, max(2, int(2 * scale))), pygame.SRCALPHA)
+                line_surf.fill((*color, 190))
+                surface.blit(line_surf, (0, ly))
+
+        # -------------------------------------------------------------
         # 4. Scanlines (3px/s) & CRT Vignette
         # -------------------------------------------------------------
         scroll_y = int((self.time * 3.0) % self.height)
         surface.blit(self.scanline_surf, (0, scroll_y - self.height))
         surface.blit(self.scanline_surf, (0, scroll_y))
         surface.blit(self.vignette_surf, (0, 0))
+
+        # -------------------------------------------------------------
+        # 5. Glitch Frame Countdown (1f bei -1, 2f bei -2)
+        # -------------------------------------------------------------
+        if self.glitch_frames > 0:
+            self.glitch_frames -= 1
+            if self.glitch_frames > 0:
+                scale = 2.0 if self.width >= 1280 else 1.0
+                sx = int(random.choice([-16, -10, 10, 16]) * scale)
+                sy = int(random.choice([-12, -8, 8, 12]) * scale)
+                self.shake_offset = (sx, sy)
+            else:
+                self.shake_offset = (0, 0)
+                self.active_slices = []
+                self.active_rgb_shift = 1
+                self.interference_lines = []
+                self.glitch_severity = 0

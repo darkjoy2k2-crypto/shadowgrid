@@ -27,7 +27,7 @@ class TitleState(State):
         self.fade_controller = FadeController()
         self.nineslice = NineSliceRenderer()
         self.start_img: Optional[pygame.Surface] = None
-        self.button_hovered = False
+        self.hovered_btn_idx: Optional[int] = None
         
         # Modus: "START_SCREEN" oder "INTRO_VIDEO"
         self.mode = "START_SCREEN"
@@ -67,7 +67,7 @@ class TitleState(State):
             self.start_img = pygame.Surface((640, 360))
             self.start_img.fill((5, 12, 10))
 
-        self.button_hovered = False
+        self.hovered_btn_idx = None
         self.fade_controller.start_fade_in(duration=0.5)
 
     def get_native_mouse_pos(self) -> tuple[int, int]:
@@ -77,10 +77,10 @@ class TitleState(State):
             return int(mx * 640 / screen.get_width()), int(my * 360 / screen.get_height())
         return mx // 2, my // 2
 
-    def get_button_rect(self) -> pygame.Rect:
-        w, h = 200, 32
+    def get_button_rect(self, idx: int = 0) -> pygame.Rect:
+        w, h = 260, 32
         x = (640 - w) // 2
-        y = 260
+        y = 225 if idx == 0 else 270
         return pygame.Rect(x, y, w, h)
 
     def handle_event(self, event: Any) -> None:
@@ -89,18 +89,28 @@ class TitleState(State):
 
         if self.mode == "START_SCREEN":
             native_mx, native_my = self.get_native_mouse_pos()
-            btn_rect = self.get_button_rect()
+            btn0 = self.get_button_rect(0)
+            btn1 = self.get_button_rect(1)
 
             if event.type == pygame.MOUSEMOTION:
-                self.button_hovered = btn_rect.collidepoint(native_mx, native_my)
+                if btn0.collidepoint(native_mx, native_my):
+                    self.hovered_btn_idx = 0
+                elif btn1.collidepoint(native_mx, native_my):
+                    self.hovered_btn_idx = 1
+                else:
+                    self.hovered_btn_idx = None
 
             elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                if btn_rect.collidepoint(native_mx, native_my):
-                    self._start_title_fade_out()
+                if btn0.collidepoint(native_mx, native_my):
+                    self._start_title_fade_out(target_state="HUBGAME")
+                elif btn1.collidepoint(native_mx, native_my):
+                    self._start_title_fade_out(target_state="PERSUASION")
 
             elif event.type == pygame.KEYDOWN:
-                if event.key in (pygame.K_RETURN, pygame.K_SPACE):
-                    self._start_title_fade_out()
+                if event.key in (pygame.K_1, pygame.K_KP1, pygame.K_RETURN, pygame.K_SPACE):
+                    self._start_title_fade_out(target_state="HUBGAME")
+                elif event.key in (pygame.K_2, pygame.K_KP2, pygame.K_p):
+                    self._start_title_fade_out(target_state="PERSUASION")
 
         elif self.mode == "INTRO_VIDEO":
             # Bei Klick oder Taste während des Videos -> 0.5f FadeOut & Video überspringen
@@ -108,11 +118,15 @@ class TitleState(State):
                 if not self.video_fading_out:
                     self._start_video_fade_out()
 
-    def _start_title_fade_out(self) -> None:
+    def _start_title_fade_out(self, target_state: str = "HUBGAME") -> None:
         sound_manager = self.sm.context.get("sound_manager")
         if sound_manager:
             sound_manager.play_spatial("hack_success", 320, 180, 320, 180, base_volume=0.8)
-        self.fade_controller.start_fade_out(duration=0.5, on_complete=self._start_intro_video)
+        
+        if target_state == "PERSUASION":
+            self.fade_controller.start_fade_out(duration=0.4, on_complete=lambda: self.sm.change_state("PERSUASION"))
+        else:
+            self.fade_controller.start_fade_out(duration=0.5, on_complete=self._start_intro_video)
 
     def _start_intro_video(self) -> None:
         """Wird aufgerufen, wenn das Startbild zu 100% ausgedunkelt ist (FadeOut done)."""
@@ -259,7 +273,7 @@ class TitleState(State):
             th = title_base.get_height() * 2
             title_big = pygame.transform.scale(title_base, (tw, th))
             title_x = (640 - tw) // 2
-            title_y = 110
+            title_y = 90
 
             # Titel-Schatten & Glow Effect
             glow_surf = pygame.transform.scale(font_mgr.render("SHADOWGRID", color=(0, 120, 60), size="large"), (tw + 4, th + 4))
@@ -270,21 +284,34 @@ class TitleState(State):
             sub = font_mgr.render("SYSTEM KERNEL // CYBERDECK OS v4.2", color=GREEN_DIM, size="tiny")
             surface.blit(sub, ((640 - sub.get_width()) // 2, title_y + th + 8))
 
-            # 3. Interactive Button: "ENTER SHADOWGRID"
-            btn_rect = self.get_button_rect()
-            btn_panel = self.nineslice.render(25, 4)
-            surface.blit(btn_panel, (btn_rect.x, btn_rect.y))
+            # 3. Interactive Launcher Buttons
+            # Button 0: Hacking Infiltration (Main Game)
+            btn0_rect = self.get_button_rect(0)
+            btn0_panel = self.nineslice.render(32, 4)
+            surface.blit(btn0_panel, (btn0_rect.x, btn0_rect.y))
 
-            if self.button_hovered:
-                pygame.draw.rect(surface, GREEN_BRIGHT, btn_rect, 1)
-                btn_txt = font_mgr.render("[ ENTER SHADOWGRID ]", color=GREEN_BRIGHT, size="small")
+            if self.hovered_btn_idx == 0:
+                pygame.draw.rect(surface, GREEN_BRIGHT, btn0_rect, 1)
+                btn0_txt = font_mgr.render("[ 1. HACKING INFILTRATION ]", color=GREEN_BRIGHT, size="small")
             else:
-                pygame.draw.rect(surface, (0, 150, 100), btn_rect, 1)
-                btn_txt = font_mgr.render("ENTER SHADOWGRID", color=GREEN_TERMINAL, size="small")
+                pygame.draw.rect(surface, (0, 150, 100), btn0_rect, 1)
+                btn0_txt = font_mgr.render("1. HACKING INFILTRATION", color=GREEN_TERMINAL, size="small")
 
-            btn_txt_x = btn_rect.x + (btn_rect.width - btn_txt.get_width()) // 2
-            btn_txt_y = btn_rect.y + (btn_rect.height - btn_txt.get_height()) // 2
-            surface.blit(btn_txt, (btn_txt_x, btn_txt_y))
+            surface.blit(btn0_txt, (btn0_rect.x + (btn0_rect.width - btn0_txt.get_width()) // 2, btn0_rect.y + (btn0_rect.height - btn0_txt.get_height()) // 2))
+
+            # Button 1: Oblivion Persuasion Minigame
+            btn1_rect = self.get_button_rect(1)
+            btn1_panel = self.nineslice.render(32, 4)
+            surface.blit(btn1_panel, (btn1_rect.x, btn1_rect.y))
+
+            if self.hovered_btn_idx == 1:
+                pygame.draw.rect(surface, GREEN_BRIGHT, btn1_rect, 1)
+                btn1_txt = font_mgr.render("[ 2. OBLIVION PERSUASION ]", color=GREEN_BRIGHT, size="small")
+            else:
+                pygame.draw.rect(surface, (0, 150, 100), btn1_rect, 1)
+                btn1_txt = font_mgr.render("2. OBLIVION PERSUASION", color=GREEN_TERMINAL, size="small")
+
+            surface.blit(btn1_txt, (btn1_rect.x + (btn1_rect.width - btn1_txt.get_width()) // 2, btn1_rect.y + (btn1_rect.height - btn1_txt.get_height()) // 2))
 
         elif self.mode == "INTRO_VIDEO":
             if self.current_video_frame_surf:

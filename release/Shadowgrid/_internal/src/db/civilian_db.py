@@ -56,7 +56,8 @@ class CivilianDatabase:
                 "comment_jack": "TEXT",
                 "personality_traits": "TEXT",
                 "category": "TEXT DEFAULT 'STANDARD'",
-                "dialogue_json": "TEXT"
+                "dialogue_json": "TEXT",
+                "persuasion_json": "TEXT"
             }
             for col, col_def in needed_cols.items():
                 if col not in existing_cols:
@@ -166,8 +167,9 @@ class CivilianDatabase:
                         res["dialogue_tree"] = json.loads(res["dialogue_json"])
                     except Exception:
                         res["dialogue_tree"] = None
+                res = self._enrich_persuasion_data(res)
                 return res
-            return {
+            return self._enrich_persuasion_data({
                 "id": 1,
                 "name": "Unknown Civ Node",
                 "gender": "Unknown",
@@ -179,7 +181,7 @@ class CivilianDatabase:
                 "story": "Unindexed civil traffic node.",
                 "comment_jack": "JACK // UNINDEXED NODE. LOW THREAT VALUE.",
                 "personality_traits": "Unknown"
-            }
+            })
 
     def get_profile_by_name(self, name: str) -> Optional[Dict[str, Any]]:
         import json
@@ -195,8 +197,75 @@ class CivilianDatabase:
                         res["dialogue_tree"] = json.loads(res["dialogue_json"])
                     except Exception:
                         res["dialogue_tree"] = None
-                return res
+                return self._enrich_persuasion_data(res)
             return None
+
+    def _enrich_persuasion_data(self, profile: Dict[str, Any]) -> Dict[str, Any]:
+        """Erzeugt deterministisch Persuasions-Präferenzen & Intelligenzwert falls nicht explizit gespeichert."""
+        import json
+        name = profile.get("name", "Unknown")
+        
+        if profile.get("persuasion_json"):
+            try:
+                pdata = json.loads(profile["persuasion_json"])
+                profile["persuasion"] = pdata
+                return profile
+            except Exception:
+                pass
+
+        # Deterministic RNG basierend auf Namen
+        seed_val = sum(ord(c) for c in name) + profile.get("id", 0) * 17
+        rng = random.Random(seed_val)
+
+        intel_score = rng.randint(1, 10)
+        if intel_score <= 2:
+            intel_label = "Strohdoof"
+        elif intel_score <= 4:
+            intel_label = "Einfältig"
+        elif intel_score <= 6:
+            intel_label = "Durchschnittlich"
+        elif intel_score <= 8:
+            intel_label = "Schlau / Redegewandt"
+        else:
+            intel_label = "Hochintelligent"
+
+        prefs_list = [
+            ("WEAK", 2.0),
+            ("RECEPTIVE", 1.0),
+            ("HABITUAL", -0.5),
+            ("RESIST", -1.0)
+        ]
+        rng.shuffle(prefs_list)
+
+        # 0: KORTEX, 1: CYBER, 2: COUNTER, 3: PSYCHO
+        preferences = {i: prefs_list[i] for i in range(4)}
+
+        profile["persuasion"] = {
+            "intelligence": intel_score,
+            "intelligence_label": intel_label,
+            "preferences": preferences
+        }
+        return profile
+
+    def get_all_persuasion_profiles(self) -> List[Dict[str, Any]]:
+        """Gibt alle Zivilisten & Aufseher mit aufbereiteten Persuasion-Metadaten zurück."""
+        import json
+        profiles = []
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM civilians ORDER BY name ASC")
+            rows = cursor.fetchall()
+            for r in rows:
+                p = dict(r)
+                p["image_path"] = p.get("profile_pic", "")
+                if p.get("dialogue_json"):
+                    try:
+                        p["dialogue_tree"] = json.loads(p["dialogue_json"])
+                    except Exception:
+                        p["dialogue_tree"] = None
+                p = self._enrich_persuasion_data(p)
+                profiles.append(p)
+        return profiles
 
     def update_comment_jack(self, civ_id: int, new_comment: str) -> None:
         with self._get_connection() as conn:
@@ -204,5 +273,15 @@ class CivilianDatabase:
             cursor.execute("UPDATE civilians SET comment_jack = ? WHERE id = ?", (new_comment, civ_id))
             conn.commit()
 
+    def get_random_spell_reward(self) -> str:
+        """Gibt zufälliges Script/Spell-Filename als Belohnung für Kampfgewinn zurück."""
+        spells = [
+            "sync.py", "boost.py", "ally_damage.py", "firewall_breach.py",
+            "cpu_overclock.py", "biohacker.py"
+        ]
+        return random.choice(spells)
+
 civilian_db = CivilianDatabase()
+
+
 

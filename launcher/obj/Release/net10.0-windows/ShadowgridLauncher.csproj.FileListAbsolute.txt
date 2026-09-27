@@ -18,3 +18,8 @@ C:\Users\peter\Documents\_shadowgrid\launcher\obj\Release\net10.0-windows\Shadow
 C:\Users\peter\Documents\_shadowgrid\launcher\obj\Release\net10.0-windows\ShadowgridLauncher.genruntimeconfig.cache
 C:\Users\peter\Documents\_shadowgrid\launcher\obj\Release\net10.0-windows\ref\ShadowgridLauncher.dll
 C:\Users\peter\Documents\_shadowgrid\launcher\obj\Release\net10.0-windows\ShadowgridLauncher.sourcelink.json
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.exe
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.deps.json
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.runtimeconfig.json
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.dll
+C:\Users\peter\Documents\_shadowgrid\release\ShadowgridLauncher.pdb

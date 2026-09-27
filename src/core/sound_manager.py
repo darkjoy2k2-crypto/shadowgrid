@@ -49,16 +49,17 @@ class SoundManager:
         if not os.path.exists(sfx_dir):
             return
             
-        for file in os.listdir(sfx_dir):
-            if file.endswith(('.wav', '.ogg')):
-                name = os.path.splitext(file)[0]
-                path = os.path.join(sfx_dir, file)
-                try:
-                    base_sound = pygame.mixer.Sound(path)
-                    # Erzeuge Variationen für weniger Audio Fatigue
-                    self.sounds[name] = self._generate_pitch_variations(base_sound)
-                except Exception as e:
-                    print(f"Failed to load sound {path}: {e}")
+        for root, _, files in os.walk(sfx_dir):
+            for file in files:
+                if file.endswith(('.wav', '.ogg')):
+                    name = os.path.splitext(file)[0]
+                    path = os.path.join(root, file)
+                    try:
+                        base_sound = pygame.mixer.Sound(path)
+                        # Erzeuge Variationen für weniger Audio Fatigue
+                        self.sounds[name] = self._generate_pitch_variations(base_sound)
+                    except Exception as e:
+                        print(f"Failed to load sound {path}: {e}")
                     
     def _generate_pitch_variations(self, base_sound: pygame.mixer.Sound, num_variations: int = 3):
         """Erzeugt leicht gepitchte Versionen des Sounds."""
@@ -144,3 +145,18 @@ class SoundManager:
                 "sound": event_name,
                 "volume": round(final_vol, 2)
             })
+
+    def play_civ_voice(self, npc_name: str, voice_group: str = "medium", base_volume: float = 0.8) -> None:
+        """Spielt zufälliges Sprach-SFX (good/medium/bad) für Civilians/NPCs in Persuasion/Minigame ab."""
+        valid_groups = ["good", "medium", "bad"]
+        group = voice_group if voice_group in valid_groups else "medium"
+        candidates = [f"{group} 1", f"{group} 2", f"{group} 3", f"{group} 4"]
+        valid_sounds = [c for c in candidates if c in self.sounds and self.sounds[c]]
+        
+        if valid_sounds:
+            chosen = random.choice(valid_sounds)
+            sound = random.choice(self.sounds[chosen])
+            channel = pygame.mixer.find_channel()
+            if channel:
+                channel.set_volume(base_volume, base_volume)
+                channel.play(sound)

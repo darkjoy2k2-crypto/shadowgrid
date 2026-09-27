@@ -1,21 +1,18 @@
-import asyncio
-import pygame
+import sys
+import argparse
 from src.main import GameApp
 
-async def main() -> None:
-    pygame.init()
-    app = GameApp(1280, 720, 0, False)
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Shadowgrid Game Engine")
+    parser.add_argument("--width", type=int, default=1280, help="Target window width")
+    parser.add_argument("--height", type=int, default=720, help="Target window height")
+    parser.add_argument("--display", type=int, default=0, help="Monitor index")
+    parser.add_argument("--fullscreen", action="store_true", help="Enable fullscreen mode")
+    parser.add_argument("--game", type=str, default="shadowgrid", help="Game mode: 'shadowgrid' or 'persuasion'")
+    args = parser.parse_args()
     
-    while app.running:
-        dt = app.clock.tick(60) / 1000.0
-        app.handle_events()
-        app.update(dt)
-        app.update_draw()
-        app.glitch_processor.process(app.native_surface)
-        if app.screen:
-            scaled = pygame.transform.scale(app.native_surface, app.screen.get_size())
-            app.screen.blit(scaled, (0, 0))
-            pygame.display.flip()
-        await asyncio.sleep(0)
+    app = GameApp(args.width, args.height, args.display, args.fullscreen, args.game)
+    app.run()
 
-asyncio.run(main())
+if __name__ == "__main__":
+    main()

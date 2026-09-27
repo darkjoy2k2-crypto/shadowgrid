@@ -16,13 +16,14 @@ class GameApp:
     Verwaltet Pygame-Initialisierung, Main-Loop, nativen 640x360 Canvas,
     saubere Desktop-Vollbildskalierung und absturzsicheren Shutdown.
     """
-    def __init__(self, target_width: int, target_height: int, display_index: int, fullscreen: bool) -> None:
-        logger.info(f"Initializing GameApp: {target_width}x{target_height}, Display {display_index}, Fullscreen: {fullscreen}")
+    def __init__(self, target_width: int, target_height: int, display_index: int, fullscreen: bool, game_mode: str = "shadowgrid") -> None:
+        logger.info(f"Initializing GameApp: {target_width}x{target_height}, Display {display_index}, Fullscreen: {fullscreen}, Mode: {game_mode}")
         pygame.init()
         pygame.display.set_caption("Shadowgrid - Terminal OS")
         
         self.display_index = display_index
         self.is_fullscreen = fullscreen
+        self.game_mode = game_mode
         
         # Bestimme native Desktop-Auflösung um schädliche Hardware-Res-Switches & Windows-Freezes zu verhindern
         self.desktop_width = target_width
@@ -72,12 +73,18 @@ class GameApp:
         from src.states.hub_state import HubState
         from src.states.hacking_state import HackingState
         from src.states.game_over_state import GameOverState
+        from src.states.persuasion_state import PersuasionState
         
         self.sm.register_state("TITLE", TitleState(self.sm))
         self.sm.register_state("HUBGAME", HubState(self.sm))
         self.sm.register_state("HACKING", HackingState(self.sm))
         self.sm.register_state("GAMEOVER", GameOverState(self.sm))
-        self.sm.change_state("TITLE")
+        self.sm.register_state("PERSUASION", PersuasionState(self.sm))
+
+        if self.game_mode.lower() == "persuasion":
+            self.sm.change_state("PERSUASION")
+        else:
+            self.sm.change_state("TITLE")
 
     def _set_display_mode(self) -> None:
         """Setzt den Pygame Display-Modus sicher und ohne Windows Hardware-Lockups."""
@@ -130,12 +137,12 @@ class GameApp:
                 self.update(dt)
                 self.update_draw()
                 
-                # Glitch Post-Processing auf native 640x360 Surface anwenden
-                self.glitch_processor.process(self.native_surface)
+                # Glitch Post-Processing & Screen Scaling
+                current_native = self.sm.context.get("native_surface", self.native_surface)
+                self.glitch_processor.process(current_native)
                 
-                # Skalierung der nativen 640x360 Surface auf die Fenster-/Bildschirmgröße
                 if self.screen:
-                    scaled_surface = pygame.transform.scale(self.native_surface, self.screen.get_size())
+                    scaled_surface = pygame.transform.scale(current_native, self.screen.get_size())
                     self.screen.blit(scaled_surface, (0, 0))
                     pygame.display.flip()
         except Exception as e:
@@ -162,7 +169,8 @@ if __name__ == "__main__":
     parser.add_argument("--height", type=int, default=720, help="Target window height")
     parser.add_argument("--display", type=int, default=0, help="Monitor index")
     parser.add_argument("--fullscreen", action="store_true", help="Enable fullscreen mode")
+    parser.add_argument("--game", type=str, default="shadowgrid", help="Game mode: 'shadowgrid' or 'persuasion'")
     args = parser.parse_args()
     
-    app = GameApp(args.width, args.height, args.display, args.fullscreen)
+    app = GameApp(args.width, args.height, args.display, args.fullscreen, args.game)
     app.run()
